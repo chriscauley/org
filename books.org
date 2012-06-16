@@ -1,0 +1,75 @@
+* 2011
+** DONE Name of the Wind, Patrick Rothfus 720 p
+  CLOSED: [2011-07-17 Sun 10:43]
+** DONE Foucaults Pendulum (unfinished) 575 p
+  CLOSED: [2011-07-17 Sun 10:43]
+
+** DONE The Wise Man's Fear 995 p
+  CLOSED: [2011-08-01 Mon 23:26]
+** DONE Enders Game 324 p
+  CLOSED: [2011-08-20 Sat 18:22]
+  Due 7-26-11
+** DONE Speaker for the dead 382 p
+  CLOSED: [2011-11-01 Tue 20:35]
+  Due 8-8-11
+** DONE Xenocide 592 p
+  CLOSED: [2011-11-01 Tue 20:35]
+  Due 8-27-11
+** DONE Children of the mind 370 p
+  CLOSED: [2011-11-01 Tue 20:35]
+  Due 9-9-11
+** DONE A Fire upon the deep 612 p
+  CLOSED: [2011-11-01 Tue 20:38]
+  Due 9-29
+** DONE Deepness in the Sky 774 p
+  CLOSED: [2011-12-11 Sun 19:17]
+  Due 10-25
+** DONE Rainbows End 381 p
+   CLOSED: [2012-02-13 Mon 16:35]
+   Due 11/7
+** DONE Children of the sky 448 p
+   CLOSED: [2012-02-13 Mon 16:35]
+   Due 11/23
+** DONE Old Man's War 320 p
+   CLOSED: [2012-02-13 Mon 16:35]
+   Due 12/4
+** DONE The Demolished Man 256 p
+   CLOSED: [2012-02-13 Mon 16:35]
+   Due 12/12
+** DONE The Witling 224 p
+   CLOSED: [2012-02-13 Mon 16:35]
+   Due 12/19
+** DONE Zero 215 p
+   CLOSED: [2012-02-13 Mon 16:35]
+   Due 12/26
+
+* 2012
+** DONE Collected Short Stories of VV 464 p
+   CLOSED: [2012-04-18 Wed 00:38]
+   Due 1/10
+** Call of Cthulhu 480 p
+   Due 1/26
+** DONE Neonomicon ~ 30 p
+   CLOSED: [2012-02-13 Mon 16:41]
+   Due 1/27
+** DONE On a Pale Horse 336 p
+   CLOSED: [2012-02-27 Mon 23:04]
+   Due 2/7
+** DONE Snow Crash 460 p
+   CLOSED: [2012-03-12 Mon 00:13]
+   Due 2/22
+** DONE The Snow Queen 469 p
+   CLOSED: [2012-04-03 Tue 20:59]
+   Due 3/8
+** DONE The Peace War 300 p
+   CLOSED: [2012-04-03 Tue 21:00]
+   Due 3/18
+** DONE Marooned in Realtime 270 p
+   CLOSED: [2012-04-03 Tue 21:00]
+   Due 3/27
+** DONE Red Mars 572 p
+   CLOSED: [2012-06-16 Sat 17:16]
+   Due 4/15
+** TODO Last and First Men 438 p
+** Web Design for Developers 300 p
+** The Art of Memory

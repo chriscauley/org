@@ -1,0 +1,62 @@
+* Ask Paul
+  how do you like my css (all in one file, element specific not generalized)
+  how do you like my models (extended the EPModule model quite a bit)
+  i had to limit the number of picks in an odd manner. see EPM.get_picks
+** javascript issues
+   Many inputs are hidden from view of the editor as they choose modules.
+   This allows for editors to generate validation errors, hide the inputs and submit.
+   Row cannot save, but validation error will be hidden.
+* to do - general
+** DONE javascript should show/hide modules on type change
+   CLOSED: [2011-08-01 Mon 23:26]
+** DONE add photographer to newsItem (author FK)
+   CLOSED: [2011-08-01 Mon 23:26]
+** DONE header & subheader fields on the EP class
+   CLOSED: [2011-08-01 Mon 23:27]
+*** DONE subheader defaults to graphic 
+    CLOSED: [2011-08-01 Mon 23:26]
+*** DONE Get font from Production subfolder in Homepage Top Modules
+    CLOSED: [2011-08-01 Mon 23:27]
+** DONE sponsor
+   CLOSED: [2011-08-01 Mon 23:27]
+*** DONE without sponsor graphic sponsor does not load
+    CLOSED: [2011-08-01 Mon 23:27]
+*** DONE Does this need logo?
+    CLOSED: [2011-08-01 Mon 23:27]
+* VIDEO ON CM
+** DONE Generalize the video properties on NewsItem
+   CLOSED: [2011-07-05 Tue 13:01]
+** DONE Video can be played in place
+   CLOSED: [2011-08-01 Mon 23:27]
+** DONE Header links to news asset
+   CLOSED: [2011-08-01 Mon 23:28]
+** DONE Carousel requires 3-6 items.
+   CLOSED: [2011-08-01 Mon 23:28]
+** DONE Carousel rolls over to show headline.
+   CLOSED: [2011-08-01 Mon 23:28]
+* Featured Photographer
+** DONE FK to author named "Photographer"
+   CLOSED: [2011-08-01 Mon 23:28]
+** Photo x of y
+** Ask Stephen
+   - should photos cycle? next? previous? 
+     random photo no cycle
+   - Title hierarchy? ( I say headline->newsItem->headline )
+   - Set photo size or changing?
+** Ask Paul
+   - how to impliment editors picks
+* Mini-EP
+** Should an empty line register if there is no author?
+** Should date always be at the bottom?
+** What date should be used for place?
+* Special series
+** Item type is blue, looks like a link. Is this right?
+** DONE Are dates okay accross all of the asset types?
+   CLOSED: [2011-08-01 Mon 23:28]
+** DONE changed a lot of things that will affect video module, double check it.
+   CLOSED: [2011-08-01 Mon 23:28]
+** Without Video
+   
+** With Video
+   Carousel frames are not consistent size. This is not how a carousel works!
+   Do we want to use the same right/left buttons as before (VIDEO ON CM)?

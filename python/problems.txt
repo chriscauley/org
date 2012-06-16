@@ -1,0 +1,9 @@
+1) The file p1.txt contains 1000 hands of the card game war. Each line is you hand and your opponents hands separated by a comma. Determine how many hands you won and how many hands were a tie.
+
+2) The file p2.txt contains all of the test scores for a class. Unfortunately these are in no particular order. Determine each students total points by summing each students test scores. Which student got the highest grade? Which got the lowest?
+
+3) It turns out that not every student is required to take every test! Re-evaluate the students test scores, this time finding the average test score of each student.
+
+4) project euler # 42
+
+5) project euler # 2 

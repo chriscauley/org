@@ -1,0 +1,14 @@
+* Models
+Location
+Copy
+blog (articles)
+photos
+
+* Pages
+home
+about
+contact
+locations
+blog
+* links
+  

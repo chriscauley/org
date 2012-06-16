@@ -1,0 +1,42 @@
+* Intro - what is python
+** compiled at runtime
+** not whitespace agnostic
+** dynamic typing
+** strong typing
+** bateries included
+* running programs - a.py
+** open a terminal
+** print hello world
+** print 1+1
+** print 1+"hello world"
+** assign variable
+* data types - b.py
+** strings
+ - add
+ - multiply
+ - isdigit
+ - len
+ - count
+ - replace
+ - dir
+** integers & floats
+ - arithmatic: + - * / %
+ - math!
+** lists
+ - range!
+ - indexing and slicing
+ - add, mult
+ - append, pop, sort
+** booleans
+ - if
+ - == != > < <= >= is not
+* loops
+** for
+ - break
+** while
+** enumerate
+* functions
+* error handling
+* basic objects
+* installing packages
+

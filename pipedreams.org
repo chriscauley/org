@@ -1,0 +1,23 @@
+* memory
+** word
+** number
+* haiku
+** TODO break line into sentences
+   break on comma
+   double break on semicolon
+   set up ignore list (mr. mrs. etc., etc), maybe just find and replace
+** TODO parse out url
+** TODO create haiku.json
+** TODO haiku tiny url view
+** TODO top frame that shows the details, load actual page in iframe.
+* webart
+** TODO use empirical measurements to fit tranform parameters
+* herefm
+** Finish import script, import all of Greenday
+** TODO get front end player up an running asap
+** TODO user system
+** TODO work on the song input front end (re-adapt admin?)
+* TX/RX page
+** course materials
+** projects module
+** user module

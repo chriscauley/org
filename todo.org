@@ -1,0 +1,17 @@
+* Buy
+** DONE mattress $2k
+   CLOSED: [2011-08-01 Mon 23:30]
+** DONE asus transformer $550
+   CLOSED: [2011-08-01 Mon 23:29]
+** DONE Yoga membership
+   CLOSED: [2011-08-01 Mon 23:30]
+** DONE Yoga pad
+   CLOSED: [2011-08-01 Mon 23:30]
+** DONE Pad
+   CLOSED: [2011-08-01 Mon 23:30]
+* Computers
+** TODO fix up super computer
+** DONE Windows VBOX for google music
+   CLOSED: [2011-08-01 Mon 23:30]
+** DONE keyboard
+   CLOSED: [2011-08-01 Mon 23:30]

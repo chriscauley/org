@@ -1,0 +1,27 @@
+* Colors
+** named
+*** #000000
+    carousel caption
+*** #ffffff
+    wrapper
+** blues
+*** #18719e
+    nav divider
+    general links
+** grays
+*** #231420
+    weather right
+*** #4c4c4c
+    twitter td
+*** #4d4e4f
+    nav
+    weather left
+    sponsored by
+*** #6a6b6e
+    all text
+*** e6e7e8
+    widget background
+** pinks
+*** #ec297b
+    event date
+    see more links

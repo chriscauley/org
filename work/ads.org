@@ -1,0 +1,23 @@
+* Home_Header
+** /
+** /newsletters/
+** /newsletters_thanks
+** DONE vault :(
+   CLOSED: [2011-11-10 Thu 20:15]
+* Marketing Wide Banner
+** /
+* Home_Middle_Leaderboard
+** /
+** DONE /newsletters/ -- BS
+   CLOSED: [2011-11-10 Thu 20:13]
+** DONE /newsletters_thanks/ -- BS
+   CLOSED: [2011-11-10 Thu 20:13]
+* Home_Sidebar_1
+** /newsletters/
+** /newsletters_thanks/
+** DONE vault :(
+   CLOSED: [2011-11-10 Thu 20:15]
+* Events_Calendar_Rectangle
+** /
+** /ktrk/
+** both seem fine, but aren't actually loading anything :(
