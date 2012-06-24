@@ -14,7 +14,7 @@ ________
 
     So she popped open the case and pressed the clear plastic into place over each eye ball. They were thin and unnoticeable and powered up almost instantly. *Spare no expense for the heros of tomorrow, I guess*. She chuckled bitterly at her own joke. The whole world would be watching as the scum of the planet colonized another world. A modern ship of fools; the brilliant and the expendable sent to their certain doom so that one day corporations could finally escape earth and spread accross the solar system.
 
-    She blinked through the modes of the eye contacts, even more impressed than before. IR, sub-IR near UV, far UV, x-ray (seriously?), pan spectrum, edge emphasis, velocity estimation, content tagging, [fpgs][]... Kelly was impressed and that was not easy. She had used most of these prior to incarceration, but to always as separate contacts. Estimating the price of such a modern miracle, a wave of dissiness swept through her. Even lowballing it, she probably had several times her estimated lifetime income resting gently on each eye ball. Two miniture fortunes for the express purpose of spraying [laser light][] and augmenting vision for little old her. 
+    She blinked through the modes of the eye contacts, even more impressed than before. IR, sub-IR near UV, far UV, x-ray (seriously?), pan spectrum, edge emphasis, velocity estimation, content tagging, fast parse/grep/save... Kelly was impressed and that was not easy. She had used most of these prior to incarceration, but to always as separate contacts. Estimating the price of such a modern miracle, a wave of dissiness swept through her. Even lowballing it, she probably had several times her estimated lifetime income resting gently on each eye ball. Two miniture fortunes for the express purpose of spraying [laser light][] and augmenting vision for little old her. 
 
 [fpgs] # "fast parse grep save; a reading mode. maybe keep or not?"
 [laser light] # "contacts are actually passive, they function by tuning light that comes into the eye."
@@ -35,7 +35,7 @@ ________
 
 [talk-mode] -mode for communcation, -cam for vision?
 
-    She unfocused and pulled up the citrine message. "Yes?" she said indinantly, knowing full well that speaking to a message had no affect. Words rapidly filled her view, letter by letter.
+    She unfocused and pulled up the citrine message. "Yes?" she said indinantly, knowing full well that speaking to a message had no effect. Words rapidly filled her view, letter by letter.
 
 \[\[Welcome and good morning. For more rapid communication a familiar will be generated. Blink to continue.\]\]
 She focused on the blinking full cursor and blinked.
@@ -62,7 +62,7 @@ BlinkBlink!
 
 [PERCENTILE] Be sure to mention that ratings are educational and not used to determine rank or pay.
 
-    "As you may have guessed, your current status of *LIVING* indicates that you survived all of the physical augmentations necessary to undergo collonization. You may notice daily subtle alterations to the environment. This is to acclimate you to your destination." Both of the horns of the wall image became downturned and his jaws slacked as if frowning. "This may result in illness or death. But don't worry." The cartoon perked up and his horns wiggled excitedly. "If the acceptable death rate is exceeded you, the mission will be cancelled, your physiology will be returned to as earth-like as possible, and after a brief parol period you will be pardoned. Would you like to begin training as a *CUSTODIAL TECHNICIAN*?"
+    "As you may have guessed, your current status of *LIVING* indicates that you survived all of the physical augmentations necessary to undergo collonization. You may notice daily subtle alterations to the environment. This is to acclimate you to your destination." Both of the horns of the wall image became downturned and his jaws slacked as if frowning. "This may result in illness or death. But don't worry." The cartoon perked up and his horns wiggled excitedly. "If the acceptable death rate is exceeded, the mission will be cancelled, your physiology will be returned to as earth-like as possible, and after a brief parol period you will be pardoned. Would you like to begin training as a *CUSTODIAL TECHNICIAN*?"
 
     "What!?" Kelly screemed, half conscious of the fact that she was screeming at non-sentient tutorial program. "I get busted for cracking the second largest security protocol, jailed for black-hacking, and then win the lottery to die some fucking rock a million klicks away from home," an amber warning poped up to correct her math, which she angrily blinked away, "and my job is going to be space janitor?"
 
@@ -74,7 +74,7 @@ BlinkBlink!
 
    "*ONE MATCHING QUERY FOUND*" the girl voice responed. Then he spoke again, gregarious as ever under her death stare. "Would you like to review the last time you asked this question, or would the question re-evaluated for contextual changes?"
 
-   She blinked twice and a green notification appeared. This time pulling it up caused a panel she had previously been unable to open to glow. She walked over to it and it slid open. Inside were full immersion glasses which she put on. The message paged, and she found that a video had been placed in her box. "Lights" she said to the ceiling and the lights dimmed. The glasses lit up with unfocused light that her eye contacts focused and readjusted as she looked around the room. Looking at the edges of her vision, where the glasses did not project, the room was black as night.
+   She blinked twice and a green notification appeared. This time pulling it up caused a panel she had previously been unable to open to glow. She walked over to it and it slid open. Inside were full immersion glasses, which she put on without hesitation. The message paged, and she found that a video had been placed in her box. "Lights" she said to the ceiling and the lights dimmed. The glasses lit up with unfocused light that her eye contacts focused and readjusted as she looked around the room. Looking at the edges of her vision, where the glasses did not project, the room was black as night.
 
     But looking ahead she saw the room fully lit, only now it wasn't her hospital room. It was the interrogation room at the prison. She turned to her table, which was now the rectangular plastic table (complete with ash tray and coffee mug!) from the prison. The glasses projected a man. Clean cut, nicely dressed and responsible looking. Normally Kelly would never look twice at such a tool, but this tool claimed to be her ticket out of prison. She looked at the table accross from the square and saw the back of an inmate. The inmate had a frail frame, now-greasy once-beautiful hair, and miraculously still soft skin. A lump appeared in Kelly's throat as she looked over the girls exposed arms. They were a galaxy of scars. Tiny pink ribbons from fights with other inmates. A large gash on her right shoulder from when she crashed her bike when she was eight. And a series of slowly healing lines at her wrists. Kelly walked up to the fantom in the chair and looked down at her simulacrum. It spoke with her own voice, weepy and tired but somehow not broken. "Why me?"
 
@@ -90,8 +90,16 @@ BlinkBlink!
 
     Suit boy shrugged and raised his hands. "The choice is yours-" he began but she cut him off.
 
-    "No I mean what if I don't play ball? What if I get there and decide the game isn't for me?" Real life Kelly blinked to pause and walked again behind herself. She sat down in the chair over top of her own image and placed her arm next to her own. Old her was battered and weak, yet some how still strong in her resolve. The very resolve she was ready to sign away in a million printed wavers. Now-time Kelly's arms had filled out and tonned. What ever miracle treatment they had done to her, she had awoken both Sleeping Beauty and Lancelot. She matched posture perfectly with herself and she saw the infected mess of scars she tore open every time they let her out of solitary. But those scars were only on her double.
+    "No I mean what if I don't play ball? What if I get there and decide the game isn't for me?" Real life Kelly blinked to pause and walked again behind herself. She sat down in the chair over top of her own image and placed her arm next to her own. Old her was battered and weak, yet some how still strong in her resolve. The very resolve she would soon sign away in a million printed wavers. Now-time Kelly's arms had filled out and tonned. What ever miracle treatment they had done to her, she had awoken both Sleeping Beauty and Lancelot. She matched posture perfectly with herself and she saw the infected mess of scars she tore open every time they let her out of solitary. But those scars were only on her double.
 
     She blinked to play, now speaking for herself. "What if I refuse?"
 
     The man smiled his adversarial grin. "It's the exact opposite of here. No cops, no wardens, no adults to whip your ass and send you to your room. No one but a few hundred cons further away from authority than mankind has ever been." He sat back gloating. "But at the same time, you have no choice but to play ball. It is the only game on."
+
+________
+
+Kelly sat at the table, still shaking with rage over the images replayed as if from her own memory. Part of her rage was certainly reserved for the "government", whatever that was these days. But most of her hatred was caught up in her own self image. She agreed to this. She signed up. There was no one to blame for her lack of freedom other than herself.
+
+When another panel opend up she almost fell over in her chair. The smell of food overcame her and resurrected her forgotten hunger. She lunged at the plate, all self consciousness forgotten. Face half burried in the best food she had ever tasted, she ate. 
+
+<!-- go into the food a bit more? her senses are now super sharp because of the "retooling" of her neurology -->

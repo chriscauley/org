@@ -1,3 +1,4 @@
+
 * 2011
 ** DONE Name of the Wind, Patrick Rothfus 720 p
   CLOSED: [2011-07-17 Sun 10:43]
@@ -70,6 +71,10 @@
 ** DONE Red Mars 572 p
    CLOSED: [2012-06-16 Sat 17:16]
    Due 4/15
+** The Prophit 96 p
+   4/18
+** Illum 731 p
+   Due 5/12
 ** TODO Last and First Men 438 p
 ** Web Design for Developers 300 p
 ** The Art of Memory
