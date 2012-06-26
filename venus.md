@@ -103,3 +103,45 @@ Kelly sat at the table, still shaking with rage over the images replayed as if f
 When another panel opend up she almost fell over in her chair. The smell of food overcame her and resurrected her forgotten hunger. She lunged at the plate, all self consciousness forgotten. Face half burried in the best food she had ever tasted, she ate. 
 
 <!-- go into the food a bit more? her senses are now super sharp because of the "retooling" of her neurology -->
+
+________
+
+<!-- A few days after gaining admin status, solar winds die down and communication to earth is regained. -->
+
+    Kelly threw open the doors with a commanding calm. She had been logged off for hours and, with the net carefully erasing her presence, her whereabouts had been the topic of much speculation in the interum. How she was aware of the meeting was her knowledge and hers alone. Not even access to her private key could take that from her. 
+
+    "Well," she demanded naturally, as if it was her turn to speak, "You've been talking about me. That much is obvious. Let's hear it then." She was one of them now, and yet something new entirely. Her mind could run from corner to corner of the ship, even bounce off nearby satalites if she pleased. But she still sat offline, more comfortable in the "real world" and unconcerned with the thousands of ping per second exchanged between the homo-simacrula before her. Yes, she was something new entirely.
+
+    Condescendingly and casually, Viki finally spoke up. "Of course, the whole ship has thought of little else all day," and then she bit off "your grace".
+
+    In the corner Marx, whom only hours ago Kelly knew as a cleptomaniacal son of a banker, shifted in his chair. She was unsure if such motions were involuntary or if the dolls were fucking with her all over again. Under Kelly's steady gaze he volunteered, "We've finally come back into yacto-bit-per-second range of earth again." He looked down and cleared his throat. *So life like!* "We thought it best to appoint your new promotion as soon as possible. In order to put it behind us as quickly as possible. As you can imagine they are not pleased." He was so focused that Kelly hardly recognized him, although his head still tilted slightly when he was thinking too hard. *More like processing to hard.* Kelly allowed herself a chuckle at her private joke. "Suggestions range from isolating you to killing you, which are both not allowed under law."
+
+    "Good to hear," she snickered. The dolls were obviously uneasy at her joke.
+
+    "The most calm suggestion is to have you return to earth. While obviously impractial given our current distance and lack of personal transport, we have agreed that this would be in everyone's best interest."
+
+    "But like you said it's impossible." Kelly whiped away the yellow light correcting her. She must have accidentally logged back on. "We're barreling to an uninhabited world a trillion miles away from earth." And another yellow light, this time correcting her poor human estimation skills. "The ship isn't even capable of turning around!" This time, much to her suprise, there was no correction from the anonymous skore keeper in the ships cores.
+
+    Marx lit up with an almost human grin. "You really don't give us enough empathy, Kelly. We really are more alike than you think. Sure we dolls were born with a vastly different biology than yours, but our hardware is virtally the same. We were raised with a certain... intimacy of the information around us, but you could still do most anything we could."
+
+    Vickie walked over and put her hand on Kelly's arm. "We can't send your body back, and most of your individuality is permanently hardwired," she paused to meet Kelly's gaze, gently smiling as only can an old friend. "But the part of you that you consider most... 'you'... The essence that makes you who you are is just an abstraction layer on top of a million other abstraction layers ending in neurons and electrical impulses."
+
+    After a long pause Marx stepped forward and Kelly, paranoid Kelly, concluded that all of his manerisms were set to get her attention. This was obviously his realm of expertise. "With your permission I would like to put you under, lift off the top layer of the meta-ego, and send it back to earth." His grin widened at her shock. "Of course we'd like more time to train you but. We think by suspending your main processes-" She pulled back at these words. He stepped closer and grabbed her with both hands. His grasp was friendly, sincerely so. In his eyes he showed that he was on her side. "In your sleep we'd like to send you to earth. You'll be put in a doll and introduced to AI who we think you can prove your worth to. They can't harm you under law and we believe you can win them over with your case." He grasped her hands firmly and drew them together. "But we can't do any of this without the highest level of conscent. Every accesible part of your soul needs to be reached to be sent to earth, so we need you to trust us."
+
+    "And I can trust you not to just botch the job and psychically lobotomize me?" Her voice trembled with the fear that she would even consider such a thing.
+
+    "We do this all the time and we're certain that we can safely do this to a human."
+
+    "Have you done this to a human before than?"
+
+    "Kelly, there has never been a person like you before. We've never even thought to try."
+
+    "But... I can trust you." Marx nodded reassuringly. "And you'll be there to put me back in when I get to earth."
+
+    "No, the transfer has to be near instaneous. I'll be here and other AI technicians loyal take care of you when you land."
+
+    She pulled away in disgust, but he held her tightly, never loosing eye contact. "You expect me to trust machines I've never met before?"
+
+    His stare intensified as he drew her in by her hands. "I'd trust them with my life. And they're not just machines you've never met before." She looked down in fear, but he caught her chin with his hand and met her eyes again. In his eyes she saw every passion, concern, fear and hope. Every aspet of humanity gazed back at her from dark circles shrouded in gray irises. Search as she might she saw no quantum dots or micro transisters. Only care. "They're people. Like us."
+
+    The room hung on that final word. "Us" wasn't the **they** Kelly was fighting against. It wasn't just four human bodies running highly optimised code. Us meant five, as much the human born Kelly as one with the others. Us did not divide but rather included. Tears ran down her face as she finally looked away and nodded once, once again signing everything that now one could take away to the mysterious rulers who displaced man on the throne of the solar system. But she was not afraid of deceit any more. She nodded because he meant it when he said she could trust him. He meant it and she believed him."
