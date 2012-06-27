@@ -106,7 +106,7 @@ When another panel opend up she almost fell over in her chair. The smell of food
 
 ________
 
-<!-- A few days after gaining admin status, solar winds die down and communication to earth is regained. -->
+<!-- A few days after gaining admin status, solar winds die down and communication to earth is regained. In the iterum she wanders through everyone's private lives and goes offline after finding out how open everyday dealings have become. -->
 
     Kelly threw open the doors with a commanding calm. She had been logged off for hours and, with the net carefully erasing her presence, her whereabouts had been the topic of much speculation in the interum. How she was aware of the meeting was her knowledge and hers alone. Not even access to her private key could take that from her. 
 
@@ -146,4 +146,15 @@ ________
 
     The room hung on that final word. "Us" wasn't the **they** Kelly was fighting against. It wasn't just four human bodies running highly optimised code. Us meant five, as much the human born Kelly as one with the others. Us did not divide but rather included. Tears ran down her face as she finally looked away and nodded once, once again signing everything that now one could take away to the mysterious rulers who displaced man on the throne of the solar system. But she was not afraid of deceit any more. She nodded because he meant it when he said she could trust him. He meant it and she believed him."
 
+________
+
+    The operating table pressed firmly against Kellys scapulae under the acceleration of the ship. Suddenly she was aware of a thousand noises previously underneath her newly improved senses. Tiny vibrations, probably caused by debris colliding with the ships sheilds, sizzled through the ship every few minutes. She pulled up her audio logs. Not every few minutes but every few seconds. What ever drugs they had her on were not sedatives.
+
+    Marx walked in the room and set down a clipboard. She gasped as it echoed through her brain and then sighed as her gasp came to life. "Not the most plesant cocktail I'm afraid." His voice was like a choir of avalanches. "Unfortunately were not trying to put you under, but wake you up. We'll chemically lift your psyche out from its roots until you begin to wander through the nets. Then we catch you and wisp you off to another land."
+
+<!-- trying to leave her body feels like passing through a circular hole. The door she needs to go through is much too small. Like pressing a water baloon through a golf hole. She ends up failing and they try again in hours. -->
+
+________
+
  <!-- when she gets to earth she is supprised she is not tired. Tiredness lies mostly in the body. She's again shocked when she is tired when she gets back to the ship. Vickie wore her out ;) On earth she declares she will become a superuser and, much to the dismay of the rest of the ships AI, she flants the fact that under law they can do little about it -->
+
