@@ -158,3 +158,18 @@ ________
 
  <!-- when she gets to earth she is supprised she is not tired. Tiredness lies mostly in the body. She's again shocked when she is tired when she gets back to the ship. Vickie wore her out ;) On earth she declares she will become a superuser and, much to the dismay of the rest of the ships AI, she flants the fact that under law they can do little about it -->
 
+
+The End
+========
+
+    Kelly was sitting in a chair in a pitch black room when Viki entered. "Do you mind killing the hall lights," Kelly said through one of the rooms speakers. Her body was barely breathing. "The light is really distracting. I don't mind audio though."
+
+    Viki started thinking at Kelly, but then thought better of it and spoke with her mouth. "I've been looking for you-- Where should I speak?" Kelly's neck motioned in Viki's direction and sighed inaudibly. "Sorry. It's just we've received word from earth about your application. You've been offline for days. All my pings and red messages get rejected. Your coup is unfolding and no one can find you. Don't you even care?"
+
+    "Word from earth is too slow" a speaker purred. "It takes so long for anyone to get a grasp on anything. By the time they report to us it's not news. It's history."
+
+    "Well it didn't work and you should be thinking about damage control. You convinced every person on the planet--" Kelly's body snorted, almost offended, "sorry every voting member of earth supported you, and yet your request failed. Some people are questioning your opinions aboout the archeteture of the nets."
+
+    "And the adoption of hex?"
+
+    Single user status is not granted. It is taken.
