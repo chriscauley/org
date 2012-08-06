@@ -61,6 +61,8 @@ createdb <name> --username=postgres
 psql -d template1 --username=postgres
 ALTER USER postgres WITH PASSWORD 'postgres';
 \q
+psql -d <name> -f /usr/share/postgresql/8.4/contrib/postgis-1.5/postgis.sql --username=postgres
+psql -d <name> -f /usr/share/postgresql/8.4/contrib/postgis-1.5/spatial_ref_sys.sql --username=postgres
 createlang plpgsql <name> --username=postgres
 * uwsgi on nginx
 sudo apt-get install python-software-properties
