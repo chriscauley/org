@@ -1,3 +1,6 @@
+Trip to Venus
+========
+
     The first time Kelly tried to get out of bed she panicked sat up too fast. Bolts of pain shot through her spine and all of her ribs. Her bones felt like they were on fire and every muscle felt like it was wrapped up tight in barbed wire. Her head filled with the sensation of fog and she blacked out before she hit the pillow.
 
     The second time she awoke she lay still, afraid to open her eyes. Days must have gone by unconscious because the pain had mostly subsided, yet she could still feel every needle they stuck into her spine and every bone they cut open. "What the hell did I sign up for?" she tried to say out loud but the words stuck in her dry mouth.
@@ -25,6 +28,7 @@ ________
 [dot] # "Later she reflects on this and is happy she had the skill to close a message before opening it."
 
     She even thought to blink away the message, then decided to ignore it and fain ignorance. "Lights" she spoke, the first words from her mouth in days (months?). After a few moments the light faded to nothing. A small victory which she rewarded with more excercise and more sleep.
+
 ________
 
     It felt like hours passed waiting for the jade dot to appear, even though she knew that green notices would spool up a cron.30 once ignored. She tacitly counted the minute pulses. It had to have been at least an hour since she last dismissed it. Finally she blinked into cron-mode. It had in fact been an hour twenty since she last got notice. Were they testing her? Did **they** somehow sense her rebellion and decided to respond in kind?
