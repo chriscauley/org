@@ -49,10 +49,11 @@ Finally, in your .emacs file in your home directory, add the following lines:
  - source
    http://ubuntuforums.org/showthread.php?t=439399
 ** more dependencies
+sudo apt-get install libpq-dev python-dev
 sudo apt-get install postgresql-8.4 postgis libgeos-3.1.0 libgeos-dev postgresql-8.4-postgis \
      libpq-dev
 sudo apt-get install python-setuptools python-psycopg2 python-dateutil python-simplejson \
-     python-imaging python-django-tagging python-memcache memcached
+     python-django-tagging python-memcache memcached
 sudo easy_install django==1.3 django-pagination south django-devserver sorl-thumbnail
 * Postgres DB
 edit /etc/postgresql/8.4/main/pg_hba.conf to allow postgres trust (instead of ident)
