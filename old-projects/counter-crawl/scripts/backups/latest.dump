@@ -1,0 +1,1911 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = off;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET escape_string_warning = off;
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: asset_digitalasset; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE asset_digitalasset (
+    id integer NOT NULL,
+    "order" integer NOT NULL,
+    kicker character varying(256) NOT NULL,
+    description text NOT NULL,
+    video_url character varying(200),
+    image_id integer,
+    logo_id integer,
+    url character varying(200),
+    CONSTRAINT asset_digitalasset_order_check CHECK (("order" >= 0))
+);
+
+
+ALTER TABLE public.asset_digitalasset OWNER TO postgres;
+
+--
+-- Name: asset_digitalasset_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE asset_digitalasset_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.asset_digitalasset_id_seq OWNER TO postgres;
+
+--
+-- Name: asset_digitalasset_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE asset_digitalasset_id_seq OWNED BY asset_digitalasset.id;
+
+
+--
+-- Name: asset_digitalasset_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('asset_digitalasset_id_seq', 9, true);
+
+
+--
+-- Name: asset_slideshowphoto; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE asset_slideshowphoto (
+    id integer NOT NULL,
+    "order" integer NOT NULL,
+    asset_id integer NOT NULL,
+    image_id integer NOT NULL,
+    CONSTRAINT asset_slideshowphoto_order_check CHECK (("order" >= 0))
+);
+
+
+ALTER TABLE public.asset_slideshowphoto OWNER TO postgres;
+
+--
+-- Name: asset_slideshowphoto_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE asset_slideshowphoto_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.asset_slideshowphoto_id_seq OWNER TO postgres;
+
+--
+-- Name: asset_slideshowphoto_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE asset_slideshowphoto_id_seq OWNED BY asset_slideshowphoto.id;
+
+
+--
+-- Name: asset_slideshowphoto_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('asset_slideshowphoto_id_seq', 1, false);
+
+
+--
+-- Name: auth_group; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE auth_group (
+    id integer NOT NULL,
+    name character varying(80) NOT NULL
+);
+
+
+ALTER TABLE public.auth_group OWNER TO postgres;
+
+--
+-- Name: auth_group_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE auth_group_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.auth_group_id_seq OWNER TO postgres;
+
+--
+-- Name: auth_group_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE auth_group_id_seq OWNED BY auth_group.id;
+
+
+--
+-- Name: auth_group_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('auth_group_id_seq', 1, false);
+
+
+--
+-- Name: auth_group_permissions; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE auth_group_permissions (
+    id integer NOT NULL,
+    group_id integer NOT NULL,
+    permission_id integer NOT NULL
+);
+
+
+ALTER TABLE public.auth_group_permissions OWNER TO postgres;
+
+--
+-- Name: auth_group_permissions_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE auth_group_permissions_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.auth_group_permissions_id_seq OWNER TO postgres;
+
+--
+-- Name: auth_group_permissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE auth_group_permissions_id_seq OWNED BY auth_group_permissions.id;
+
+
+--
+-- Name: auth_group_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('auth_group_permissions_id_seq', 1, false);
+
+
+--
+-- Name: auth_message; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE auth_message (
+    id integer NOT NULL,
+    user_id integer NOT NULL,
+    message text NOT NULL
+);
+
+
+ALTER TABLE public.auth_message OWNER TO postgres;
+
+--
+-- Name: auth_message_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE auth_message_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.auth_message_id_seq OWNER TO postgres;
+
+--
+-- Name: auth_message_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE auth_message_id_seq OWNED BY auth_message.id;
+
+
+--
+-- Name: auth_message_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('auth_message_id_seq', 1, false);
+
+
+--
+-- Name: auth_permission; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE auth_permission (
+    id integer NOT NULL,
+    name character varying(50) NOT NULL,
+    content_type_id integer NOT NULL,
+    codename character varying(100) NOT NULL
+);
+
+
+ALTER TABLE public.auth_permission OWNER TO postgres;
+
+--
+-- Name: auth_permission_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE auth_permission_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.auth_permission_id_seq OWNER TO postgres;
+
+--
+-- Name: auth_permission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE auth_permission_id_seq OWNED BY auth_permission.id;
+
+
+--
+-- Name: auth_permission_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('auth_permission_id_seq', 51, true);
+
+
+--
+-- Name: auth_user; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE auth_user (
+    id integer NOT NULL,
+    username character varying(30) NOT NULL,
+    first_name character varying(30) NOT NULL,
+    last_name character varying(30) NOT NULL,
+    email character varying(75) NOT NULL,
+    password character varying(128) NOT NULL,
+    is_staff boolean NOT NULL,
+    is_active boolean NOT NULL,
+    is_superuser boolean NOT NULL,
+    last_login timestamp with time zone NOT NULL,
+    date_joined timestamp with time zone NOT NULL
+);
+
+
+ALTER TABLE public.auth_user OWNER TO postgres;
+
+--
+-- Name: auth_user_groups; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE auth_user_groups (
+    id integer NOT NULL,
+    user_id integer NOT NULL,
+    group_id integer NOT NULL
+);
+
+
+ALTER TABLE public.auth_user_groups OWNER TO postgres;
+
+--
+-- Name: auth_user_groups_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE auth_user_groups_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.auth_user_groups_id_seq OWNER TO postgres;
+
+--
+-- Name: auth_user_groups_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE auth_user_groups_id_seq OWNED BY auth_user_groups.id;
+
+
+--
+-- Name: auth_user_groups_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('auth_user_groups_id_seq', 1, false);
+
+
+--
+-- Name: auth_user_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE auth_user_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.auth_user_id_seq OWNER TO postgres;
+
+--
+-- Name: auth_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE auth_user_id_seq OWNED BY auth_user.id;
+
+
+--
+-- Name: auth_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('auth_user_id_seq', 1, true);
+
+
+--
+-- Name: auth_user_user_permissions; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE auth_user_user_permissions (
+    id integer NOT NULL,
+    user_id integer NOT NULL,
+    permission_id integer NOT NULL
+);
+
+
+ALTER TABLE public.auth_user_user_permissions OWNER TO postgres;
+
+--
+-- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE auth_user_user_permissions_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.auth_user_user_permissions_id_seq OWNER TO postgres;
+
+--
+-- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE auth_user_user_permissions_id_seq OWNED BY auth_user_user_permissions.id;
+
+
+--
+-- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('auth_user_user_permissions_id_seq', 1, false);
+
+
+--
+-- Name: content_copy; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE content_copy (
+    id integer NOT NULL,
+    context character varying(32) NOT NULL,
+    body text DEFAULT 'change me'::text NOT NULL,
+    page character varying(16)
+);
+
+
+ALTER TABLE public.content_copy OWNER TO postgres;
+
+--
+-- Name: content_copy_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE content_copy_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.content_copy_id_seq OWNER TO postgres;
+
+--
+-- Name: content_copy_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE content_copy_id_seq OWNED BY content_copy.id;
+
+
+--
+-- Name: content_copy_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('content_copy_id_seq', 11, true);
+
+
+--
+-- Name: content_designimage; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE content_designimage (
+    id integer NOT NULL,
+    context character varying(32) NOT NULL,
+    name character varying(256),
+    credit character varying(32),
+    credit_url character varying(200),
+    alt_text character varying(128),
+    src character varying(300) DEFAULT 'defaultphoto'::character varying NOT NULL
+);
+
+
+ALTER TABLE public.content_designimage OWNER TO postgres;
+
+--
+-- Name: content_designimage_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE content_designimage_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.content_designimage_id_seq OWNER TO postgres;
+
+--
+-- Name: content_designimage_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE content_designimage_id_seq OWNED BY content_designimage.id;
+
+
+--
+-- Name: content_designimage_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('content_designimage_id_seq', 10, true);
+
+
+--
+-- Name: content_itemlist; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE content_itemlist (
+    id integer NOT NULL,
+    name character varying(64) NOT NULL,
+    columns integer NOT NULL,
+    context character varying(32) NOT NULL
+);
+
+
+ALTER TABLE public.content_itemlist OWNER TO postgres;
+
+--
+-- Name: content_itemlist_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE content_itemlist_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.content_itemlist_id_seq OWNER TO postgres;
+
+--
+-- Name: content_itemlist_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE content_itemlist_id_seq OWNED BY content_itemlist.id;
+
+
+--
+-- Name: content_itemlist_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('content_itemlist_id_seq', 10, true);
+
+
+--
+-- Name: content_listitem; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE content_listitem (
+    id integer NOT NULL,
+    itemlist_id integer NOT NULL,
+    name character varying(128) NOT NULL,
+    logo character varying(200),
+    "order" integer DEFAULT 0 NOT NULL,
+    url character varying(200),
+    description text,
+    last_name character varying(64)
+);
+
+
+ALTER TABLE public.content_listitem OWNER TO postgres;
+
+--
+-- Name: content_listitem_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE content_listitem_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.content_listitem_id_seq OWNER TO postgres;
+
+--
+-- Name: content_listitem_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE content_listitem_id_seq OWNED BY content_listitem.id;
+
+
+--
+-- Name: content_listitem_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('content_listitem_id_seq', 106, true);
+
+
+--
+-- Name: django_admin_log; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE django_admin_log (
+    id integer NOT NULL,
+    action_time timestamp with time zone NOT NULL,
+    user_id integer NOT NULL,
+    content_type_id integer,
+    object_id text,
+    object_repr character varying(200) NOT NULL,
+    action_flag smallint NOT NULL,
+    change_message text NOT NULL,
+    CONSTRAINT django_admin_log_action_flag_check CHECK ((action_flag >= 0))
+);
+
+
+ALTER TABLE public.django_admin_log OWNER TO postgres;
+
+--
+-- Name: django_admin_log_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE django_admin_log_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.django_admin_log_id_seq OWNER TO postgres;
+
+--
+-- Name: django_admin_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE django_admin_log_id_seq OWNED BY django_admin_log.id;
+
+
+--
+-- Name: django_admin_log_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('django_admin_log_id_seq', 63, true);
+
+
+--
+-- Name: django_content_type; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE django_content_type (
+    id integer NOT NULL,
+    name character varying(100) NOT NULL,
+    app_label character varying(100) NOT NULL,
+    model character varying(100) NOT NULL
+);
+
+
+ALTER TABLE public.django_content_type OWNER TO postgres;
+
+--
+-- Name: django_content_type_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE django_content_type_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.django_content_type_id_seq OWNER TO postgres;
+
+--
+-- Name: django_content_type_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE django_content_type_id_seq OWNED BY django_content_type.id;
+
+
+--
+-- Name: django_content_type_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('django_content_type_id_seq', 17, true);
+
+
+--
+-- Name: django_session; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE django_session (
+    session_key character varying(40) NOT NULL,
+    session_data text NOT NULL,
+    expire_date timestamp with time zone NOT NULL
+);
+
+
+ALTER TABLE public.django_session OWNER TO postgres;
+
+--
+-- Name: django_site; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE django_site (
+    id integer NOT NULL,
+    domain character varying(100) NOT NULL,
+    name character varying(50) NOT NULL
+);
+
+
+ALTER TABLE public.django_site OWNER TO postgres;
+
+--
+-- Name: django_site_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE django_site_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.django_site_id_seq OWNER TO postgres;
+
+--
+-- Name: django_site_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE django_site_id_seq OWNED BY django_site.id;
+
+
+--
+-- Name: django_site_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('django_site_id_seq', 1, true);
+
+
+--
+-- Name: photo_photo; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE photo_photo (
+    id integer NOT NULL,
+    name character varying(256) NOT NULL,
+    src character varying(300) NOT NULL,
+    uploader_id integer NOT NULL
+);
+
+
+ALTER TABLE public.photo_photo OWNER TO postgres;
+
+--
+-- Name: photo_photo_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE photo_photo_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.photo_photo_id_seq OWNER TO postgres;
+
+--
+-- Name: photo_photo_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE photo_photo_id_seq OWNED BY photo_photo.id;
+
+
+--
+-- Name: photo_photo_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('photo_photo_id_seq', 19, true);
+
+
+--
+-- Name: south_migrationhistory; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE south_migrationhistory (
+    id integer NOT NULL,
+    app_name character varying(255) NOT NULL,
+    migration character varying(255) NOT NULL,
+    applied timestamp with time zone NOT NULL
+);
+
+
+ALTER TABLE public.south_migrationhistory OWNER TO postgres;
+
+--
+-- Name: south_migrationhistory_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE south_migrationhistory_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MAXVALUE
+    NO MINVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.south_migrationhistory_id_seq OWNER TO postgres;
+
+--
+-- Name: south_migrationhistory_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE south_migrationhistory_id_seq OWNED BY south_migrationhistory.id;
+
+
+--
+-- Name: south_migrationhistory_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('south_migrationhistory_id_seq', 12, true);
+
+
+--
+-- Name: thumbnail_kvstore; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE thumbnail_kvstore (
+    key character varying(200) NOT NULL,
+    value text NOT NULL
+);
+
+
+ALTER TABLE public.thumbnail_kvstore OWNER TO postgres;
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE asset_digitalasset ALTER COLUMN id SET DEFAULT nextval('asset_digitalasset_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE asset_slideshowphoto ALTER COLUMN id SET DEFAULT nextval('asset_slideshowphoto_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE auth_group ALTER COLUMN id SET DEFAULT nextval('auth_group_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE auth_group_permissions ALTER COLUMN id SET DEFAULT nextval('auth_group_permissions_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE auth_message ALTER COLUMN id SET DEFAULT nextval('auth_message_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE auth_permission ALTER COLUMN id SET DEFAULT nextval('auth_permission_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE auth_user ALTER COLUMN id SET DEFAULT nextval('auth_user_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE auth_user_groups ALTER COLUMN id SET DEFAULT nextval('auth_user_groups_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE auth_user_user_permissions ALTER COLUMN id SET DEFAULT nextval('auth_user_user_permissions_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE content_copy ALTER COLUMN id SET DEFAULT nextval('content_copy_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE content_designimage ALTER COLUMN id SET DEFAULT nextval('content_designimage_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE content_itemlist ALTER COLUMN id SET DEFAULT nextval('content_itemlist_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE content_listitem ALTER COLUMN id SET DEFAULT nextval('content_listitem_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE django_admin_log ALTER COLUMN id SET DEFAULT nextval('django_admin_log_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE django_content_type ALTER COLUMN id SET DEFAULT nextval('django_content_type_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE django_site ALTER COLUMN id SET DEFAULT nextval('django_site_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE photo_photo ALTER COLUMN id SET DEFAULT nextval('photo_photo_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE south_migrationhistory ALTER COLUMN id SET DEFAULT nextval('south_migrationhistory_id_seq'::regclass);
+
+
+--
+-- Data for Name: asset_digitalasset; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY asset_digitalasset (id, "order", kicker, description, video_url, image_id, logo_id, url) FROM stdin;
+1	0	DANCE	Dance image published 8/8/11		7	10	
+2	1	VISUAL ARTS	visual arts image published 8/8/11		11	\N	
+3	4	REHEARSAL SPACE	image uploaded 8/8/11		12	\N	
+4	2	GALLERY SPACE	image uploaded 8/8/11		13	\N	
+5	3	MUSIC	uploaded 8/8/11		14	\N	
+6	6	MIXED MEDIA	uploaded 8/8/11		15	\N	
+7	7	ART FOR ALL AGES	uploaded 8/8/11		16	\N	
+8	8	THEATER	uploaded 8/8/11		18	\N	
+9	9	CAFE	uploaded 8/8/11		19	\N	
+\.
+
+
+--
+-- Data for Name: asset_slideshowphoto; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY asset_slideshowphoto (id, "order", asset_id, image_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: auth_group; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY auth_group (id, name) FROM stdin;
+\.
+
+
+--
+-- Data for Name: auth_group_permissions; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY auth_group_permissions (id, group_id, permission_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: auth_message; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY auth_message (id, user_id, message) FROM stdin;
+\.
+
+
+--
+-- Data for Name: auth_permission; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY auth_permission (id, name, content_type_id, codename) FROM stdin;
+1	Can add permission	1	add_permission
+2	Can change permission	1	change_permission
+3	Can delete permission	1	delete_permission
+4	Can add group	2	add_group
+5	Can change group	2	change_group
+6	Can delete group	2	delete_group
+7	Can add user	3	add_user
+8	Can change user	3	change_user
+9	Can delete user	3	delete_user
+10	Can add message	4	add_message
+11	Can change message	4	change_message
+12	Can delete message	4	delete_message
+13	Can add content type	5	add_contenttype
+14	Can change content type	5	change_contenttype
+15	Can delete content type	5	delete_contenttype
+16	Can add session	6	add_session
+17	Can change session	6	change_session
+18	Can delete session	6	delete_session
+19	Can add site	7	add_site
+20	Can change site	7	change_site
+21	Can delete site	7	delete_site
+22	Can add log entry	8	add_logentry
+23	Can change log entry	8	change_logentry
+24	Can delete log entry	8	delete_logentry
+25	Can add photo	9	add_photo
+26	Can change photo	9	change_photo
+27	Can delete photo	9	delete_photo
+28	Can add Carousel Frame	10	add_digitalasset
+29	Can change Carousel Frame	10	change_digitalasset
+30	Can delete Carousel Frame	10	delete_digitalasset
+31	Can add slideshow photo	11	add_slideshowphoto
+32	Can change slideshow photo	11	change_slideshowphoto
+33	Can delete slideshow photo	11	delete_slideshowphoto
+34	Can add copy	12	add_copy
+35	Can change copy	12	change_copy
+36	Can delete copy	12	delete_copy
+37	Can add design image	13	add_designimage
+38	Can change design image	13	change_designimage
+39	Can delete design image	13	delete_designimage
+40	Can add item list	14	add_itemlist
+41	Can change item list	14	change_itemlist
+42	Can delete item list	14	delete_itemlist
+43	Can add list item	15	add_listitem
+44	Can change list item	15	change_listitem
+45	Can delete list item	15	delete_listitem
+46	Can add kv store	16	add_kvstore
+47	Can change kv store	16	change_kvstore
+48	Can delete kv store	16	delete_kvstore
+49	Can add migration history	17	add_migrationhistory
+50	Can change migration history	17	change_migrationhistory
+51	Can delete migration history	17	delete_migrationhistory
+\.
+
+
+--
+-- Data for Name: auth_user; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY auth_user (id, username, first_name, last_name, email, password, is_staff, is_active, is_superuser, last_login, date_joined) FROM stdin;
+1	webapp			development@mouthwateringmedia.com	sha1$127c0$d0df5400c832c66ef906d42146ab07459f364100	t	t	t	2011-08-09 11:41:34.988874-04	2011-08-08 10:42:21.80163-04
+\.
+
+
+--
+-- Data for Name: auth_user_groups; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY auth_user_groups (id, user_id, group_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: auth_user_user_permissions; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY auth_user_user_permissions (id, user_id, permission_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: content_copy; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY content_copy (id, context, body, page) FROM stdin;
+10	support-form-header	<p>\r\n\t<span style="color:#76AFE3;">PLEASE JOIN US AND SUPPORT </span><span style="color:#b9d110;">IAC</span><span style="color:#76AFE3;"> TODAY</span></p>\r\n	Support
+4	home-title	<p>\r\n\t<span style="color:#b9d110;">The Independent Arts Collaborative is a collision of art and community</span></p>\r\n	Home
+5	home-description	<p>\r\n\tA hub for creative expression where artists and art lovers converge to passionately engage each other around some of Houston&#39;s most innovative performances and exhibitions. The IAC&#39;s home in midtown will be an architecturally stunning&nbsp;building that is open and accessible to all and as inspiring as the art it envelopes. The community will play a direct and&nbsp;integral part in establishing the IAC as a dynamic multi-purpose arts center that fosters the creation, dissemination, under-standing, appreciation and enjoyment of visual and performing arts in a wide range of disciplines and styles.&nbsp;</p>\r\n	Home
+7	about-top	<p>\r\n\tThe Independent Arts Collaborative (lAC) is a new arts complex that will provide a centralized home base in Midtown for a broad spectrum of Houston&rsquo;s leading and emerging arts and cultural organizations.&nbsp; The facility will offer a combination of visual and performance spaces, rehearsal and workshop areas, classrooms, and offices in a three-level structure of approximately 85,000 square feet. &nbsp;The total cost of the project is estimated at $25 million. When complete, the IAC will be self-sustaining from a variety of rental and other earned income streams.</p>\r\n	About
+8	about-contact-message	<p>\r\n\tIf you or an an arts organization that you are part of would like to be involved, please let us know.</p>\r\n	About
+9	support-top	<p>\r\n\t<span style="font-size:14px;"><span style="color: rgb(185, 209, 16);"><strong>THE IAC WILL HAVE A TRANSFORMATIVE IMPACT</strong>.</span><span style="color: rgb(118, 175, 227);">&nbsp; <strong>JOIN US</strong></span></span></p>\r\n<p>\r\n\tThe IAC will serve three vital roles in Houston. First, the IAC has the potential to radically <span style="color:#ff9900;">transform the Houston arts landscape</span> and become an example of <span style="color:#ff9900;">forward-thinking nonprofit development</span> emulated across the country. By creating a centralized, financially stable and synergistic environment for a broad spectrum of arts groups, the IAC will do more than merely provide venues for their work &ndash; it will establish a context for long-term planning, <span style="color:#ff9900;">artistic collaboration and growth</span>, and greater integration of the arts in public life. Second, the entire project will stimulate further economic activity in Midtown, including residential, commercial and retail development. And third, the three-block area will be a constant hub of activity, creating <span style="color:#ff9900;">an important destination for Houston</span> residents and visitors.</p>\r\n<p>\r\n\t&nbsp;</p>\r\n	Support
+11	location-top	<p>\r\n\t&nbsp;</p>\r\n<p>\r\n\tThe Independent Arts Collaborative will be located at <span style="color:#b9d110;">3400 Main</span> <span style="color:#b9d110;">Street</span> in the heart of Midtown Houston.</p>\r\n<p>\r\n\t&nbsp;</p>\r\n	Location
+\.
+
+
+--
+-- Data for Name: content_designimage; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY content_designimage (id, context, name, credit, credit_url, alt_text, src) FROM stdin;
+6	project-advisors					uploads/designphotos/project-advisors.png
+8	contact-us					uploads/designphotos/contact-us_1.png
+3	iac-logo					uploads/designphotos/iac-logo_2.png
+4	carousel-header					uploads/designphotos/carousel-header.png
+5	directors					uploads/designphotos/directors.png
+7	advisory-board					uploads/designphotos/advisory-board.png
+9	organizations					uploads/designphotos/organizations.png
+10	map	\N	\N	\N	\N	uploads/designphotos/defaultphoto_11.png
+2	branding	\N	\N	\N	\N	uploads/designphotos/defaultphoto_3.png
+1	arst	\N	\N	\N	\N	uploads/designphotos/defaultphoto_2.png
+\.
+
+
+--
+-- Data for Name: content_itemlist; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY content_itemlist (id, name, columns, context) FROM stdin;
+2	Advisory Board	1	advisory-board
+3	Project Advisors	1	project-advisors
+10	Map List	1	map-locations
+1	Board of Directors	2	directors
+6	All Donors	4	minor-donors
+7	Logo Donors	5	major-donors
+4	Participating Arts Organizations	3	organizations
+\.
+
+
+--
+-- Data for Name: content_listitem; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY content_listitem (id, itemlist_id, name, logo, "order", url, description, last_name) FROM stdin;
+76	10	ensemble theater		0	/	266,331,348,429	\N
+68	10	high fashion home		0	/	389,37,541,151	\N
+70	10	houston community college		0	/	456,156,606,264	\N
+18	3	Jewett Consulting		0			\N
+75	10	julia's bistro		0	/	80,606,192,736	\N
+80	10	light rail stop		0	/	397,452,520,485	\N
+72	10	mai's		0	/	276,242,341,332	\N
+17	2	Minnette Boesel, Mayor's Assistant for Cultural Affairs, City of Houston		0			\N
+77	10	natachee's		0	/	457,333,552,416	\N
+71	10	noveau antique art bar		0	/	664,203,798,360	\N
+78	10	sigs lagoon		0	/	275,434,374,543	\N
+69	10	sushi raku		0	/	187,170,276,255	\N
+82	10	tacos a gogo		0	/	475,523,575,640	\N
+73	10	t'afia		0	/	27,288,164,448	\N
+74	10	the breakfast club		0	/	0,496,136,588	\N
+83	10	the continental club		0	/	328,619,482,776	\N
+81	10	the mink		0	/	552,403,652,528	\N
+67	10	the mix		0	/	164,0,268,138	\N
+79	10	unnamed		0	/	133,445,228,552	\N
+66	10	yoga one studio		0	/	568,0,713,94	\N
+2	1	Diane Barber		1			\N
+16	2	Karen Farber, Director, Mitchell Center for the Arts, University of Houston		1			\N
+19	3	Sterling Associates		1			\N
+15	2	Fran Macferran, Hobby Foundation		2			\N
+20	3	Mouth Watering Media		2			\N
+3	1	Sanford Criner		2			\N
+13	2	Barry Mandel, President and Park Director, Discovery Green		3			\N
+21	3	Denham Wolf Real Estate Services, Inc.		3			\N
+4	1	Leslie Elkins		3			\N
+5	1	Brent Friedman		4			\N
+12	2	Jackie Martin, consultant		4			\N
+22	3	Webb Management Services, Inc.		4			\N
+11	2	Margaret Vaughan Robinson, Consultant		5			\N
+6	1	Megan Murray		5			\N
+7	1	Adrian Patterson		6			\N
+14	2	Jose Solis, Gensler		6			\N
+8	1	Elisa Stude Pye		7			\N
+9	1	Louie Saletan		8			\N
+10	1	Emily Todd		9			\N
+45	6	Adam		0			Adams
+49	6	Dan		0			Barnum
+48	6	Laura 		0			Beckworth
+47	6	Marta		0			Bourke
+46	6	The Brown Foundation		0			
+42	6	Catastrophic Theatre		0			
+44	6	Lawrence		0			Chapman
+43	6	Sanford and Susie 		0			Criner
+41	6	DiverseWorks		0			
+65	6	Sara		0			Dodd-Spicklemier
+64	6	Marita and J.B		0			Fairbanks
+63	6	Steven and Karen		0			Farber
+62	6	Marvey and Elaine		0			Finger
+61	6	David		0			Fitch
+60	6	Brent		0			Friedman
+59	6	Ryan		0			Gordon
+58	6	Tom		0			Guthrie
+57	6	Houston Endowment		0			
+56	6	Jill		0			Jewett
+55	6	Jay		0			Jones
+54	6	Christopher		0			Knapp
+53	6	Richard		0			Lapin
+52	6	Leslie and Shannon Sasser Family Fund		0			
+51	6	George		0			Levan
+50	6	Alice		0			Maconda O'Connor
+87	6	Michael 		0			Zilkha
+86	6	M. Kyle 		0			Wright
+84	6	Phoebe 		0			Tudor
+85	6	Wayne 		0			Washburn
+1	1	Adam Adams		0			
+40	7	Houston Endowment	uploads/logos/2011-08/HoustonEndowment.gif	0	http://www.houstonendowment.org		
+39	7	Brown Foundation	uploads/logos/2011-08/logo-2_1.png	0	http://www.brownfoundation.org		
+38	7	City of Houston	uploads/logos/2011-08/logo-3_1.png	0	http://www.houstontx.gov		
+88	6	Mainstreet Theatre		0			
+89	6	Poppi		0			Massey
+90	6	Meg and Nelson		0			Murray
+91	6	Bill		0			Neuhaus
+92	6	Adrian		0			Patterson
+93	6	Elisa Stude		0			Pye
+94	6	John 		0			Roberson
+95	6	Joe and Anne		0			Romano
+96	6	Ian		0			Rosenberg
+97	6	Jeanne 		0			Saletan
+98	6	Tom and Barbara		0			Solis
+99	6	Kim		0			Sterling
+100	6	Cassie		0			Stinson
+101	6	Herman		0			Stude
+102	6	Suchu Dance		0			
+103	6	Texas Gallery		0			
+104	6	Dave		0			Thompson
+105	6	Fletcher		0			Thorne-Thomsen
+106	6	Emily		0			Todd
+\.
+
+
+--
+-- Data for Name: django_admin_log; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY django_admin_log (id, action_time, user_id, content_type_id, object_id, object_repr, action_flag, change_message) FROM stdin;
+1	2011-08-08 13:46:38.121046-04	1	10	1	DigitalAsset object	2	Changed kicker and logo.
+2	2011-08-08 13:47:43.166915-04	1	12	4	Home: Title	2	Changed body.
+3	2011-08-08 13:49:30.787902-04	1	12	5	Home: Description	2	Changed body.
+4	2011-08-08 13:50:33.453294-04	1	12	5	Home: Description	2	Changed body.
+5	2011-08-08 14:00:30.969974-04	1	12	7	About: Top	2	Changed body.
+6	2011-08-08 14:01:11.095053-04	1	12	8	About: Contact Message	2	Changed body.
+7	2011-08-08 14:06:09.791245-04	1	12	9	Support: Top	2	Changed body.
+8	2011-08-08 14:07:07.550526-04	1	12	9	Support: Top	2	Changed body.
+9	2011-08-08 14:08:54.14923-04	1	12	9	Support: Top	2	Changed body.
+10	2011-08-08 14:09:30.174309-04	1	12	9	Support: Top	2	Changed body.
+11	2011-08-08 14:10:00.050417-04	1	12	10	Support: Form Header	2	Changed body.
+12	2011-08-08 14:23:45.941323-04	1	12	9	Support: Top	2	Changed body.
+13	2011-08-08 15:35:36.25521-04	1	14	6	All Donors	2	Changed name. Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object".
+14	2011-08-08 15:39:05.13135-04	1	14	6	All Donors	2	Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object".
+15	2011-08-08 15:39:14.600108-04	1	14	6	All Donors	2	No fields changed.
+16	2011-08-08 16:43:58.661141-04	1	14	6	All Donors	2	Changed name.
+17	2011-08-08 17:04:57.25257-04	1	14	7	Logo Doners	2	Changed context.
+18	2011-08-08 17:04:57.259459-04	1	14	6	All Donors	2	Changed context.
+19	2011-08-08 17:05:04.207597-04	1	14	7	Logo Donors	2	Changed name.
+20	2011-08-08 17:08:57.372431-04	1	12	4	Home: Title	2	Changed body.
+21	2011-08-08 17:10:22.48683-04	1	12	5	Home: Description	2	Changed body.
+22	2011-08-08 17:13:43.746987-04	1	12	7	About: Top	2	Changed body.
+23	2011-08-08 17:14:23.646939-04	1	12	7	About: Top	2	Changed body.
+24	2011-08-08 17:14:36.28921-04	1	12	8	About: Contact Message	2	Changed body.
+25	2011-08-08 17:16:06.550362-04	1	12	9	Support: Top	2	Changed body.
+26	2011-08-08 17:16:48.437072-04	1	12	9	Support: Top	2	Changed body.
+27	2011-08-08 17:19:35.080356-04	1	12	9	Support: Top	2	Changed body.
+28	2011-08-08 17:21:30.044336-04	1	12	11	Location: Top	2	Changed body.
+29	2011-08-08 17:21:38.581523-04	1	12	11	Location: Top	2	Changed body.
+30	2011-08-08 17:22:02.162995-04	1	12	11	Location: Top	2	Changed body.
+31	2011-08-08 17:33:50.542095-04	1	10	1	DigitalAsset object	2	Changed kicker and description.
+32	2011-08-08 17:34:56.488725-04	1	9	11	Visual Arts1	1	
+33	2011-08-08 17:35:01.629764-04	1	10	2	DigitalAsset object	1	
+34	2011-08-08 17:36:14.707785-04	1	9	12	Rehearsal Space	1	
+35	2011-08-08 17:36:17.281429-04	1	10	3	DigitalAsset object	1	
+36	2011-08-08 17:37:25.617172-04	1	14	6	All Donors	2	Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Added list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name for list item "ListItem object". Changed name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object". Changed name and last_name for list item "ListItem object".
+37	2011-08-08 17:37:41.834399-04	1	14	6	All Donors	2	No fields changed.
+38	2011-08-08 17:37:55.631467-04	1	9	13	Gallery Space	1	
+39	2011-08-08 17:38:01.489539-04	1	10	4	DigitalAsset object	1	
+40	2011-08-08 17:40:25.901727-04	1	14	6	All Donors	2	Changed columns.
+41	2011-08-08 17:48:40.243535-04	1	14	1	Board of Directors	2	Changed last_name for list item "ListItem object".
+42	2011-08-08 17:49:00.506626-04	1	14	1	Board of Directors	2	Changed last_name for list item "ListItem object".
+43	2011-08-08 17:49:30.046817-04	1	9	14	Music1	1	
+44	2011-08-08 17:49:34.121361-04	1	10	5	DigitalAsset object	1	
+45	2011-08-08 17:49:58.75455-04	1	10	3	DigitalAsset object	2	Changed order.
+46	2011-08-08 17:49:58.764265-04	1	10	4	DigitalAsset object	2	Changed order.
+47	2011-08-08 17:49:58.772428-04	1	10	5	DigitalAsset object	2	Changed order.
+48	2011-08-08 17:51:50.002763-04	1	9	15	performance1	1	
+49	2011-08-08 17:51:53.566138-04	1	10	6	DigitalAsset object	1	
+50	2011-08-08 17:53:06.993391-04	1	10	6	DigitalAsset object	2	Changed kicker.
+51	2011-08-08 17:55:56.394158-04	1	9	16	All Ages	1	
+52	2011-08-08 17:55:58.308348-04	1	10	7	DigitalAsset object	1	
+53	2011-08-08 17:56:47.454329-04	1	10	7	DigitalAsset object	2	Changed kicker.
+54	2011-08-08 17:59:00.618915-04	1	9	17	theater1	1	
+55	2011-08-08 17:59:02.171983-04	1	10	8	DigitalAsset object	1	
+56	2011-08-08 18:00:27.464772-04	1	9	18	theater1	1	
+57	2011-08-08 18:00:30.448542-04	1	10	8	DigitalAsset object	2	Changed image.
+58	2011-08-08 18:54:12.213499-04	1	9	19	cafe	1	
+59	2011-08-08 18:54:13.804171-04	1	10	9	DigitalAsset object	1	
+60	2011-08-09 12:03:07.979481-04	1	14	6	All Donors	2	Changed columns.
+61	2011-08-09 12:04:01.16319-04	1	14	6	All Donors	2	Changed columns.
+62	2011-08-09 12:19:42.347825-04	1	14	7	Logo Donors	2	Changed name, url and logo for list item "ListItem object". Changed name and url for list item "ListItem object". Changed name and url for list item "ListItem object".
+63	2011-08-09 12:26:21.521947-04	1	14	4	Participating Arts Organizations	2	Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object". Deleted list item "ListItem object".
+\.
+
+
+--
+-- Data for Name: django_content_type; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY django_content_type (id, name, app_label, model) FROM stdin;
+1	permission	auth	permission
+2	group	auth	group
+3	user	auth	user
+4	message	auth	message
+5	content type	contenttypes	contenttype
+6	session	sessions	session
+7	site	sites	site
+8	log entry	admin	logentry
+9	photo	photo	photo
+10	Carousel Frame	asset	digitalasset
+11	slideshow photo	asset	slideshowphoto
+12	copy	content	copy
+13	design image	content	designimage
+14	item list	content	itemlist
+15	list item	content	listitem
+16	kv store	thumbnail	kvstore
+17	migration history	south	migrationhistory
+\.
+
+
+--
+-- Data for Name: django_session; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY django_session (session_key, session_data, expire_date) FROM stdin;
+6d335b904904dfd10fe6d2b20c4f1480	M2Q5NjMzNzFjM2ZkNmM3YjNhNTUxMDA3OTE1ZmEzY2U3ZDQ3NGZlYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n	2011-08-22 13:45:23.417201-04
+b9c6f685d6d16c0f01ee7f8ad94f952b	M2Q5NjMzNzFjM2ZkNmM3YjNhNTUxMDA3OTE1ZmEzY2U3ZDQ3NGZlYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n	2011-08-22 15:27:22.427957-04
+ae4fe3f2c1c84c264125e19851141ec4	M2Q5NjMzNzFjM2ZkNmM3YjNhNTUxMDA3OTE1ZmEzY2U3ZDQ3NGZlYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n	2011-08-22 15:29:54.962613-04
+52a4aa183d40d26aa4e5d474cf6784c2	M2Q5NjMzNzFjM2ZkNmM3YjNhNTUxMDA3OTE1ZmEzY2U3ZDQ3NGZlYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n	2011-08-22 16:13:41.430141-04
+188810707466ca589c9abb23e637f1e1	M2Q5NjMzNzFjM2ZkNmM3YjNhNTUxMDA3OTE1ZmEzY2U3ZDQ3NGZlYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n	2011-08-22 17:29:30.062157-04
+a4cb4ebc2b32390381787b1675f11fd5	M2Q5NjMzNzFjM2ZkNmM3YjNhNTUxMDA3OTE1ZmEzY2U3ZDQ3NGZlYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n	2011-08-22 23:21:49.135235-04
+26bdc2bd16aa4f338bba29b75c8392c7	M2Q5NjMzNzFjM2ZkNmM3YjNhNTUxMDA3OTE1ZmEzY2U3ZDQ3NGZlYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n	2011-08-23 11:41:34.99685-04
+\.
+
+
+--
+-- Data for Name: django_site; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY django_site (id, domain, name) FROM stdin;
+1	example.com	example.com
+\.
+
+
+--
+-- Data for Name: photo_photo; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY photo_photo (id, name, src, uploader_id) FROM stdin;
+8	arst	uploads/photos/2011-08/carousel2.png	1
+9	arst	uploads/photos/2011-08/carousel2_1.png	1
+7	dance	uploads/photos/2011-08/carousel1.jpg	1
+10	suchu	uploads/photos/2011-08/dance-logo.jpeg	1
+11	Visual Arts1	uploads/photos/2011-08/212_e_0111.jpg	1
+12	Rehearsal Space	uploads/photos/2011-08/185296_orchestra-rehearsal.jpg	1
+13	Gallery Space	uploads/photos/2011-08/WINET_globe_big.jpg	1
+14	Music1	uploads/photos/2011-08/bluefinger_B_nov15-thumb-560x373.jpg	1
+15	performance1	uploads/photos/2011-08/Nancy_Musiqa_by_Bill_Klemm.350w_263h.jpg	1
+16	All Ages	uploads/photos/2011-08/sideways-silly-500x424.jpg	1
+17	theater1	uploads/photos/2011-08/catastrophic.jpg	1
+18	theater1	uploads/photos/2011-08/1196662894_oPt2K-L.jpg	1
+19	cafe	uploads/photos/2011-08/cafe_au_lait_385x261.jpg	1
+\.
+
+
+--
+-- Data for Name: south_migrationhistory; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY south_migrationhistory (id, app_name, migration, applied) FROM stdin;
+1	photo	0001_initial	2011-08-08 15:43:34.522368-04
+2	photo	0002_auto__chg_field_photo_src	2011-08-08 15:43:34.526693-04
+3	asset	0001_initial	2011-08-08 15:43:44.334535-04
+4	asset	0002_auto__add_field_digitalasset_logo	2011-08-08 15:43:44.340797-04
+5	asset	0003_auto__add_field_digitalasset_url	2011-08-08 15:43:44.345086-04
+6	content	0001_initial	2011-08-08 15:43:44.352191-04
+7	content	0002_auto__add_field_copy_page	2011-08-08 15:43:44.356753-04
+8	content	0003_auto__add_itemlist__add_listitem	2011-08-08 15:43:44.361143-04
+9	content	0004_auto__add_field_itemlist_columns	2011-08-08 15:43:44.365786-04
+10	content	0005_auto__add_field_itemlist_context	2011-08-08 15:43:44.370178-04
+11	content	0006_auto__add_designimage	2011-08-08 15:43:44.373354-04
+12	content	0007_auto__add_field_listitem_last_name	2011-08-08 21:34:48.274032-04
+\.
+
+
+--
+-- Data for Name: thumbnail_kvstore; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY thumbnail_kvstore (key, value) FROM stdin;
+sorl-thumbnail||image||2af9cf8600b8a156702b9dbf74077586	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/carousel1.jpg", "size": [556, 372]}
+sorl-thumbnail||image||1fa755bb9283f4ee3e8a5658e4486127	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/dc/b4/dcb41300703fbb484e2389f2ecfe000b.jpg", "size": [460, 330]}
+sorl-thumbnail||image||7b11f6d865e7be0a7a1babf6714d68e2	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/56/33/56331ae0300a699c826b01baeb5335a7.jpg", "size": [128, 96]}
+sorl-thumbnail||image||9cf9093b2236f2793f660d5cd3a3c418	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/designphotos/defaultphoto_2.png", "size": [128, 76]}
+sorl-thumbnail||image||e5a32a1f1d14a4db2323a42653cea165	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/ce/27/ce27d60c9e6f15be5de84a302fb99760.jpg", "size": [900, 900]}
+sorl-thumbnail||thumbnails||9cf9093b2236f2793f660d5cd3a3c418	["e5a32a1f1d14a4db2323a42653cea165"]
+sorl-thumbnail||image||172f3ada8ebb618333a1e890db6b7135	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/91/74/91741277b199e52a15b49d472f780b59.jpg", "size": [128, 86]}
+sorl-thumbnail||thumbnails||2af9cf8600b8a156702b9dbf74077586	["1fa755bb9283f4ee3e8a5658e4486127", "172f3ada8ebb618333a1e890db6b7135"]
+sorl-thumbnail||image||e1fd82732171b0a5a52d54a231f12af3	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/212_e_0111.jpg", "size": [413, 273]}
+sorl-thumbnail||image||02e58b12dbfa26605744f5b12ad74e47	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/24/ef/24ef05d05b39c53c27c74971eb5ee967.jpg", "size": [128, 85]}
+sorl-thumbnail||image||47562fa91e58bd27ff6ac3b16b66716a	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/da/4f/da4f7f839dd5fc785156f764ab1a388d.jpg", "size": [460, 330]}
+sorl-thumbnail||thumbnails||e1fd82732171b0a5a52d54a231f12af3	["02e58b12dbfa26605744f5b12ad74e47", "47562fa91e58bd27ff6ac3b16b66716a"]
+sorl-thumbnail||image||0a6597ad83990d7f3db072fc4b58e379	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/185296_orchestra-rehearsal.jpg", "size": [400, 288]}
+sorl-thumbnail||image||f16f798d93f59ef2d07de537a6bc0ce6	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/48/42/4842f0188c2ea1d04a4ac3ec3fa8be16.jpg", "size": [128, 92]}
+sorl-thumbnail||image||164f10cd89d0fcb9fbcb53699b5818c9	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/13/41/13415a8bd5dbcc79792a1f21ef65e18d.jpg", "size": [460, 330]}
+sorl-thumbnail||image||f5279cbe038d87020a180102e619d7bc	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/ae/52/ae52f6d51b6e065dc4197e2b878610ce.jpg", "size": [460, 330]}
+sorl-thumbnail||thumbnails||0a6597ad83990d7f3db072fc4b58e379	["f5279cbe038d87020a180102e619d7bc", "f16f798d93f59ef2d07de537a6bc0ce6"]
+sorl-thumbnail||image||fa2c5476e8c9677b7a1902609c02c558	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/WINET_globe_big.jpg", "size": [601, 400]}
+sorl-thumbnail||image||0b37315e9da77f87e7dcd7352748498c	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/8e/d5/8ed5b21dbc7975e974e99bcac87131ab.jpg", "size": [128, 85]}
+sorl-thumbnail||image||518eadc95360388be641d1e618b09a7b	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/cf/e2/cfe284afe3435b1dbe2e1841d209b08f.jpg", "size": [460, 330]}
+sorl-thumbnail||thumbnails||fa2c5476e8c9677b7a1902609c02c558	["518eadc95360388be641d1e618b09a7b", "0b37315e9da77f87e7dcd7352748498c"]
+sorl-thumbnail||image||a3f5e57eb986385d6f04dde7b949ac79	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/bluefinger_B_nov15-thumb-560x373.jpg", "size": [560, 373]}
+sorl-thumbnail||image||de031b9eba9be0b03b3adcb5816db181	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/1c/22/1c22b78a33f54bd858f517c7be6d46e8.jpg", "size": [128, 85]}
+sorl-thumbnail||thumbnails||d37c9ba7b0858df4cb311770e26c39af	["164f10cd89d0fcb9fbcb53699b5818c9", "6aef253039ef5e5b8154237e61076c7a"]
+sorl-thumbnail||image||bf380ddf78e99e94378333e55965ffbc	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/Nancy_Musiqa_by_Bill_Klemm.350w_263h.jpg", "size": [350, 263]}
+sorl-thumbnail||image||41fa50b0379385d62a7a8d1e63c748fa	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/08/11/081131faf75be1f39cd4a13386243b6c.jpg", "size": [460, 330]}
+sorl-thumbnail||thumbnails||a3f5e57eb986385d6f04dde7b949ac79	["de031b9eba9be0b03b3adcb5816db181", "41fa50b0379385d62a7a8d1e63c748fa"]
+sorl-thumbnail||image||d57ed22bbe4efe88966a2703ce0acccd	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/f8/9a/f89aa6b5d3536e9831b6aa757f5c7c21.jpg", "size": [460, 330]}
+sorl-thumbnail||thumbnails||bf380ddf78e99e94378333e55965ffbc	["d57ed22bbe4efe88966a2703ce0acccd", "7b11f6d865e7be0a7a1babf6714d68e2"]
+sorl-thumbnail||image||d37c9ba7b0858df4cb311770e26c39af	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/sideways-silly-500x424.jpg", "size": [500, 424]}
+sorl-thumbnail||image||6aef253039ef5e5b8154237e61076c7a	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/60/be/60be663fa244e62a119b2654edefd630.jpg", "size": [128, 109]}
+sorl-thumbnail||image||d82dd3c547628be2acfd51a2133db579	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/catastrophic.jpg", "size": [280, 186]}
+sorl-thumbnail||image||82a05a4fab1be4e76e3ed9245536eef9	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/9b/18/9b1839d6175a33e2d36d88a59077fb76.jpg", "size": [128, 85]}
+sorl-thumbnail||image||f7b369cc30c096d67f35c2e306aa8ee7	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/00/bf/00bfaf4ee5da3a4430a4e84aa107103f.jpg", "size": [460, 330]}
+sorl-thumbnail||thumbnails||d82dd3c547628be2acfd51a2133db579	["82a05a4fab1be4e76e3ed9245536eef9", "f7b369cc30c096d67f35c2e306aa8ee7"]
+sorl-thumbnail||image||943a7b8f049735e9c05d7e188bffcf1f	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/1196662894_oPt2K-L.jpg", "size": [800, 534]}
+sorl-thumbnail||image||c160938a2ab20a7328f52c68dddd31b0	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/e4/8a/e48a7af0bf9aa068e9e151b8c7c434be.jpg", "size": [128, 85]}
+sorl-thumbnail||image||84cb80b40ae40c9b0b16f59099aa1318	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/7e/19/7e192eb917b929bb4901e2c0f0880efa.jpg", "size": [460, 330]}
+sorl-thumbnail||thumbnails||943a7b8f049735e9c05d7e188bffcf1f	["84cb80b40ae40c9b0b16f59099aa1318", "c160938a2ab20a7328f52c68dddd31b0"]
+sorl-thumbnail||image||9d7803b7af9ecf4b8791635f38f597ad	{"storage": "django.core.files.storage.FileSystemStorage", "name": "uploads/photos/2011-08/cafe_au_lait_385x261.jpg", "size": [385, 261]}
+sorl-thumbnail||image||acc6c4a15b2389ab6fa1b1c10ee35cfd	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/0b/2b/0b2bbbbb122dbce2962485de03c30ccb.jpg", "size": [128, 87]}
+sorl-thumbnail||image||dab5860d1907751d7ebfda5e766d0a3e	{"storage": "django.core.files.storage.FileSystemStorage", "name": "cache/93/ac/93ac97e1f08b84b8ff625c0bdb159b55.jpg", "size": [460, 330]}
+sorl-thumbnail||thumbnails||9d7803b7af9ecf4b8791635f38f597ad	["acc6c4a15b2389ab6fa1b1c10ee35cfd", "dab5860d1907751d7ebfda5e766d0a3e"]
+\.
+
+
+--
+-- Name: asset_digitalasset_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY asset_digitalasset
+    ADD CONSTRAINT asset_digitalasset_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: asset_slideshowphoto_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY asset_slideshowphoto
+    ADD CONSTRAINT asset_slideshowphoto_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: auth_group_name_key; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_group
+    ADD CONSTRAINT auth_group_name_key UNIQUE (name);
+
+
+--
+-- Name: auth_group_permissions_group_id_key; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_group_permissions
+    ADD CONSTRAINT auth_group_permissions_group_id_key UNIQUE (group_id, permission_id);
+
+
+--
+-- Name: auth_group_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_group_permissions
+    ADD CONSTRAINT auth_group_permissions_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: auth_group_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_group
+    ADD CONSTRAINT auth_group_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: auth_message_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_message
+    ADD CONSTRAINT auth_message_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: auth_permission_content_type_id_key; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_permission
+    ADD CONSTRAINT auth_permission_content_type_id_key UNIQUE (content_type_id, codename);
+
+
+--
+-- Name: auth_permission_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_permission
+    ADD CONSTRAINT auth_permission_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: auth_user_groups_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_user_groups
+    ADD CONSTRAINT auth_user_groups_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: auth_user_groups_user_id_key; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_user_groups
+    ADD CONSTRAINT auth_user_groups_user_id_key UNIQUE (user_id, group_id);
+
+
+--
+-- Name: auth_user_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_user
+    ADD CONSTRAINT auth_user_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: auth_user_user_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_user_user_permissions
+    ADD CONSTRAINT auth_user_user_permissions_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: auth_user_user_permissions_user_id_key; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_user_user_permissions
+    ADD CONSTRAINT auth_user_user_permissions_user_id_key UNIQUE (user_id, permission_id);
+
+
+--
+-- Name: auth_user_username_key; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY auth_user
+    ADD CONSTRAINT auth_user_username_key UNIQUE (username);
+
+
+--
+-- Name: content_copy_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY content_copy
+    ADD CONSTRAINT content_copy_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: content_designimage_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY content_designimage
+    ADD CONSTRAINT content_designimage_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: content_itemlist_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY content_itemlist
+    ADD CONSTRAINT content_itemlist_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: content_listitem_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY content_listitem
+    ADD CONSTRAINT content_listitem_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: django_admin_log_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY django_admin_log
+    ADD CONSTRAINT django_admin_log_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: django_content_type_app_label_key; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY django_content_type
+    ADD CONSTRAINT django_content_type_app_label_key UNIQUE (app_label, model);
+
+
+--
+-- Name: django_content_type_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY django_content_type
+    ADD CONSTRAINT django_content_type_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: django_session_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY django_session
+    ADD CONSTRAINT django_session_pkey PRIMARY KEY (session_key);
+
+
+--
+-- Name: django_site_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY django_site
+    ADD CONSTRAINT django_site_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: photo_photo_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY photo_photo
+    ADD CONSTRAINT photo_photo_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: south_migrationhistory_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY south_migrationhistory
+    ADD CONSTRAINT south_migrationhistory_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: thumbnail_kvstore_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
+--
+
+ALTER TABLE ONLY thumbnail_kvstore
+    ADD CONSTRAINT thumbnail_kvstore_pkey PRIMARY KEY (key);
+
+
+--
+-- Name: asset_digitalasset_image_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX asset_digitalasset_image_id ON asset_digitalasset USING btree (image_id);
+
+
+--
+-- Name: asset_digitalasset_logo_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX asset_digitalasset_logo_id ON asset_digitalasset USING btree (logo_id);
+
+
+--
+-- Name: asset_slideshowphoto_asset_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX asset_slideshowphoto_asset_id ON asset_slideshowphoto USING btree (asset_id);
+
+
+--
+-- Name: asset_slideshowphoto_image_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX asset_slideshowphoto_image_id ON asset_slideshowphoto USING btree (image_id);
+
+
+--
+-- Name: auth_group_permissions_group_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX auth_group_permissions_group_id ON auth_group_permissions USING btree (group_id);
+
+
+--
+-- Name: auth_group_permissions_permission_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX auth_group_permissions_permission_id ON auth_group_permissions USING btree (permission_id);
+
+
+--
+-- Name: auth_message_user_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX auth_message_user_id ON auth_message USING btree (user_id);
+
+
+--
+-- Name: auth_permission_content_type_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX auth_permission_content_type_id ON auth_permission USING btree (content_type_id);
+
+
+--
+-- Name: auth_user_groups_group_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX auth_user_groups_group_id ON auth_user_groups USING btree (group_id);
+
+
+--
+-- Name: auth_user_groups_user_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX auth_user_groups_user_id ON auth_user_groups USING btree (user_id);
+
+
+--
+-- Name: auth_user_user_permissions_permission_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX auth_user_user_permissions_permission_id ON auth_user_user_permissions USING btree (permission_id);
+
+
+--
+-- Name: auth_user_user_permissions_user_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX auth_user_user_permissions_user_id ON auth_user_user_permissions USING btree (user_id);
+
+
+--
+-- Name: content_listitem_itemlist_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX content_listitem_itemlist_id ON content_listitem USING btree (itemlist_id);
+
+
+--
+-- Name: django_admin_log_content_type_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX django_admin_log_content_type_id ON django_admin_log USING btree (content_type_id);
+
+
+--
+-- Name: django_admin_log_user_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX django_admin_log_user_id ON django_admin_log USING btree (user_id);
+
+
+--
+-- Name: django_session_expire_date; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX django_session_expire_date ON django_session USING btree (expire_date);
+
+
+--
+-- Name: photo_photo_uploader_id; Type: INDEX; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE INDEX photo_photo_uploader_id ON photo_photo USING btree (uploader_id);
+
+
+--
+-- Name: asset_id_refs_id_7322f407; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY asset_slideshowphoto
+    ADD CONSTRAINT asset_id_refs_id_7322f407 FOREIGN KEY (asset_id) REFERENCES asset_digitalasset(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: auth_group_permissions_permission_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY auth_group_permissions
+    ADD CONSTRAINT auth_group_permissions_permission_id_fkey FOREIGN KEY (permission_id) REFERENCES auth_permission(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: auth_message_user_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY auth_message
+    ADD CONSTRAINT auth_message_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth_user(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: auth_user_groups_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY auth_user_groups
+    ADD CONSTRAINT auth_user_groups_group_id_fkey FOREIGN KEY (group_id) REFERENCES auth_group(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: auth_user_user_permissions_permission_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY auth_user_user_permissions
+    ADD CONSTRAINT auth_user_user_permissions_permission_id_fkey FOREIGN KEY (permission_id) REFERENCES auth_permission(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: content_type_id_refs_id_728de91f; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY auth_permission
+    ADD CONSTRAINT content_type_id_refs_id_728de91f FOREIGN KEY (content_type_id) REFERENCES django_content_type(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: django_admin_log_content_type_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY django_admin_log
+    ADD CONSTRAINT django_admin_log_content_type_id_fkey FOREIGN KEY (content_type_id) REFERENCES django_content_type(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: django_admin_log_user_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY django_admin_log
+    ADD CONSTRAINT django_admin_log_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth_user(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: group_id_refs_id_3cea63fe; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY auth_group_permissions
+    ADD CONSTRAINT group_id_refs_id_3cea63fe FOREIGN KEY (group_id) REFERENCES auth_group(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: image_id_refs_id_2938d4a6; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY asset_slideshowphoto
+    ADD CONSTRAINT image_id_refs_id_2938d4a6 FOREIGN KEY (image_id) REFERENCES photo_photo(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: image_id_refs_id_7377fc20; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY asset_digitalasset
+    ADD CONSTRAINT image_id_refs_id_7377fc20 FOREIGN KEY (image_id) REFERENCES photo_photo(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: itemlist_id_refs_id_3657939d; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY content_listitem
+    ADD CONSTRAINT itemlist_id_refs_id_3657939d FOREIGN KEY (itemlist_id) REFERENCES content_itemlist(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: logo_id_refs_id_7377fc20; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY asset_digitalasset
+    ADD CONSTRAINT logo_id_refs_id_7377fc20 FOREIGN KEY (logo_id) REFERENCES photo_photo(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: uploader_id_refs_id_7d3aaa3a; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY photo_photo
+    ADD CONSTRAINT uploader_id_refs_id_7d3aaa3a FOREIGN KEY (uploader_id) REFERENCES auth_user(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: user_id_refs_id_7ceef80f; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY auth_user_groups
+    ADD CONSTRAINT user_id_refs_id_7ceef80f FOREIGN KEY (user_id) REFERENCES auth_user(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: user_id_refs_id_dfbab7d; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY auth_user_user_permissions
+    ADD CONSTRAINT user_id_refs_id_dfbab7d FOREIGN KEY (user_id) REFERENCES auth_user(id) DEFERRABLE INITIALLY DEFERRED;
+
+
+--
+-- Name: public; Type: ACL; Schema: -; Owner: postgres
+--
+
+REVOKE ALL ON SCHEMA public FROM PUBLIC;
+REVOKE ALL ON SCHEMA public FROM postgres;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO PUBLIC;
+
+
+--
+-- PostgreSQL database dump complete
+--
+

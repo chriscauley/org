@@ -1,0 +1,33 @@
+{% load thumbnail %}
+<section class="flyer" id="flyer{{ show.id }}">
+  <div class="image">
+    {% thumbnail show.src "140x210" as im %}
+    <img src="{{ MEDIA_URL }}{{ im }}" width="{{ im.width }}" height="{{ im.height }}"
+	 style="margin: {{ im|margin:"140x210" }};" />
+    {% endthumbnail %}
+    <a href="{{ show.ticket_url }}"></a>
+  </div>
+  <div class="details">
+    <div class="date">{{ show.datetime|date:"m.d.Y @ f A" }}</div>
+    <div class="venue">{{ show.venue }}</div>
+    <div class="bands">
+      {% if show.get_headliners %}
+      <div>
+	<b>Headliner</b>:{% for headliner in show.get_headliners %}
+	<div>{{ headliner.name }}</div>{% endfor %}
+      </div>
+      {% endif %}
+      {% if show.get_openers %}
+      <div>
+	<b>Opener</b>:
+	{% for headliner in show.get_openers %}
+	<div>{{ headliner.name }}</div>
+	{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% if show.description %}
+    <div class="description">{{ show.description }}</div>
+    {% endif %}
+  </div>
+</section>

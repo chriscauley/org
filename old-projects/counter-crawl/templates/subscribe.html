@@ -1,0 +1,23 @@
+    <form action="/subscribe" method="POST" class="subscribe">
+      {% csrf_token %}
+      <div>
+        Join our mailing list and we will keep you posted on our progress.
+      </div>
+      <input type="email" name="email" class="orange-input" title="email address"
+             onblur="defaultBlur(this);" onfocus="defaultFocus(this); showLists(this);" />
+      <input alt="subscribe" type="image" src="/static/design/join-us.png" class="join-us" 
+	     onclick="$(this).parent().submit(); return false;" />
+      <ul class="mailing-lists form-submit zero">
+	<li><h2>What lists would you like to join?</h2></li>
+	{% for l in lists %}
+	<li>
+	  <input type="checkbox" name="{{ l.2 }}" value="{{ l.2 }}" {% ifequal "1" l.2 %}
+		 checked="checked"{% endifequal %}/>
+	  <span>{{ l.0 }}</span>
+	</li>
+	{% endfor %}
+      </ul>
+      <div class="form-success zero">
+	All done, you should start receiving our emails.
+      </div>
+    </form>

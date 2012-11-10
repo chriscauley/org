@@ -1,0 +1,2 @@
+requires git@github.com:chriscauley/lablackey.git
+lablackey must be on the python path

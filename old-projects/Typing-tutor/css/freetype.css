@@ -1,0 +1,35 @@
+body {color: black; background-color: #FFFF80}
+.big	{font-size: 20px; width: 600px; background: #000000; height: 22px; padding: 2px}
+
+.done	{color: #ffffff; background-color: #000000; font-weight: bold}
+.future	{color: #00ff00; background-color: #000000; font-weight: normal}
+.todo	{color: #00ff00; background-color: #000000; font-weight: normal; 
+    text-decoration: underline}
+
+.prompt {margin: 1ex 1ex 1ex 1ex}
+
+.board	{color: #308040; background-color: #101020; font-family: monospace;
+    font-size: 25px; letter-spacing: 1ex; width: 32ex;
+    margin: 1ex 1ex 1ex 1ex; padding: 1ex 1ex 1ex 1ex;}
+
+.row1	{padding: 0 0 0 0;}
+.row2	{padding: 0 0 0 0.3ex;}
+.row3	{padding: 0 0 0 0.9ex;}
+.pressed {color: red; text-decoration: line-through }
+.silent	{color: #308040;}
+.target	{color: #ffff30;}
+
+
+.echo {color: gray; margin: 1ex 1ex 1ex 1ex}
+.count {color:black; margin: 1ex 1ex 0ex 1ex}
+.accuracy {color: black; margin: 0ex 1ex 0ex 1ex}
+.speed {color: black; margin: 0ex 1ex 1ex 1ex}
+
+.button	{width:9ex; text-align:left; padding: 0 0 0 1ex;}
+
+.instructions {padding: 0 0 0 0; font-size: small}
+.legal {padding: 3ex 0 0 0; font-size: x-small; font-style:italic}
+
+textarea {width: 200px; height: 250px}
+
+.tabcont li {list-style-type: decimal}

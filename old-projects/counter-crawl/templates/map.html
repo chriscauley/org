@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block body %}
+<ul id="schedule_list">{% for s in schedules %}
+  <li>
+    <a href="javascript:;"
+       onclick="initialize(schedules[{{ forloop.counter0 }}],this); return false;">
+      {{ s.name }}
+    </a>
+    <span>- {{ s.date|date:"m/d/Y" }}</span>
+    <div class="schedule">{% for e in s.event_set.all %}
+      <div>{{ e }}</div>{% endfor %}
+    </div>
+  </li>{% endfor %}
+</ul>
+<div id="map_canvas" style="width: 500px; height: 500px"></div>
+<div style="clear:both"></div>
+<div id="event_details"></div>
+{% endblock %}

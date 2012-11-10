@@ -1,0 +1,12 @@
+*~
+*.pyc
+settings/local.py
+static/uploads
+static/cache
+media/uploads
+media/cache
+old
+media
+_.lablackey/
+lablackey
+crawl.db

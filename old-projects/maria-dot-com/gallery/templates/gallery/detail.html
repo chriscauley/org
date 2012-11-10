@@ -1,0 +1,10 @@
+{% load thumbnail crop_util %}{% load url from future %}
+{% for item in section.galleryitem_set.all %}
+{% thumbnail item.photo|get_override:'square_crop' "100x100" crop="center" as small %}
+{% thumbnail item.photo.src "800x600" crop="center" as big %}
+<a href="{{ big.url }}" class="thumbnail" rel="lightbox[gallery]">
+  <img src="{{ small.url }}" width="{{ small.width }}" height="{{ small.height }}" />
+</a>
+{% endthumbnail %}
+{% endthumbnail %}
+{% endfor %}

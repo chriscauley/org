@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{%block title%}Counter Crawl Houston{%endblock%}</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    {# Remote CSS #}
+    <link rel="icon" href="/favicon.png" type="image/png" /> 
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,700&v2"
+	  rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Pacifico"
+	  rel="stylesheet" type="text/css">
+    {# Local CSS #}
+    {# Site Design CSS #}
+    <link type="text/less" rel="stylesheet" href="{{ STATIC_URL }}less/base.less" />
+    <script type="text/javascript" src="{{ STATIC_URL }}js/less.js"></script>
+    <!--[if IE 6]>
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}design/ie6.css" />
+	<![endif]-->
+    <!--[if IE 7]>
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}design/ie7.css" />
+	<![endif]-->
+    <!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}design/ie8.css" />
+	<![endif]-->
+    {% block extra_head %}{% endblock %}
+    <script type="text/javascript"
+	    src="http://maps.googleapis.com/maps/api/js?sensor=false">
+    </script>
+    <script type="text/javascript" src="{{STATIC_URL}}jquery/jquery-1.6.3.min.js"></script>
+    <script type="text/javascript">;
+var schedules = [
+  {% for s in schedules %}
+  [{% for e in s.event_set.all %}{{ e.json|safe }}{% if not forloop.last %},{% endif %}
+   {% endfor %}
+  ]{% if not forloop.last %},{% endif %}
+  {% endfor %}
+];
+function initialize(stops,that) {
+  console.log(that);
+  $("#schedule_list").find(".open").removeClass("open");
+  $(that).parent().addClass("open");
+  var center = {lat:0, lon:0}, count=0, lats=[], lons=[];
+  for (var i = 0; i<stops.length; i++) {
+    if (stops[i].lat && stops[i].lon) {
+      count++; center.lat+=stops[i].lat; center.lon+=stops[i].lon;
+      lats.push(stops[i].lat); lons.push(stops[i].lon);
+      stops[i].latLng = new google.maps.LatLng(stops[i].lat,stops[i].lon);
+    }
+  }
+  center.lat = center.lat/count; center.lon = center.lon/count;
+  var latlng= new google.maps.LatLng(center.lat,center.lon);
+  var myOptions = {
+    zoom: 13,
+    center: latlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  if (!document.getElementById("map_canvas")) {return;}
+  var map = new google.maps.Map(document.getElementById("map_canvas"),
+				myOptions);
+  var markers = [];
+  var options = { travelMode: google.maps.TravelMode.BICYCLING, waypoints: [] }
+  for (var i = 0; i<stops.length; i++) {
+    if (!stops[i].latLng) { continue; }
+    if (stops[i].name) {
+      var marker = new google.maps.Marker({
+	position: stops[i].latLng,
+	map: map,
+	title: stops[i].name+' @ '+stops[i].starttime
+      });
+      function makeGoto(pk) {
+	return function() {
+	  $.get(
+	    "/event.json?pk="+pk,
+	    function(data){$("#event_details").html(data);},
+	    'text'
+	  )
+	}
+      }
+      google.maps.event.addListener(marker,'click',makeGoto(stops[i].pk));
+      markers.push(marker);
+      
+    }
+    if (!options.origin) { options.origin = stops[i].latLng }
+    else{options.waypoints.push({location:stops[i].latLng,stopover:false});}
+    options.destination = stops[i].latLng;
+  }
+  options.waypoints.pop();
+  var directions = new google.maps.DirectionsService();
+  directions.route(options,function(results){
+    var r = new google.maps.DirectionsRenderer();
+    r.setMap(map);
+    r.setDirections(results);
+  });
+}
+$(document).ready(function() {initialize(schedules[0],$("#schedule_list .schedule")[0])});
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30669101-1']);
+  _gaq.push(['_setDomainName', 'crawl.herefm.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+
+  <body>
+    <div id="wrapper" class="{{ nav.current }}-wrapper">
+      {% include "header.html" %}
+      <div class="page-content">
+	{% block body %}{% endblock %}
+      </div>
+      {% include "footer.html" %}
+    </div>
+    <div class="modal {{ nav.current }}-modal" id="subscribe-modal">
+      <div class="close" onclick="$(this).closest('.modal').dialog('close');">
+      </div>
+    </div>
+  </body>
+</html>

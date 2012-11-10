@@ -1,0 +1,19 @@
+    <div class="tabframe">
+        <div id="tabs">
+            <ul class="tabmenu">
+                <li><a href="#tabs-inst">Instructions</a></li>{% for tab in tabs %}
+                <li><a href="#tabs-{{ tab.namenospace }}">{{ tab.name }}</a></li>{% endfor %}
+            </ul>
+        </div>
+        <div class="tabcont">
+            <div id="tabs-inst">
+                <p>Keep Num Lock ON, and Caps Lock OFF. <br />
+                Left index finger over 'F' and right index finger over 'J'.<br />
+                Right now the prompt is Colemak only, but any keyboard will work.<br />
+                Just start typing!!!</p>
+            </div>{% for tab in tabs %}
+            <div id="tabs-{{ tab.name }}">
+                <p>{{ tab.cont }}</p>
+            </div>{% endfor %}
+        </div>
+    </div>

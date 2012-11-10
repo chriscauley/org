@@ -1,0 +1,7 @@
+<uwsgi>
+    <pythonpath>/home/chriscauley/</pythonpath>
+    <pythonpath>/home/chriscauley/herefm/</pythonpath>
+    <app mountpoint="/">
+        <script>django_uwsgi</script>
+    </app>
+</uwsgi>

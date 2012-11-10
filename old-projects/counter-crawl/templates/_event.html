@@ -1,0 +1,9 @@
+<h1>
+  {{ event.get_name }} &mdash;
+  {{ event.starttime|time:"h:i A" }} {{ event.endtime|time:"\t\o h:i A" }}
+</h1>
+<div class="performances">{% for medium,ps in performances %}
+  <h2>{{ medium }} by:</h2>{% for p in ps %}
+  <div>{{ p.artist }}</div>{% endfor %}
+  {% endfor %}
+</div>

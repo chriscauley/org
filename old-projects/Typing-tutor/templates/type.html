@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block "body" %}
+<!-- accordian -->
+
+<div id="accordion">
+  <h3><a href="#">Lessons</a></h3>
+  <div>{% include "tabs.html"%}</div>
+  <h3><a href="#">Settings</a></h3>
+  <div id="settings">
+    <table> 
+      <tr>
+	<td>
+	  Mode:
+          <ul id="modes">
+            <li><a href="#" onclick="changeLayout('qwerty')">Qwerty</a></li>
+            <li><a href="#" onclick="changeLayout('dvorak')">Dvorak</a></li>
+            <li><a href="#" onclick="changeLayout('colemak')">Colemak</a></li>
+          </ul>
+	</td>
+      </tr>
+    </table>
+  </div>
+  
+  <h3><a href="#">User Statistics</a></h3>
+  <div><a href="{{ url }}">{{ urltext }}</a></div>
+
+</div>
+
+<br /><br />
+
+<div id="prevPattern" class="big"></div>
+
+<div id="pattern" class="big"></div>
+
+<div id="nextPattern" class="big"></div>
+
+<div id="prompt" class="prompt"></div>
+
+<div id="board" class="board">
+{% include "board.html" %}
+</div>
+
+<div id="echo" class="echo">
+[]
+</div>
+
+
+<div>
+  <button id="skip" class="button" name="skip">next</button>
+  <button id="back" class="button" name="back">prev</button>
+</div> 
+
+<div id="score" class="score">
+  
+<div class="count">Count:
+  <span id="count"></span>
+</div>
+
+<div class="accuracy">Accuracy:
+  <span id="accuracy"></span>
+</div>
+
+<div class="speed">Speed: 
+  <span id="speed"></span>
+</div>
+
+</div>
+
+<div>
+  <button id="reset" class="button" name="reset">reset</button> score
+</div> 
+
+
+<div class="legal">
+  Made using code from 
+  <a href="http://www.projectcomputing.com/resources/touchTypingNotes.html">
+    Project Computing.</a> Please do not sue!<br>
+{% endblock %}

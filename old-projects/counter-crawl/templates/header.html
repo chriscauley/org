@@ -1,0 +1,17 @@
+{% load copy %}{% load thumbnail %}
+<div class="page-header">
+  {#<a class="img" href="/">{% print_img "header-logo" "size=236x91" %}</a>#}
+  <div class="buttons">
+    <a href="" class="button"><img src="/static/design/twitter.png"></a>
+    <a href="" class="button"><img src="/static/design/facebook.png"></a>
+    <br />
+    <a href="javascript:;" class="button" onclick="showModal('#donate-modal');">
+      <img src="/static/design/donate.png">
+    </a>
+  </div>
+  <div class="nav">{% for h in nav.header|slice:"::-1" %}
+    <a href="/{{h|slugify}}"{% ifequal nav.current h %} class="current"{% endifequal %}>
+      {% ifequal nav.current h %}{{ h|title|slice:"::-1" }}{% else %}{{ h }}{% endifequal %}
+    </a>{% endfor %}
+  </div>
+</div>

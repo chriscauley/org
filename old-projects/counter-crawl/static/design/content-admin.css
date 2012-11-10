@@ -1,0 +1,17 @@
+.order .vIntegerField {
+    width: 30px;
+}
+
+.tabular .vTextField {
+    width: 200px;
+}
+
+.tabular .vLargeTextField {
+    height: 24px;
+    width: 100px;
+}
+
+.tabular .vLargeTextField:focus {
+    height: 100px;
+    width: 250px;
+}

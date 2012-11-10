@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% load url from future %}
+
+{% block content %}
+<div id="{{ gallery.name }}" class="gallery">
+  <div class="header">
+    <img src="{{ gallery.src.url }}" />
+  </div>
+  <div id="gallery_nav">
+    {% for section in gallery.gallerysection_set.all %}
+    <a href="{% url "gallery:detail" gallery.slug section.slug %}" class="img">
+      <img src="{{ section.src.src.url }}" class="idle" />
+      <img src="{{ section.hover.src.url }}" class="hover"
+	   style="position: relative; left: {{ section.left }}px; top: {{ section.top }}px"/>
+    </a>
+    {% endfor %}
+  </div>
+  {% if section %}{% include "gallery/detail.html" %}{% endif %}
+</div>
+{% endblock %}

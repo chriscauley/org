@@ -1,0 +1,9 @@
+* { border-collapse: collapse }
+.left { float: left; }
+.right { float: right; }
+.full { width: 100%; }
+.half { width: 48%; }
+.goldenA { width: 61.8%; }
+.goldenB { width: 38.5%; }
+
+.fivehundred { width: 500px; }

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block extra_head %}
+{% endblock %}
+{% load copy %}
+{% block body %}
+  <div class="support">
+    <div class="top">
+      {{ "support-top"|print_copy }}
+    </div>
+    {% print_list "support-major-donors" "columns=5,template=logolist.html" %}
+    {% print_list "support-minor-donors" "columns=5,template=tablelist.html" %}
+    <div class="bottom">
+{% include "donate.html" %}
+      <div class="hr">
+	<div></div>
+	<span>or</span>
+	<div></div>
+      </div>
+      <br />
+      Contact us and we well follow up with you
+      <form class="contact-form" method="POST" action="donate">
+	{% csrf_token %}
+	<input type="text" class="full" onblur="defaultBlur(this);" title="Email Address" onfocus="defaultFocus(this);" name="email" />
+	<input type="text" class="full" onblur="defaultBlur(this);" title="Name" onfocus="defaultFocus(this);" name="name" />
+	<br />
+	<b style="width: 275px; text-align: left; display: inline-block;">
+	  Comments (Optional)
+	</b>
+	<textarea class="full" name="comments"></textarea>
+	<input type="image" src="/static/design/submit.png" class="image form-submit" />
+	<div class="form-success zero">
+	  Thank you. You'll be contacted in the next few days.
+	</div>
+      </form>
+      <div>&nbsp;</div>
+    </div>
+  </div>
+{% endblock %}

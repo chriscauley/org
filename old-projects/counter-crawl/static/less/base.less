@@ -1,0 +1,140 @@
+@media all and (orientation:portrait) {}
+
+@media all and (orientation:landscape) {}
+
+/* global settings to standardize browser behavior */
+* { border-collapse: collapse; }
+
+html {
+  height: 100%;
+  font-family: "Helvetica", sans-serif;
+}
+
+ol, ul, li, h1, h2, h3, p { padding: 0px; margin: 0px; font-size: inherit; list-style: none; }
+
+.center { margin: auto; }
+
+body {
+  background-color: #315260;
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
+
+a {
+  color: #62a4c0;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+  img { border: 0; }
+}
+
+.table { display: table !important; }
+.tr { display: table-row !important; }
+.td { display: table-cell !important; }
+.no-border { border: none !important; }
+
+#wrapper {
+  background-color: white;
+  margin: 0 auto;
+  padding: 85px 21px 15px;
+  width: 800px;
+}
+
+.page-header {
+  display: inline;
+  padding-bottom: 25px;
+  position: absolute;
+  top: 0;
+  width: 800px;
+  .buttons {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+  }
+  .img {
+    display: inline-block;
+    left: 80px;
+    position: relative;
+    top: 0;
+  }
+}
+
+.nav {
+  background-color: #1D1801; /* brown */
+  position: absolute;
+  right: -15px;
+  top: 80px;
+  a {
+    color: white;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    &:hover { text-decoration: underline; }
+  }
+  .current {
+    font-weight: normal;
+    text-decoration: line-through;
+  }
+}
+
+.page-content {
+  min-height: 800px;
+  overflow: auto;
+  padding: 25px 10px 10px;
+}
+
+.feed li {
+  border: 1px #bbb solid;
+  box-shadow: 5px 5px 10px #bbb;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.feed .date {
+  background-color: #1D1801; /* brown */
+  color: white;
+  float: left;
+  padding: 3px;
+  text-align: right;
+  width: 275px;
+  h2 {
+    float: left;
+    padding: 3px 0 3px 50px;
+  }
+  li p {
+    margin: 1em 0;
+  }
+}
+
+#map_canvas {
+  float: right;
+}
+
+.map-wrapper ul {
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  width: 250px;
+}
+
+#schedule_list {
+  > li {
+    position: relative;
+    &:before {
+      content: "+";
+      position: absolute;
+      left: -1em;
+    }
+    &.open:before {
+      content:"-";
+    }
+  }
+  .schedule {
+    display: none;
+  }
+  .open .schedule { display: block; }
+}

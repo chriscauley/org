@@ -1,0 +1,3 @@
+[submodule "static/js/jPlayer"]
+	path = static/js/jPlayer
+	url = git@github.com:chriscauley/jPlayer.git

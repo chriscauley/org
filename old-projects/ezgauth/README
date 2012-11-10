@@ -1,0 +1,38 @@
+Quick and Dirty Google Authentication
+Copy Left Chris Cauley 2011
+No rights reserved
+
+Working demo can be seen by logging into http://demo.lablackey.com
+Full documentation and commentary at http://blog.lablackey.com
+
+Fast demo:
+1) Place ezgauth.py on the python path (or in Django project folder)
+2) Replace domain with 'http://yourdjangodomain.com' (no trailing slash) in ezgauth.py
+3) Import ezgauth.check_login and add @check_login infront of any view
+4) Go to the url for said view and sign in
+5) To use in a live site, you should create your own appspot account like so...
+
+Personalization:
+1) Create a Google App Engine account at http://www.appspot.com
+2) Download the App Engine SDK
+3) Edit line 1 of app.yaml to suit your App Engine project name
+4) Choose a secret key in main.py
+5) Set domain to 'http://yourdjangodomain.com' (no trailing slash) in ezgauth.py
+6) Set auth_url to the App Engine url (no trailing slash) in ezgauth.py
+7) Set key to your secret key in ezgauth.py
+8) LINUX: Run '/path/to/appengineSDK/appcfg.py update /path/to/app.yaml_and_main.py/directory/'
+   WINDOWS: Use the App Engine Launcher to deploy directory containing app.yaml and main.py
+9) Place @check_login in front of any view and add ezgauth.logout and ezgauth.login to urls.py
+
+NOTES:
+- The logout function logs users out of all Google services. I'm not sure if this is desireable.
+- The secret key prevents traffic sniffers from stealing users gmail addresses.
+- When a user is created, the username is their email address. You should have users change usernames before you display the username (their email address) on a webpage.
+- This is obviously a very generalized usage. Feel free to customize.
+- The appspot portion of this is not limited to Django. Any web frame work can be adapted to use this so long as it follows the following pattern:
+
+1) If the user is not logged in redirect them to myapp.appspot.com with a url get parameter.
+2) The user will be redirected back to your site after login, now with a token get parameter.
+3) Your server then should execute a request to myapp.appspot.com/token?token=token
+4) Appspot will respond with the users email which is XOR encrypted using the secret key.
+5) Decode the email and create/login the user.

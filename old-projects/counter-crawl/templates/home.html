@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block extra_head %}{% endblock %}
+{% load copy %}
+{% block body %}
+<ol class="feed">
+  {% for i in feed_items %}
+  <li>
+    <div class="date">
+      {{ i.publish_date|date:"M d, Y \a\t fa" }}
+    </div>
+    <h2>{{ i.title }}</h2>
+    <div style="clear:both"></div>
+    {{ i.content|safe }}
+    <ul class="tags">
+      {% for t in i.tags.all %}
+      <li><a href="">
+	  {{ t.name }}
+      </a></li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ol>
+<ul class="photos">
+  {% for p in photos %}
+  <li>
+    <img src="{{ i.url }}" />
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

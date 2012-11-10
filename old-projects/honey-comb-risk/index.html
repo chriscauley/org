@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <style type="text/css">
+canvas { border: 1px solid black; }
+#debug { height: 150px; overflow-y: scroll; boder 1px black solid; width: 500px;}
+#debug > *:not(:last-child) { border-bottom: gray 1px dashed; }
+    </style>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+  </head>
+  <body>
+    <canvas id="gameBoard" width="500" height="500"></canvas>
+    <div id="log"></div>
+    <div id="debug"></div>
+    <div style="display:none;">
+      <img src="sprites.png" id="sprites" />
+    </div>
+  </body>
+</html>

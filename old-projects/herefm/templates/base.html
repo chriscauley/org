@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+<head>
+<title>herefm</title>
+<script type="text/javascript" src="{{STATIC_URL}}js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/jquery-ui-1.8.11.custom.js"></script>
+<script type="text/javascript">
+$(document).load(function() {
+{%block "ready"%}{%endblock%}
+});
+</script>
+<link rel="stylesheet" href="{{STATIC_URL}}css/base.css"></link>
+<link rel="stylesheet" href="{{STATIC_URL}}css/jquery-ui-1.8.11.custom.css"></link>
+{%block "extrahead"%}{%endblock%}
+</head>
+<body>
+{%block "content"%}{%endblock%}
+</body>
+</html>

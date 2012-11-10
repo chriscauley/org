@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta charset=utf-8 /> 
+  <title>Demo : jPlayer as video playlist and audio playlist players</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="description" content="The CSS styleable jQuery media player plugin with HTML5 support!" />
+  <meta name="keywords" content="jPlayer, jQuery, jQuery plugin, media, video, audio, media player, video player, audio player, mp3, mp4, m4a, m4v, aac, h264, ogg, oga, ogv, wav, webm" />
+  <meta name="company" content="Happyworm" />
+
+  <link type="text/css" rel="stylesheet"
+	href="{{ STATIC_URL }}Font-Awesome/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/less" href="{{ STATIC_URL }}style.less" />
+  <script type="text/javascript" src="{{ STATIC_URL }}js/less.js"></script>
+  <script type="text/javascript"
+	  src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+  <script type="text/javascript"
+	  src="{{ JP_URL }}jquery.jplayer/jquery.jplayer.js"></script>
+  <script type="text/javascript" src="{{ STATIC_URL }}js/player.js"></script>
+  <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.jplayer.inspector.js"></script>
+</head>
+</style>
+<body>
+  <div id="jquery_jplayer"></div>
+  <div id="jp_container" class="demo-container">
+    <p>
+      <span class="play-state"></span> :
+      <span class="track-name">nothing</span>
+      at <span class="extra-play-info"></span>
+      of <span class="jp-duration"></span>, which is
+      <span class="jp-current-time"></span>
+    </p>
+    <div id="controls">
+      <a class="jp-play icon-play" href="#"></a>
+      <a class="jp-pause icon-pause" href="#"></a>
+      <a class="jp-stop icon-stop" href="#"></a>
+      <a class="jp-mute icon-volume-down" href="#"></a>
+      <a class="jp-unmute icon-volume-off" href="#"></a>
+      <a class="icon-thumbs-down" href="#"></a>
+      <a class="icon-thumbs-up" href="#"></a>
+    </div>
+    <script type="text/javascript">
+var playlist = [{% for s in songs %}
+  {{s.dumps|safe}},{% endfor %}
+];
+    </script>
+  </div>
+  <div id="jplayer_inspector"></div>
+{% for show in shows %}
+{% include "flyer.html" %}
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,20 @@
+#accordion {
+    background: #ffffff;
+    width: 590px;
+}
+
+h3 {
+    border: 1px solid #505050;
+    padding: 2px;
+    -moz-border-radius: 5px;
+    margin: 2px
+}
+
+#accordion .ui-state-active {
+    background: #eeeeee
+}
+
+#accordion .ui-state-default {
+    background: #a0b0a0
+}
+

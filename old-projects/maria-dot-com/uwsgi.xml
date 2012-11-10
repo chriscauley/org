@@ -1,0 +1,6 @@
+<uwsgi>
+    <pythonpath>/home/chriscauley/django-projects/maria-dot-com/</pythonpath>
+    <app mountpoint="/">
+        <script>django_uwsgi</script>
+    </app>
+</uwsgi>

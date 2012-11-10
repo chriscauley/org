@@ -1,0 +1,25 @@
+* Site map
+** home -link not on home
+   two images
+** art
+*** categories
+    le art
+    illustration
+    comix
+    design
+*** ajax gallery view
+    thumbnail
+    full image
+** currated
+*** same setup as art
+*** text underneath
+** about
+   pdf to cv
+   flatpage
+** blog
+*** links to twitter
+*** probably needs another mouseover effect
+** contact
+*** images
+*** text ??
+** shop

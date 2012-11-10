@@ -1,0 +1,18 @@
+{% load content_tags %}
+<a href="/" class="logo"></a>
+{% for k,v in header_links.items %}
+<div class="{{ k }}">
+  {% for link in v %}
+  <a href="{{ link.url }}" title="{{ nav.name }}"{% if nav.current %} class="current"{% endif %}>
+    {% if link.hover %}
+    <div style="background-image: url({% print_img "nav-"|add:link.name 'x' crop="noop" url="True" %});"
+	 alt="{{ link.name }}" class="idle"></div>
+    <div style="background-image: url({% print_img "nav-"|add:link.name|add:"-hover" 'x' crop="noop" url="True" %}); position: relative; left: {{ link.left }}px;"
+	 alt="{{ link.name }}" class="hover"></div>
+    {% else %}
+    {{ link.name }}
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+{% endfor %}

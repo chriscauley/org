@@ -1,0 +1,19 @@
+      <img src="/static/design/please-join-us.png" style="padding: 0 0 27px;"/>
+      <div>
+        <form target="_top" onsubmit="return validateAmount(this.item_price_1)" method="post"
+              action="https://checkout.google.com/cws/v2/Donations/354115471600319/checkoutForm">
+          <input type="hidden" value="Donation to the I.A.C., a 501(c)(3) nonprofit organization" name="item_name_1" />
+          <input type="hidden" value="Tax-deductible donation to the Independent Arts Collaborative, Inc., a 501(c)(3) nonprofit organization dedicated to the creation and sustainable operation of a new, multi-disciplinary, collaborative arts facility in Houston, Texas." name="item_description_1" />
+          <input type="hidden" value="1" name="item_quantity_1" />
+          <input type="hidden" value="USD" name="item_currency_1" />
+          <input type="hidden" value="true" name="item_is_modifiable_1" />
+          <input type="hidden" value="5.0" name="item_min_price_1" />
+          <input type="hidden" value="25000.0" name="item_max_price_1" />
+          <input type="hidden" value="utf-8" name="_charset_" />
+          <input type="text" name="item_price_1" class="item_price_1"
+		 title="/static/design/enter-amount.png"
+                 onblur="imageBlur(this);" onfocus="imageFocus(this);"/>
+          <input type="image" alt="Donate" style="vertical-align: top"
+                 src="/static/design/donate-online.png" />
+        </form>
+      </div>

@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  }
+
+.ui-tabs-hide {display: none;}
+
+#tabs .ui-state-active {
+  background: #ffffff;
+  border-bottom-style: none}
+
+#tabs .ui-state-default {background: #dddddd}
+
+.tabframe {
+  border: none;
+  height: 150px;
+  width: 550px;
+  margin: 10px}
+
+.tabmenu li {
+  float: left;
+  padding: 2px;
+  border: 1px solid #444444;
+  list-style-type: none;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-topleft: 4px;}
+
+.tabmenu {
+  border: none;
+  height: 20px;}
+
+.tabcont {
+  border: 1px solid #aaa;
+  width: 500px;
+  top: 50px;
+  padding: 10px 35px;
+  font-size: 14px;
+  background: #ffffff;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;}
+
+.tabcont td{
+  padding: 0px 5px;
+  text-align: center}

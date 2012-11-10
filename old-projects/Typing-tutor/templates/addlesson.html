@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block "js" %}<!--seriously, wtf-->{% endblock %}
+{% block "body" %}
+<form method="post">
+<table>
+  <tr>
+    <td>
+      Course:<br />
+      <select name="course">{% for c in clist%}
+	<option name="{{ c }}">{{ c }}</option>{% endfor %}<br />
+	<option name="new">new</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Number:<br />
+      <input name="number" type="text" />
+    </td>
+    <td>
+      Lesson Name:<br />
+      <input name="name" type="text" />
+    </td>
+  </tr>
+</table>
+  Text:<br />
+  <textarea name="text" style="width: 400px; height: 600px"></textarea><br />
+  <input type="submit" value="submit"/>
+{% endblock %}

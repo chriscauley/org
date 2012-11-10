@@ -1,0 +1,15 @@
+* Models
+Location - geo
+Copy - content
+blog - articles
+photos - photos
+
+* Pages
+home
+about
+contact
+locations
+blog
+* admin
+** remove now/today from date and time fields for events (using custom field)
+** show date schedule's EventInline

@@ -1,0 +1,8 @@
+media/uploads/*
+media/cache/
+spider/cache/*
+tmp
+*~
+*.pyc
+environ
+Green_Day
