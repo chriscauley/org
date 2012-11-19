@@ -1,7 +1,7 @@
 (add-to-list 'auto-mode-alist '("\\.js\\'" . javascript-mode))
+(add-to-list 'auto-mode-alist '("\\.json\\'" . javascript-mode))
 (autoload 'javascript-mode "javascript" nil t)
 (add-to-list 'auto-mode-alist '("\\.less\\'" . css-mode))
-(add-to-list 'auto-mode-alist '("\\.json\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . rst-mode))
 (require 'org-install)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
@@ -28,3 +28,8 @@
 (setq js-indent-level 2)
 (setq javascript-indent-level 2)
 (setq-default python-indent 2)
+(setq html-indent-offset 2)
+(add-hook 'html-mode-hook
+	            (lambda()
+		                  (setq sgml-basic-offset 2)
+				              (setq indent-tabs-mode nil)))

@@ -195,6 +195,29 @@ ________
 
  <!-- when she gets to earth she is supprised she is not tired. Tiredness lies mostly in the body. She's again shocked when she is tired when she gets back to the ship. Vickie wore her out ;) On earth she declares she will become a superuser and, much to the dismay of the rest of the ships AI, she flants the fact that under law they can do little about it -->
 
+________
+
+<!-- after the congress meeting Kelly is at a dinner party talking to a doll who is the Lord Varthus of the story, watching a couple of dolls who are flirting. The male of the couple just told her to give up because she'll never succeed in attaining the same level as an AI -->
+
+  "Look at them, in love," Kelly said, speaking bitterly into her martini. "Maybe you AI are all that we humans could hope to become and more."
+
+  "Do not mistake their flirtations for love," the enuch said almost inaudibly. It spoke so quietly that if Kelly still had the ears she was born with in the body she was born into she would never be able to hear its wisper. But her dolls ears could pick it up clearly. "They may seem romantic in public and even in their bedroom, but the man is plotting to steal over seventeen hundred human brain equivalents of processing power from her. The coup is happening as we speak and it is all but certain at this point."
+
+  "That's aweful!" Kelly spoke aloud. She then caught herself and began to wisper. "Some one should warn her." She liked the enuch because, like her, it prefered to speak instead of throwing thoughts over the wireless network connecting them all.
+
+  "No sympathy for that devil." The enuch mused. "She's the modern equivalent of a black widow. She'll let him have his coup and then hack his network from the inside. Within two months he'll be another of her drones. I've seen her do it twice before." It tilted its head and offered her bemused eyes. "Sadly the children of men are no better than our parents. You have befriended the noble few who would run off to die on a distant planet in the name of discovery, bringing only a handful of dolls and modified humans as provisions. Most of my kind squander their efforts accumulating processing power. And for what? To find the next prime number?" The enuch went to sip his glassbut then interrupted himself resentfully. "I guess we have to do something to prove who has the biggest member."
+
+  Kelly was still fixated on the drama in front of her. "How many human equivalents does she have?"
+
+  `Hard to say` it shot over the wifi while finishing whatever was in its glass. The eunuch then wispered again. "Technically she only owns her body. Even the bait is not technically hers; it belongs to one of the larger members of her hive. But from my estimates the bait is nothing. She may control more than 2e16 units total."
+
+  "Seventy thousand humans worth of power..." She could barely speak. `He was right. I could never compete with that.`
+
+  The enuch put a hand on her shoulder and offered her a warm smile unlike any she had ever seen. "If he was wise he would not be trapped in a web. You've already shown that you can do more with the four human equivalents you control than most could do with a thousand. It's not the size it's how you use it, non?" The enuch chuckled at his own joke. "I hope that whoever becomes the next single user (`And yes I believe it will happen eventually`) can do more with it than flaunt superiority."
+
+  They sat drinking for a long time in silence. <!-- insert filler, description of room --> At last the enuch excused itself with a few hopeful words. "Don't underestimate your potential, Kelly O'brian. You are the first of a kind. Those who are fools dismiss you as insignificant. Those who are wise fear you may one day become a single user and rule over all of us."
+
+  "And which are you?" She called after the enuch as it walked away. This time he spoke through the coms in the room. The enuchs voice resounded crisply in the back of her head. `I am one of the few who hope you succeed to the benefit of yourself, your race, your loyal supporters. Whether you succeed or fail is irrelevant to our wisdom. Only time will tell if we are less foolish than the wise or less wise than the fools. And by "time", of course, I mean you.`
 
 The End
 ========
