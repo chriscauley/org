@@ -1,10 +1,8 @@
-
 * 2011
 ** DONE Name of the Wind, Patrick Rothfus 720 p
   CLOSED: [2011-07-17 Sun 10:43]
 ** DONE Foucaults Pendulum (unfinished) 575 p
   CLOSED: [2011-07-17 Sun 10:43]
-
 ** DONE The Wise Man's Fear 995 p
   CLOSED: [2011-08-01 Mon 23:26]
 ** DONE Enders Game 324 p
@@ -48,7 +46,7 @@
 ** DONE Collected Short Stories of VV 464 p
    CLOSED: [2012-04-18 Wed 00:38]
    Due 1/10
-** Call of Cthulhu 480 p
+** TODO Call of Cthulhu 480 p
    Due 1/26
 ** DONE Neonomicon ~ 30 p
    CLOSED: [2012-02-13 Mon 16:41]
@@ -71,10 +69,24 @@
 ** DONE Red Mars 572 p
    CLOSED: [2012-06-16 Sat 17:16]
    Due 4/15
-** The Prophit 96 p
+** TODO The Prophit 96 p
    4/18
-** Illum 731 p
-   Due 5/12
+** DONE The Years of Rice and Salt 784 p
+   CLOSED: [2012-11-23 Fri 19:21]
+   5/14
+** TODO Green Mars 624 p
+   6/5
+** TODO Accelerando 400 p
+   6/18
+** DONE The Platypus of Doom 232 p
+   CLOSED: [2012-11-27 Tue 11:35]
+   6/25
 ** TODO Last and First Men 438 p
+   7/10
+** TODO The Ethical Slut 296 p
+   7/20
+** TODO Producting Open Source Software 272 p
+   7/29
+** Blue Mars 784 p
 ** Web Design for Developers 300 p
 ** The Art of Memory
