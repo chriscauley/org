@@ -1,3 +1,0 @@
-* set up
-add customer
-add site

@@ -1,7 +1,0 @@
-Add the google plus one and new twitter links to culture map.
-
-* Plus One
- - [X] #floatFooter>table{2} (~line 360) 
-* New Follow 
- - [ ] news detail
- - [ ] list detail

@@ -1,3 +1,0 @@
-* todo
-** DONE check the main syncwell page once over
-   CLOSED: [2011-08-01 Mon 23:28]
