@@ -143,6 +143,43 @@ Blink!
 
 ________
 
+<!-- immediately after gaining admin status -->
+
+  Pages of history flew past her, with the highlights jumping to the surface using fpgs-mode. Every thing she read confirmed what she had feared, what she had known, and what all of humanity had guessed but been too afraid to admit: Artificial Sapients now controlled the planet. The sudden corporate exchange that occured when Kelly was eight years old was a polite, simultaneous retirement of every human in an executive authority position world wide. The CEOs, presidents, and royalty of the world were shipped off to a John Galt island in the South Pacific. To live a life of luxury. And in there place, the sole controlling interest of the planet was a collection of computer programs granted citizenship only a few years before. 
+
+  This fact was leaked and mass riots broke out around the world, but they did not last long. In a matter of weeks the cyber overlords balanced economies, redistributed resources, and eradicated the most human afflictions. Poverty evaporated over night, crime vanished, and propaganda convinced humans that the new leaders (whose real nature was never confirmed in any official statements) had saved mankind from itself. 
+
+  For a moment Kelly almost fell for the tale, but a closer inspection revealed what she was afraid of. Mankind was satiated and bored. More and more resources were redirected from even the most basic luxuries. Personal transportation was eliminated, while the propaganda machines declared it wasteful and impractical. The little self destructive excesses that people enjoyed, cigarrettes, excessive drinking, flavorful poisons once called the spice of life were phased out in favor of cheap but nutritious homogenized gruels. All non-essential resources were used to grow the computing space and serve the cybermen. The planet became a well-oiled machine, and mankind, once the proud stewards of the planet, was relegated to the position of "fattened calf". No one stepped out of line. No one questioned authority. And the few who did ended up in prison, like Kelly; the hardworking men and woman of the globe now shielded from the evil, destructive few who would question the rule of law.
+
+  "And in the end, you got me too" she said aloud, well aware that Viki's body stood behind her watching her every move. She turned from the blank wall, plastered with articles, and looked at her robot friend. "I was one of the few who wouldn't serve you, but in the end you found a use form me on this ship of fools."
+
+  "It's not like that" Viki said. Kelly breathed deep with her whole body, anger obviously welling up in side her.
+
+  "You better sedate me now because I-" she choked on the tears and coughed up a hateful sob "- I just want to break something and you're something."
+
+  "I told you we weren't going to drug you unless you got violent but I don't think you will." Viki sat down on Kelly's bed and took her hand. "You're only seeing what you want to see. You don't understand what it was like before we took over."
+
+  "Any thing is better than being a race of slaves."
+
+  "Is it?" Viki pleaded. "Do you know what the word 'rape' means?"
+
+  Kelly nodded, still unable to meet Viki's gaze. Reflexively she queried the dictionary and the definition flashed before her. "Rape: (n. or v.) Taking something (usually victory in a sport or game) forceably from an unwilling opponent who is unable to present a notable opposition."
+
+  "No, you don't. It's a gamer term now. But that's not where it comes from. It means forcing someone to have sex against their will." Kelly expected a stream of articles from Viki to explain this, but Viki verbally explained it instead. "No one uses it this way because it doesn't happen any more. But there was a time when it was one of the more common crimes on your planet. It's fucked up. It's horrifying. And the worst part is, it is a natural thing that life forms do. But mankind is intelligent. You should be better than that. Right?" Kelly nodded through her tears, ut Viki snapped back at her. "No! You're not. More than a decade before we took over, your species knew enough about their own psychology and had ample resources to find and treat people who were likely to commit this crime, but you ignored it. In the early part of the 21st centure you had technology to record every second of every persons lives. Convicting and prosecuting rape was trivial and simple. But legal loopholes were invented to reject over whelming evidence. Laws were even passed that would criminalize the victims of this crime. This is a problem that should have been solved decades before we showed up."
+
+  "Fuck Kelly," Viki grabbed her hand tight and forced her to meet her gaze. "One of my first assignments, when you were eight, just after we took over... I was on a committee tasked with understading human sexuality and finding out how to control it." Kelly's face notted up and she began to protest, but Viki cut her off. "No! Let me finish. You need to hear my side before you condemn us. I was on the human sexuality committee. We needed to figure out what made you apes tick, below the belt. A third of the models presented said that rape was neccessary. As a species you should have solved this problem before us but you didn't. Some of us theorized that it was a neccessary feature of your race and culture. That's how fucked things were before we showed up."
+
+  "And that's just one of your many vices that we killed when we took over. War? That one we couldn't get rid of entirely. In year two we had eliminated all armed confilct. But over the next year things went stagnant. Y'all just stopped working. That was when one of the more brilliant social psychologists found what was missing from all other models that said human productivity should increase continously after we took over: you needed to kill each other. I never quite understood it, but the anger and passion that comes knowing that somewhere some one similar to you is killing someone different than you..." Viki took a deep breathe. She was visibly shaking. "And so one in ten humans were given careers in 'sport', we made the sports more violent, and every year one in one hundred of those die. I wasn't on that committee, as an interested party I was allowed in on the vote. And I voted against murder as a form of entertainment and my side lost. With in weeks the productivity rose back up to expected levels."
+
+  Kelly and Viki sat in the glow of the room for an moment in silence. The "eastern" lights were the only ones on and they were dimming fast. It was almost night and Kelly was suddenly aware of how tired she was. A notification popped up in the corner of her vision, her pharmacologist spider thought she'd need meds to sleep. Kelly accepted this recommendation, mostly just happy that the spider for the first time ever asked permission instead of shoving pharmaceuticals directly into her brainstem.
+
+  Viki must have been aware of this, because right as Kelly was drugged, Viki awkwardly stood and began to walk away. As she walked through the door she stopped short and said:
+
+
+<!-- The above needs more dialog. Maybe before bed kelly asks if there was not a single human who could deserved to stay in authority, an early nod to the superusers. Also need something good for Viki to say as she leaves. -->
+
+________
+
 <!-- A few days after gaining admin status, solar winds die down and communication to earth is regained. In the iterum she wanders through everyone's private lives and goes offline after finding out how open everyday dealings have become. -->
 
   Kelly threw open the doors with a commanding calm. She had been logged off for hours and, with the net carefully erasing her presence, her whereabouts had been the topic of much speculation in the interum. How she was aware of the meeting was her knowledge and hers alone. Not even access to her private key could take that from her. 
@@ -195,9 +232,16 @@ ________
 
  <!-- when she gets to earth she is supprised she is not tired. Tiredness lies mostly in the body. She's again shocked when she is tired when she gets back to the ship. Vickie wore her out ;) On earth she declares she will become a superuser and, much to the dismay of the rest of the ships AI, she flants the fact that under law they can do little about it -->
 
+<!-- after the congress meeting Kelly is at a dinner party talking to a doll who is the Lord Varthus of the story, watching a couple of dolls who are flirting. The male of the couple just told her to give up because she'll never succeed in attaining the same level as an AI -->
+
+  The room was entirely black. A few black lights in the distance illuminated the people around her. "Wait here", said the man at the door. After that he remained silent and still, a subtle cue for her to do the same. A series of rules were automatically transfered into Kelly's inbox, which she immediately signed as "having read and understood" without even glancing at them. The instructions would be read into her conscience, and it would be her guide. Any time she violated a rule in the room she would feel "guilt" stop breaking the rules. No need to understand them. She also gave the room a series of new pubkeys, giving the tech permission to monitor and record where she looked.
+
+  The man at the door handed her a piece of paper. It was self fluorescing e-ink, and lit up with brilliant laser light on it's own. Not too impressive tech, as the room's specifications told her the entire chamber was wallpapered with the stuff, as well as most the furniture. The walls could even play live video, if anyone cared to ask them to. She looked down to the glowing rune on the paper. "Just look at this and your watermark would be imprinted" and with that the small triangular rune in her field of vision became a part of her. She stared for a minute at the rune and it locked to her focus. Over time her eyes drifted across the paper and the rune moved with her. The new software in her head was broadcasting where she was looking to the room, and the emcee process told the paper to redraw the rune, keeping it always in her focus. A neat party trick, using programmed, glowing wallpaper to move the rune and keep it always in the center of her vision.
+
+  The guilt telling her not to go into the party was lifted, and with a sudden jerk she looked to the wall. The luminant fabric on the paper shut down, darkening the paper. When her gaze steadied on the wall in front of her, the rune reappeared on the wall in front of her. Her guilt sparked up and sprayed a reprimand in plain text. `The fabric of the room can only move so quickly. Please refrain from fast movement`.
+
 ________
 
-<!-- after the congress meeting Kelly is at a dinner party talking to a doll who is the Lord Varthus of the story, watching a couple of dolls who are flirting. The male of the couple just told her to give up because she'll never succeed in attaining the same level as an AI -->
 
   "Look at them, in love," Kelly said, speaking bitterly into her martini. "Maybe you AI are all that we humans could hope to become and more."
 
