@@ -1,4 +1,4 @@
-<!-- Kelly and the unique visit a weapons scentist to seek help on the dark star -->
+<!-- Kelly and the eunich visit a weapons scentist to seek help on the dark star -->
 
   "Computer prison? How have I never heard of this?" Varthas asked as the gates opened. 
 
@@ -26,11 +26,21 @@
 
   `I'll let you know when I invent it` Kelly quipped to Varthas. A 2-D chess board flashed on Kelly's screen. "Every time a piece is taken the board is hashed." Pieces on the board moved quickly until a pawn was captured. The game then paused and a bit stream came out of the board. "The game is then hashed and transformed by two keys chosen by the players at the begining of the game." The bit stream terminated in a cube, filled with lines and chess pieces. "The hash is de-hashed into an n+1 dimensional game of chess, which both players play until a piece is captured." The pieces then moved inside the cube until a piece was captured, the resulting cube then emitted another bitstream that terminated in a tessaract. "This continues until a game is generated that is already in checkmate. Who ever wins that game gets that piece. The original piece capture is not awarded to the attacker, but to the person who wins the game recursed from the capture."
 
-  The computer stood and walked to the screen again. "Cute, but such a game would take forever to play. You could not possibly win as your human brain is not adapted to think at higer dimensions."
+  The computer stood and walked to the screen again.  His screen scrambled to display all the information he sent out. The two dimensional chess game ran wild as three dimensional games were spawned from vrious hashes. Just as the screen became cluttered to the point that Kelly could no longer make out a single piece in the chaos, the robot wiped his screen and started over. Now a board with only a black pawn and both kings appeared on the board. The black pawn black king were on opposite sides of the board and the white king was in front of the black pawn. In 2-D chess, this game would be a stale mate, the white king easily killing the black pawn and tying the game. But in fractal chess the King's attempt to capture the pawn spawned a new 3-D chess game (usually with more pieces than the simple 2-D game!), which had to be recursively won in order for the king to kill the pawn. The robot thought much more slowly, contemplating all the possible games that could come from the black king capturing the pawn at every position, while varying the position of the black king to alter the hashed 3-D game.
 
-  "But you never said I had to win, only stump you."
+  As the robot stressed over the game, Kelly ran a semi-heuristic brute force exploration of the hashing algorithm. Eventually she found one that would only spawn a number of pieces in each subsequent game (out to 2^98 dimensions) equal to three, the number of pieces in the chess puzzle the robot contemplated. "Try this," she said, reseting the three piece game with her new hash key in play. The robot ran much more quickly now, but still couldn't find a way to safely capture a single piece in any of the levels of  the game.
 
-  "A deals a deal."
+  The robot wiped both displays. "Is this what they are playing on earth now?" He yawned over the word 'earth', which disturbed Kelly. The yawn seemed more out of exhaustioin than out of boredom. `But why would a robot be tired?`
+
+  "No," Kelly said with a victory grin. "I made the game up just for you."
+
+  "Cute, but such a game would take forever to play. You could not possibly win as your human brain is not adapted to think at higer dimensions."
+
+  "But you never said I had to win, only stump you. Maybe if you help me I might commute your sentance and you can return to earth to find a more suitible opponent."
+
+  Again the robot yawned, this time slouching over with [tiredness]. "I have no desire to escape." He seemed to almost nod off at the word 'escape', as if the concept of freedom could summon Hypnos; god of `sleep(1)` and jailer to the most villainous creature in the history of earth. "But a deals a dead," he said grinning and fighting of a new drowsiness, "Tell me of the foe you need my help in dispatching."
+
+[tiredness] <!-- The robot gets sleepy when he thinks about escaping prison. -->
 
 <!-- kelly tells him about IO and his immense computing power. The robot concludes that it cannot be solved with a digital attack, but only by brute force-->
 
