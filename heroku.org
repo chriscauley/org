@@ -1,0 +1,6 @@
+* commands
+heroku pgbackups:capture HEROKU_POSTGRESQL_CYAN_URL # creates backup
+heroku pgbackups:url
+wget `heroku pgbackups:url`
+pg_restore --verbose --clean --no-acl --no-owner -h localhost \
+--username=postgres -d wellnicity b001.dump
