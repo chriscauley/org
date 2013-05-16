@@ -3,8 +3,8 @@ case "$TERM" in
 esac
 
 alias grep='grep --exclude=*~'
-alias pgrep='rgrep --include=*.py --color=auto  --exclude=*.pyc'
-alias hgrep='rgrep --include=*.html --color=auto'
-alias jgrep='rgrep --include=*.js --color=auto'
-alias mgrep='pgrep --exclude=00*.py'
+alias pgrep='grep --include=*.py --color=auto  --exclude=*.pyc'
+alias hgrep='grep --include=*.html --color=auto'
+alias jgrep='grep --include=*.js --color=auto'
+alias mgrep='pgrep --exclude=0*.py'
 alias environ='source .environ/bin/activate'

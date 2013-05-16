@@ -1,13 +1,13 @@
 Trip to Venus
 ========
 
-  The first time Kelly tried to get out of bed she panicked sat up too fast. Bolts of pain shot through her spine and all of her ribs. Her bones felt like they were on fire and every muscle felt like it was wrapped up tight in barbed wire. Her head filled with the sensation of fog and she blacked out before she hit the pillow.
+  The first time Kelly tried to get out of bed she sat up too fast. Bolts of pain shot through her spine and all of her ribs. Her bones felt like they were on full of glass and every muscle felt like it was wrapped up tight in barbed wire. A thick fog filled her head and she blacked out before she hit the pillow.
 
   The second time she awoke she lay still, afraid to open her eyes. Days must have gone by unconscious because the pain had mostly subsided, yet she could still feel every needle they stuck into her spine and every bone they cut open. "What the hell did I sign up for?" she tried to say out loud but the words stuck in her dry mouth.
 
-  Finally she opened her eyes and scaned the room. It was white and sterile with light seemingly coming from no where all at once. All of the walls remained featureless except one that was covered in barely noticeable drawers and pannels. In one corner, opposite the bed and door, was a small table with a contact case on it. 
+  Finally she opened her eyes and scaned the room. It was a sterile white with light seemingly coming from no where all at once. All of the walls remained featureless except one that was covered in barely noticeable drawers and pannels. In one corner, opposite the bed and door, was a small table with a contact case on it. 
 
-  She sat up with another large all encompasing jolt of pain and tried to stand. Stumbling at first, she got to her feet. Suddenly the pain was gone, like a tight tangle of yarn that only need be stretched to be banished. *Not bad* she thought reevaluating her new quarters. *Much larger than a jail cell.* There were no windows, no building materials other than the white ceramoplastic, and no noises other than her own heart beating slower and stronger than ever.
+  She sat up with another large all encompasing jolt of pain. Stumbling at first, she got to her feet. Suddenly the pain was gone, like a tight tangle of yarn that only need be stretched to be banished. *Not bad* she thought reevaluating her new quarters. *Much larger than a jail cell.* There were no windows, no building materials other than the white ceramoplastic, and no noises other than her own heart beating slower and stronger than ever.
 
   To test her new muscles she began doing push ups. A pleasant ache filled ran the length of her arms as she did ten then fifty then two hundred; several times more than ever before. She stopped when a subtle noise ran through the room. The rumble started at the ceiling and ran down the height of the room. The floor vibrated almost imperceptably under her fingertips. *The buildings mechanics*, she mused, *but why would you put the boiler room in the attic?*
 
