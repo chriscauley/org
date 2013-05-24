@@ -9,9 +9,13 @@ The Search for the Last Superuser
     
     So she breathed deep and took in the night sky. A midst the sounds of rushing cars and smells of pollution her mind went back through the years. The touch of the crisp night air, pulled goosebumps from her skin and uncomfortable thoughts from the deep, untouched memories of her youth.
     
-    It was on a night like this that she last saw her brother James. In a field of knee high grass that felt as tall as the sky, they attacked each other with ancient swords, forged by a forgotten race from tree banches James found down by the river earlier that afternoon. 
-    
-<!-- Not sure what else... this is the part I'm bad at. -->
+    It was on a night like this that she last saw her brother James. In a field of knee high grass that felt as tall as the sky, they attacked each other with ancient swords, forged by a forgotten race from tree banches James found down by the river earlier that afternoon. She slashed mercilessly, aiming extra low so that she could feel the grass as she tried to deliver her death blow. Her opponent, a white knight clad in chain mail, struck back at her effortlessly cutting though the thick reeds aiming for her heart but always meeting her blade. She dodged a blow from his flaming clamore and swung over head. As her blade fell down on him he dropped to the ground, raised his own and blocked her victory. He rolled left and bounced to his feet, and darted back. As she chased him the writhing stalks morphed into tenticles reaching up to grab her but avoiding her sword. Finally as the ground shot up lifting them both into the air she caught up to him. The parried blows twice, effortlessly cutting through a million stone pillars that rose up around their feet. Lightning struck around them and rain sizzled off their swords, his a glow with fire and hers burning with the darkness of the void. Their swords locked, spun around each other momentarily existing as one and then separated. The sword of light flew into the distance. The dark knight had disarmed the holy warrior. He looked up at her, face ever valient and accepting of his fate and smiled as she slay him. She raised her sword, tight in both hands, pointing down at her unarmed nemesis, and plunged it into his heart. He fell lifeless as the last of the lightning surrendered to the dark. The sky and everything in the world went black. Evil had won.
+
+    But Jan had not killed a holy knight. She was not supreme darkness, securing the death of the world. She had killed her brother. One foot still in imagination, the darkness receeded. A young Jan found herself not in a blackend hellscape but in an empty field at dusk. The pillars of stone and writhing tentacles were merely blades of grass, the hardened armor was just cloth. Their swords branches found by the river.
+
+    Still James lay unmoving. Jan panicked looking around for blood. What had she done? She would definitely be grounded for this.
+
+    "James!" Her mother cried from a mile off. "Jan! It's time for dinner." James hopped to his feet and ran inside. His wounds left to forgotten fantasy and his hungar his only priority. Jan breathed a sigh of relief. She ran after him, forgetting the epic battle for a hundred years. But a part of her, the adult part of her, ran further, searching for James through space and time.
 
     Her dreams were cut short by a network error report. Her subconscious had reached out and queried the database for the whereabouts of James Yu, and her reverie was disturbed by the slight feeling of nausea that comes when the antenna in her cochlea fails to establish a connection. She bilnked away the warning light and turned her antenna off again. 
     
@@ -19,4 +23,4 @@ The Search for the Last Superuser
     
     "Yes I was just thinking." She called back, and then approached him slowly to ask if he knew of a place to sleep for the night. He mentioned a homeless shelter, but when she said she was not homeless but just visiting he asked why she was visiting. He didn't seem suspicious of her motivation, so she offered no excuse. But his question bugged her. She ran through a million reasons "why" he would need to know that, but could not figure out "why" her motivation would affect where she could sleep for the night.
 
-<!-- not sure if zi like where this is going. I'll try again later -->
+<!-- a man in a convenience store says her hair looks like a parrot. It is then that she realizes that she is a sore thumb. A high tech tourist sticking out in a low tech world -->
