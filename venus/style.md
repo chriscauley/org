@@ -2,6 +2,10 @@
 
 `Thought aloud (sms)`
 
+```
+Multi line sms
+```
+
 *Private thought*
 
 <Info>
@@ -9,6 +13,8 @@
 <<Warning>>
 
 <<<Error>>>
+
+<<<?FactualError?>>>
 
 \[\[System Messages\]\]
 

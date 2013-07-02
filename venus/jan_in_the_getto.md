@@ -24,3 +24,15 @@ The Search for the Last Superuser
     "Yes I was just thinking." She called back, and then approached him slowly to ask if he knew of a place to sleep for the night. He mentioned a homeless shelter, but when she said she was not homeless but just visiting he asked why she was visiting. He didn't seem suspicious of her motivation, so she offered no excuse. But his question bugged her. She ran through a million reasons "why" he would need to know that, but could not figure out "why" her motivation would affect where she could sleep for the night.
 
 <!-- a man in a convenience store says her hair looks like a parrot. It is then that she realizes that she is a sore thumb. A high tech tourist sticking out in a low tech world -->
+
+<!-- in helping Jan escape, her offline friend gets shot -->
+
+    "I love you... you... wey," Megan said lying on the ground. Jan frantically scanned her injury and compared it to her local medical databases. It didn't look good but with immediate medical attention she would make it.
+    
+    "Save your breathe, Meg, I've sent for help. An ambulance will be here soon."
+    
+    "It doesn't matter. I'm done," she coughed two wet coughs and blood sprayed out on the second one. "You're done here. I can tell. I'll never see you again." She coughed more and breathe deep. "You-wey, I'm done." Or was she saying Yuwey? "I love you, Jan Yu. I love you Yua." Her back arched as she groaned in pain. The blood comming out of her chest did not stop comming inspite Jan's constant pressure. But her mind seemed detached, a million miles from the gun shot wound that slowed her words and drained her life. "I love you. You said you'd come back. A year late... I'm sorry. I shouldn't - Aaaaaaahhhhh!" She screamed in pain. She started heaving erratically and the color drained from her face.
+    
+    Meg and Jan sat like this for another ten minutes before she passed. The ambulance never came. When Meg finally breathed her last 'I love you's, Jan cried for an hour and then set off to digging a grave for the one she loved. The entire time she wrestled over her lovers last words. Confused and delerious, she died convinced that Jan was some lost love of hers. This "Yuwey" left her a broken and lonely individual. Or maybe Yuwey was a fabrication of her own mind. But in the end Meg died happy, thinking she finally found her lost love. Was this a happy death?
+    
+<!-- eventually Jan goes back in time, becomes Yuwey, uses Megan to heal Jan's own broken mind and uses Megans genius to become a super user again. In the process she teaches Meg to work offline and offload herself to the web. This and Jan leaving ultimately drives Meg insane in anticipation of Jan meeting her for the "first time" -->

@@ -27,7 +27,7 @@
 (setq css-indent-offset 2)
 (setq js-indent-level 2)
 (setq javascript-indent-level 2)
-(setq-default python-indent 2)
+(setq-default python-indent 4)
 (setq html-indent-offset 2)
 (add-hook 'html-mode-hook
 	            (lambda()
