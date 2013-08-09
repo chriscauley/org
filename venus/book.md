@@ -240,6 +240,44 @@ ________
 
   The guilt telling her not to go into the party was lifted, and with a sudden jerk she looked to the wall. The luminant fabric on the paper shut down, darkening the paper. When her gaze steadied on the wall in front of her, the rune reappeared on the wall in front of her. Her guilt sparked up and sprayed a reprimand in plain text. `The fabric of the room can only move so quickly. Please refrain from fast movement`.
 
+<!-- Whenever she looks near someone's glyph she gets warnings and the person looks away. After sitting alone for a while and having a few drinks, Jan is approached by Varthas. She thanks him for his help and he explains that he created a weaker enemy for them to reject. She mentions that he is the only person to vote against her. He points out that the logs didn't note him by name and that history will simply say that the junior senator from Illinois (Obama reference :) rose an objection which no one else agreed with. Finally a long pause and then. -->
+
+  Jan noticed that her glyph was dying. The center looked faint and the edges frayed. A few times a second a runner would sprout. A tiny branch would grow and reach out. Quickly it would dry up and die, leaving the part of her glyph that it grew from even fainter than before.
+
+  "I can't seem to get the hang of this" she told Varthas, emoting towards her glyph. "My spot is dying." She almost turned to look him in the eye, but the room sent her a warning not to before her muscles could even begin the movement.
+
+  "That's because you're not doing anything with it but staring at the wall." He said cryptically. "Left alone your Life will fade and go out."
+
+  "My life?" she asked. She focused more intently but that seemed to only made the dying branches appear more frequently and die more quickly.
+
+  "This room is known as Conway's Garden. The room is running four variants of Conway's Game of Life superimposed on top of and weakly interacting with each other. The planes genreate a different color of light: red, green or bule and the top plane controls the spin of the light. Each person's initial Glyph is made of hashes of their mental state, genetic code, history file (`generated from your history as stored in the global wiki`), and lifetime woofie record."
+
+  "My bank account?" She said in disbelief. "That's hardly a good measure of who I am."
+
+  "Yes," he agreed and then took a quick sip from his drink. "But it's the closest thing to a scientific snapshot of how productive you are. Maybe they could use commit logs for a programmer, songs for an artist, or building blueprints for an architect, but how do you compare them to each other? How do you get the productive output of a construction worker or gardener, who leave no digital foot print of their contribution to the planet?"
+
+  "But I digress. At the center of your Life is your Soul or, as some call it, your Fire. That dot spawns runners in all four planes with each passing turn. Those then interact with each other and spread out and eventually die. If the environment that the runners are sent into is strong, then you'll get a large and pretty flower. If not then they will dwindle and die quickly. Do you see the ridges in the wall next to your glyph."
+
+  She had noticed it, but every time she tried to approach the labrynth of relief with her glyph it seemd to weaken it, so she stopped looking at it.
+
+  Varthas continued, "That is a great place to start. Slowly move towards it. If you approach from the wrong direction, your runners will crash and die on the surface, like ships hitting the rocks around a bay. But if you approach it correctly..."
+
+  After a few tries she succeeded. Her runners began to bounce around the walls of the maze and reflect back out to her glyph even larger than before. Over a kilo tick or so her glyph grew in size and filled the interior of the labryinth which began to pulse with millions of colors and intricate fractals. She gasped in the beauty of the glow she created. She could even move her Fire over the relief and walls of the labryinth without harming it. Her Life had somehow mastered this complex feature of the environment.
+
+  "Now let's try something else" Varthas said bringin his gaze closer to hers. As his line of site came closer and closer to where she was looking his glyph moved with it. Fear over came her as his glyph came closer to hers than any had before. "It's fine, I know what I'm doing. You trust me, right? If you don't relax it won't work."
+
+  She steadied her breathing and manually lowered he heart beat, and then inched her glyph in his direction. Thrill over came her as she saw, in her peripherial vision, runners on the edge of her glyph jump out and, instead of fading, grow stronger as they approached Varthas' glyph. Her blue runners intermingled with his yellow runners and then bouned back to her Life. Some of his runners even made it to her Life, where they were absorbed into the sea of blue, leaving pools of yellow that thrived.
+
+  In a burst of excitement she turned to look and percevie all of his glyph. The blue shape crashed into the yellow shape, and they both looked away, he in caution and she in fear. On the edge where they had touched she saw scorched earth and little life. All throughout her glyph were splotches of yellow (which thankfully seemed to be slowly fading), and the red channel of her glyph seemed weaker. "I'm sorry," she said loudly, afraid that she had lost the only friend in the room. She wanted to run away and cry. She wanted to close her eyes until her Life went out for good. She wanted to flee back to Venus here and now, leaving Jan's body a memoryless doll in a room of strangers. <!-- another sentance please -->
+
+  "It's fine," Varthas said placing a hand on her shoulder. "Really, it's okay. Most people make that istake. When two glyphs interact like that there's an exchange, one that can be powerful enough to change the Fire in the center of the Life. Many people rush into quick, passing interactions that can leave both parties scared and less alive than they were when came together. Even if the glyphs are very compatible, it can be dangerous if not done right."
+
+  "For others the interaction is very one sided. <!-- more on this --> Occasionally a glyph will even die from combining. Hence the rule of consent. But in rare cases both can come out stronger than before."
+
+  "Is that the point of this game? To have the best interaction with other glyphs?"
+
+  "If you want it to be. I think the point of the game is to use the short time you have in here to improve the room itself." Varthas said and went to take another sip. His glass was empty, which even without looking at him, Jan knew troubled him quite a bit. "It's a living fabric, you know. The room that is. Most probably don't realize it but all the little twists and turns are made by people who came before." In the corner of her eye she saw him shaking his glass upside down, as if to verify that it was empty. She could almost feel the frown on his face. "Want to go upstairs for a bit? The drinks are better. Besides, it's a little dark in here for my taste."
+
 ________
 
 
