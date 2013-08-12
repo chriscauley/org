@@ -44,6 +44,14 @@ aka. Jan Yu
 
   He huffed in annoyance, a completely unnecessary gesture inside a virtual world. "It looks like about three minutes in your subjective time. Like I was saying, I am just a fork sent here to do some repairs in anticipation of the shockwaves destroying this moon. My core will get to you soon. Now if you'd excuse me..."
 
+  "This can't wait three decades or even three minutes!" Jan implored. The ASI was once again busying himself with repairs. He responded only by highlighting the "this" in her last statement with a question mark. "THIS!" she screamed, querying the nearest external video sensor and displaying a live stream of Jupiter. From the perspective of Io it was a large flat plane, taking up the entire sky in all directions. But this wasn't the merry red giant from text books. The famous red eye was no where to be seen but the entire planet was covered in smaller versions of the same. One of the spots even exploded like a solar flair, punching a hole in the clouds that swirled back in on itself, reforming the crimson sore. The atmosphere was a light with electrical storms and the ionosphere glowed with x-rays. Around the equator a ball of light slowly orbited, deep enough to be obscured by clouds, but bright enouth to light an area ten times the size of the earth.
+
+  "I'm sorry, I don't know much about that." After briefly examining the visual, the ASI spoke again non-chalantly. "Oh that? That does seem pretty important."
+
+  "It's about to explode and take most the solar system with it!" she screached, desparately trying to get him to care. "This moon will be the first thing to go."
+
+  "Well, that must be why I'm doing all these repairs," he said trying to calm her down. His virtual tone was more patronizing than worried. "And it's not going to explode in your next three minutes. I promise you're safe. If you'd just wait here another instance of me will be along to help you."
+
   In spite his curtness he seemed very obliging. He could have just as easily put up a fire wall and ignored her. So she thanked him, exited the VR and explored the IRL[1] room that the node they occupied was next to. It was actually a large series of cells, about 2mx2mx3m in size, each containing a bed meant for a human to sleep on and a tray of food. In a few of the rooms, there were people pressed up against the ceiling, holding their ow weight by pressing their hands and feet against the walls. It had the feel of a prison or a research lab, she couldn't decide which.
 
 [1] In Real Life, of course.
