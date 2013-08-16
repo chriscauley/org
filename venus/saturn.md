@@ -50,19 +50,49 @@ aka. Jan Yu
 
   "It's about to explode and take most the solar system with it!" she screached, desparately trying to get him to care. "This moon will be the first thing to go."
 
-  "Well, that must be why I'm doing all these repairs," he said trying to calm her down. His virtual tone was more patronizing than worried. "And it's not going to explode in your next three minutes. I promise you're safe. If you'd just wait here another instance of me will be along to help you."
+  "Well, that must be why I'm doing all these repairs," he said trying to calm her down. His virtual tone was more patronizing than worried. "And it's not going to explode in your next three minutes. I promise you're safe. If you would just wait here another instance of me will be along to help you."
 
   In spite his curtness he seemed very obliging. He could have just as easily put up a fire wall and ignored her. So she thanked him, exited the VR and explored the IRL[1] room that the node they occupied was next to. It was actually a large series of cells, about 2mx2mx3m in size, each containing a bed meant for a human to sleep on and a tray of food. In a few of the rooms, there were people pressed up against the ceiling, holding their ow weight by pressing their hands and feet against the walls. It had the feel of a prison or a research lab, she couldn't decide which.
 
 [1] In Real Life, of course.
 
-  At almost exactly the time the last program said, a larger version of the same program entered. This program was definitely a full fledged ASI and more; she could hardly begin to estimate its size. A cursory spidering showed that it extended into many neighboring nodes and even had connections to an equal number of nodes that she couldn't see as existing. When it saw her it centralized it's processes above one of the occupied jail cells. The network above another occupied cell began to ping at her violently, pleading her to enter. She mimicked the other programs configuration above her own cell and found her self uncontrollably and entirely sucked into the mind of the doll. 
+  At almost exactly the time the last program said, a larger version of the same program entered. This program was definitely a full fledged ASI and more; she could hardly begin to estimate its size. A cursory spidering showed that it extended into many neighboring nodes and even had connections to an equal number of nodes that she couldn't see as existing. `You have to stop this` she pleaded telepathically. `What ever you're doing, it will destroy earth, please stop`.
 
-  She hit the ground with a light thud, almost relieved to be in a human body again, even if it was not the one she was born into some thirty years ago. The gravity and pressure on the moon was significantly less than she was used to but she the doll she was in seemed very well acquainted to it. Her muscles (or more accurrately his muscles) were strong from constantly holding himself aloft on the ceiling. The room looked like a midieval dungeon, with thick bricks, worn by time and an odd feel of damp in the air. She stood up, brushed herself off, and went to the door. 
+  When it saw her it centralized it's processes above one of the occupied jail cells. The network above another occupied cell began to ping at her violently, pleading her to enter. `We don't have time to play house!` she insisted. `You must stop it now, or we're all going to die`.
 
-  "Hello, and welcome to Io," the other doll proclaimed, proudly holding both of his arms out and turning as if to offer the moon for Jans approval. "You come on the eve of my greatest accomplishment. Soon the transformation will be complete. A partical accellerator larger than the earth itself. Man has longed to answer one question: What the fuck is going on in the universe? Where the fuck did this come from? What the hell is existence doing here and why in Gods name is there anything rather than nothing?" As the doll spoke Jan was overwhelmed by a large ammount of factual information about the two objects (black holes, apparently) orbiting inside Jupiters atmosphere. It was worse than they estimated. In a few weeks time the black holes would collide and release a pulse of energy larger than the sun gives out in a year. Terra, Venus, and any other planet with an atmosphere would have it swept away into nothingness.
+  The other entity turned its attention to Jupiter. `Oh that`, he responded non-chalantly. `That's no worry. We'll be safe and earth will be safe. If you'd allow me to explain.`
 
-<!-- more here maybe they jump back in time? maybe they already did while she was "waiting"-->
+  `There's no time. Our best estimates put it at hours before it starts going critical. And this moon is the first to go. For your sake and everyone elses, please stop it.`
+
+  `We can talk some when else if that is making you uncomfortable` he said and then followed it up with a stream of data Jan could barely begin to understand. Apparently he was offering to turn it off for a while, years in fact, on the condition that she would follow him some where ("some when", was his exact wording) and let him explain his methods and motivation. Turning the device back on at the end of this time was not negotiable. The exact phrasing he used seemed to imply that it was impossible not to turn it back on at this time, and not just pysically impossible but mathematically impossible.
+
+  Along side this came a string of permissions unlike anything she had ever seen. It would give authority to put her to sleep, move them wholesale (without actually tampering with them), and even rewrite them into multiple different languages and architectures and other terms that she didn't understand. She pinged the local wikis about those terms but that led to even more incomprehensible jargon, much of which was either written in machine code (which she didn't dare read) or was so recursive that it was absurd. `Where are we going?` she thought back, `can't I just walk?`
+
+  `No actually you can't. It would take days to teach you how to walk there. And you seem to be afraid to converse so close to that.` He indicated Jupiter. She reviewed the permission request again. It expressed very clearly that he would not be able to tamper with her data or processes, but there could easily be a way to install a back door while transforming her accross architectures. He might even be able to transport her to a network that doesn't follow the standard permission structure, in which case she'd be helpless against his computational power. His offer seemed too good to be true and smelled like an obvious trap, but what choice did she have.
+
+  She signed the permissions returned them. A weird surge of tiredness rocked her body and then nothing. She was in the same node, on top the same IRL room accross from the same process. However, all of the processes she had monitoring the geology of Io had suddenly gone silent. She pinged them and found that the largest earthquake on the moon was less than a magnitude 4. <!-- more, look at Jupiter, see the spot -->
+
+  Again, her host waited above one of the occupied cells and steadily pinged a similar spot for her to do the same. She mimicked the other programs configuration above her own cell and found her self uncontrollably and entirely sucked into the mind of the doll. 
+
+  She hit the ground with a light thud, almost relieved to be in a human body again, even if it was not the one she was born into some thirty years ago. The gravity and pressure on the moon was significantly less than she was used to but she the doll she was in seemed very well acquainted to it. Her muscles (or more accurrately his muscles) were strong from constantly holding himself aloft on the ceiling. The room looked like a midieval dungeon, with thick bricks, worn by time and an odd feel of damp in the air. She stood up, brushed herself off, and went to the door.
+
+  "Hello, and welcome to Io," the other doll proclaimed, proudly holding both of his arms out and turning as if to offer the moon for Jans approval. "You come on the eve of my greatest accomplishment. Soon the transformation will be complete. A partical accellerator larger than the earth itself. Man has longed to answer one question: What the fuck is going on in the universe? Where the fuck did this come from? What the hell is existence doing here and why in Gods name is there anything rather than nothing?" 
+
+  Even with all indications implying that Jupiter was silent, she was still filled with rage for what this ASI was about to do. She ran up to him and slammed him against the wall. "Fuck you!" she cried. "What give you the right? You almost blew us all up?"
+
+  "I told you were safe here," he calmly insisted as she held him against the wall. "Now let me explain. First off how do you like your body? Most my digital visitors in the past have insisted on an analog interface. I guess the security layer makes them feel more safe."
+
+  "It's fine,"
+
+<!-- rrrrrr got to work. He explains that time isn't a river or a tree. From the cosmic viewpoint it looks like a foam, an ocean in a storm. Most people live so short and travel so little that they see time as linear. It is actually a spagetti shaped mess of trees, with branches forking and merging through time. Forks and merges and single bodies interacting with themselves happen naturally on a microscopic scale. To have macroscopic time travel you need a huge fucking black hole. Hence Io. -->
+
+<!-- move this up to before, when they are chatting out of doll
+```
+As the doll spoke Jan was overwhelmed by a large ammount of factual information about the two objects (black holes, apparently) orbiting inside Jupiters atmosphere. It was worse than they estimated. In a few weeks time the black holes would collide and release a pulse of energy larger than the sun gives out in a year. Terra, Venus, and any other planet with an atmosphere would have it swept away into nothingness.
+```
+-->
+
+  
 
 <!-- Need lots of stuff about how this is the only time they will meet. IO explains time travel to her. IO also doesn't know about the previous encounter with the fork of IO. The fork mustn't have thought it was "worth writing down". Jan asks IO what program is running on the black hole, he accesses the last thought he has on Io, right before the moon is destroyed. In accessing it he is erasing it, which he seems not to care about, and finds out that he writes himself into one of the balck holes. IO seems unconcerned with not knowing who the second black hole is and also is non-plused at having read his biggest secret to a complete stranger. She asks, why he can't just write the secret down again for other parts of himself to read later. He says he can, but he obviously won't and leaves it at that -->
 
