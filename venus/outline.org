@@ -1,17 +1,21 @@
 * Potential Names
 ** Last and First Men
 * Plot Outline
-** Awake on ship
-** Meets Viki
-** Discovers Viki is a doll
-** Admin access
-** Viki Dies
-** Viki is reborn
-** Kelly returns to earth
+** Book 1: Durga
+** Book 2: Kelly
+*** Awake on ship
+*** Meets Viki
+*** Discovers Viki is a doll
+*** Admin access
+*** Viki Dies
+*** Viki is reborn
+*** Kelly returns to earth
 *** The doll 
     - Kelly's doll has repeatedly failed at life
     - A minimalist life, her carreres were repeatedly depracated
     - Finally she got a job as a "doll" an empty brain
     - Three years of doll training, she came in bottom of her class (failing again)
     - As a backup doll for venus, isn't needed until Kelly advances to user status
-** Kelly gains super user status
+*** Kelly gains super user status
+** Book 3: Jan
+** Book 4: Shiva
