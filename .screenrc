@@ -1,5 +1,9 @@
 startup_message off
 shelltitle '] | '
 hardstatus alwayslastline
-hardstatus string '%{= kG}[%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%d/%m]'
+hardstatus string '%{= kG}[%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%c]'
+#hardstatus string "%{=}%-w%{+b w}%n %t%{-b w}%+w %=%c"
+#hardstatus string "%{= kG}%-w%{= kw}%n*%t%{-}%+w %=%c" #black+cyan+normal
 escape ^oo
+vbell off
+vbell_msg ""
