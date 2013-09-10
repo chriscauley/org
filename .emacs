@@ -30,6 +30,33 @@
 (setq-default python-indent 4)
 (setq html-indent-offset 2)
 (add-hook 'html-mode-hook
-	            (lambda()
-		                  (setq sgml-basic-offset 2)
-				              (setq indent-tabs-mode nil)))
+	  (lambda()
+	    (setq sgml-basic-offset 2)
+	    (setq indent-tabs-mode nil)))
+
+;jade and coffee
+(add-to-list 'load-path "~/.emacs.d/vendor/coffee-mode")
+(require 'coffee-mode)
+(add-to-list 'load-path "~/.emacs.d/vendor/jade-mode")
+(require 'jade-mode)    
+(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
+(setq coffee-tab-width 2)
+
+;php
+(add-to-list 'load-path "~/.emacs.d/vendor/")
+(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
+(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
+
+;blackspot specific
+(defun blackspot-after-save-hook ()
+  "After saving a less file, run the language_update file"
+  (if buffer-file-name
+      (progn
+        (setq is-less-file (numberp (string-match "blackspotnyc.com.+\.less$" buffer-file-name)))
+        (if is-less-file
+            (progn
+              (setq cmd (concat (getenv "B") "/home/felixc/less_and_compress.sh "))
+              (shell-command (concat cmd buffer-file-name))
+              (message "Updated .css, -min.css with %s" buffer-file-name))))))
+(add-hook 'after-save-hook 'blackspot-after-save-hook)
