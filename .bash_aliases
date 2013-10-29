@@ -8,3 +8,6 @@ alias hgrep='grep --include=*.html'
 alias jgrep='grep --include=*.js'
 alias mgrep='pgrep --exclude=0*.py'
 alias environ='source .environ/bin/activate'
+
+alias arst='setxkbmap us'
+alias asdf='setxkbmap us -v colemak'
