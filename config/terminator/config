@@ -1,0 +1,80 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#000000"
+  borderless = True
+  inactive_color_offset = 0.46
+  title_inactive_bg_color = "#000000"
+[keybindings]
+  hide_window = <Shift><Control>a
+[profiles]
+  [[default]]
+    foreground_color = "#9dc3bf"
+    palette = "#263f45:#8a291b:#79815d:#c5cf8d:#9dc3bf:#eba4ff:#60c6d8:#d1fefc:#396269:#fc674e:#b3bd93:#fcffc7:#c4fefd:#ad7fa8:#77c9d9:#f6f7e2"
+    background_image = /home/oliverw/images/wallpapers/oblivion/tower-night.png
+    background_darkness = 0.92
+    scrollback_lines = 5000
+    use_system_font = False
+    cursor_color = "#C5C5CFCF8D8D"
+    scroll_background = False
+    scroll_on_output = False
+    icon_bell = False
+    show_titlebar = False
+    color_scheme = custom
+    font = Ubuntu Mono 10
+    scrollbar_position = hidden
+    cursor_blink = False
+    scrollback_infinite = True
+  [[fullscreen]]
+    scrollbar_position = hidden
+    use_system_font = False
+    background_darkness = 0.88
+    background_type = transparent
+    background_image = None
+    icon_bell = False
+    show_titlebar = False
+    cursor_shape = ibeam
+    font = Ubuntu Mono 11
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[Split logging]]
+    [[[child0]]]
+      position = 3166:29
+      type = Window
+      order = 0
+      parent = ""
+      size = 674, 1045
+    [[[child1]]]
+      type = Notebook
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 503
+      type = VPaned
+      order = 0
+      parent = child1
+    [[[terminal3]]]
+      profile = None
+      command = ""
+      type = Terminal
+      order = 0
+      parent = child2
+    [[[terminal5]]]
+      profile = default
+      command = ""
+      type = Terminal
+      order = 1
+      parent = child1
+    [[[terminal4]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child2
+      command = ""
+[plugins]
