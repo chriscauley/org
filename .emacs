@@ -27,7 +27,8 @@
 (setq css-indent-offset 2)
 (setq js-indent-level 2)
 (setq javascript-indent-level 2)
-(setq-default python-indent 2)
+(setq-default python-indent 2) ;emacs 23
+(setq-default python-indent-offset 2); emacs 24
 (setq html-indent-offset 2)
 (add-hook 'html-mode-hook
 	  (lambda()
@@ -53,7 +54,7 @@
   "After saving a less file, run the language_update file"
   (if buffer-file-name
       (progn
-        (setq is-less-file (numberp (string-match "blackspotnyc.com.+\.less$" buffer-file-name)))
+	(setq is-less-file (numberp (string-match "blackspotnyc.com.+\.less$" buffer-file-name)))
         (if is-less-file
             (progn
               (setq cmd (concat (getenv "B") "/home/felixc/less_and_compress.sh "))

@@ -304,3 +304,7 @@ SESSION_ENGINE = "utils.session_cache"
 sudo /etc/init.d/memcached stop main
 *** and the following SHOULD log you out
 sudo /etc/init.d/memcached stop sessions
+* freaking node and npm
+** download linux binaries from nodejs.org/download
+** sudo ln -s NODEDIR/bin/node /usr/bin
+** sudo ln -s NODEDIR/lib/node_modules/npm/bin/npm-cli.js /usr/bin/npm

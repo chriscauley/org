@@ -2,7 +2,7 @@
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   title_transmit_bg_color = "#000000"
   borderless = True
-  inactive_color_offset = 0.46
+  inactive_color_offset = 0.94
   title_inactive_bg_color = "#000000"
 [keybindings]
   hide_window = <Shift><Control>a
@@ -11,8 +11,9 @@
     foreground_color = "#9dc3bf"
     palette = "#263f45:#8a291b:#79815d:#c5cf8d:#9dc3bf:#eba4ff:#60c6d8:#d1fefc:#396269:#fc674e:#b3bd93:#fcffc7:#c4fefd:#ad7fa8:#77c9d9:#f6f7e2"
     background_image = /home/oliverw/images/wallpapers/oblivion/tower-night.png
-    background_darkness = 0.92
+    background_darkness = 0.95
     scrollback_lines = 5000
+    background_type = transparent
     use_system_font = False
     cursor_color = "#C5C5CFCF8D8D"
     scroll_background = False
