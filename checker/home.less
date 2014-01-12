@@ -1,0 +1,81 @@
+body { margin: 0; }
+.transition(@value) {
+  -webkit-transition: @value;
+  transition: @value;
+}
+
+.transition(@value,@property) {
+  -webkit-transition-delay: @value;
+  transition-delay: @value;
+}
+
+@delay: 0.1s;
+@duration: 0.1s;
+
+.fadeLooper(@r,@c) when (@r > -1) and (@c > -1) {
+  [name=checker]:checked +.checker-fade-in .row_@{r}.col_@{c} { .transition((@r+@c)*@delay,delay); }
+  .fadeLooper(@r - 1,@c);
+}
+.fadeLooper(-1,@c) when (@c > -1) { .fadeLooper(3,@c - 1); } 
+.fadeLooper(@r,-1) { }
+
+.home-wrapper {
+  .fadeLooper(3,3);
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  &:before { content:""; display:block; padding-top:75%; }
+  [name=checker]:checked +.checker-fade-in {
+    z-index: 1;
+    .cell{ opacity: 1; }
+  }
+  .checker-fade-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    .cell {
+      background-size: 400% auto;
+      float: left;
+      vertical-align: top;
+      opacity: 0;
+      width: 25%;
+      .transition(@duration 7*@delay linear);
+      /* this next piece of magic makes a cell 4:3 apect ratio! */
+      &:before { content:""; display:block; margin-top:75%; }
+    }
+    .row_0 { background-position-y: 0%; }
+    .row_1 { background-position-y: 33.333333333%; }
+    .row_2 { background-position-y: 66.666666666%; }
+    .row_3 { background-position-y: 100%; }
+    .col_0 { background-position-x: 0%; }
+    .col_1 { background-position-x: 33.333333333%; }
+    .col_2 { background-position-x: 66.666666666%; }
+    .col_3 { background-position-x: 100%; }
+  }
+}
+
+.home-wrapper {
+  .next, .prev {
+    cursor: pointer;
+    @height: 140*100%/960;
+    @width: 89*100%/1280;
+    background-image: url(arrows.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: @height;
+    position: absolute;
+    margin-top: -@height/2;
+    top: 50%;
+    width: @width;
+    z-index: 10;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+    background-position: right;
+  }
+}
