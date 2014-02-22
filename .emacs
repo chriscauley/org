@@ -30,18 +30,15 @@
 (setq-default python-indent 2) ;emacs 23
 (setq-default python-indent-offset 2); emacs 24
 (setq html-indent-offset 2)
+(setq-default indent-tabs-mode nil)
 (add-hook 'html-mode-hook
 	  (lambda()
-	    (setq sgml-basic-offset 2)
-	    (setq indent-tabs-mode nil)))
+	    (setq sgml-basic-offset 2)))
 
 ;jade and coffee
-;(add-to-list 'load-path "~/.emacs.d/vendor/coffee-mode")
-;(require 'coffee-mode)
-;(add-to-list 'load-path "~/.emacs.d/vendor/jade-mode")
 ;(require 'jade-mode)    
 ;(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
-;(setq coffee-tab-width 2)
+(setq coffee-tab-width 2)
 
 ;php
 ;(add-to-list 'load-path "~/.emacs.d/vendor/")
