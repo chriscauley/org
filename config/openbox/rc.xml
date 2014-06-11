@@ -40,7 +40,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Dyne</name>
+    <name>Mire_v2_grey</name>
     <titleLayout>DSLIMC</titleLayout>
     <!--
       avaible characters are NDSLIMC, each can occur at most once.
@@ -361,6 +361,33 @@
           <name>Terminal</name>
         </startupnotify>
         <command>terminator --geometry=690x740</command>
+      </action>
+    </keybind>
+    <keybind key="W-b">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Banshee</name>
+        </startupnotify>
+        <command>banshee</command>
+      </action>
+    </keybind>
+    <keybind key="W-k">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Kolourpaint</name>
+        </startupnotify>
+        <command>kolourpaint</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-q">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Superclick</name>
+        </startupnotify>
+        <command>bash ~/testmacro.sh</command>
       </action>
     </keybind>
     <keybind key="W-S-t">

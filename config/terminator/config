@@ -8,7 +8,7 @@
   hide_window = <Shift><Control>a
 [profiles]
   [[default]]
-    foreground_color = "#9dc3bf"
+    scrollbar_position = hidden
     palette = "#263f45:#8a291b:#79815d:#c5cf8d:#9dc3bf:#eba4ff:#60c6d8:#d1fefc:#396269:#fc674e:#b3bd93:#fcffc7:#c4fefd:#ad7fa8:#77c9d9:#f6f7e2"
     background_image = /home/oliverw/images/wallpapers/oblivion/tower-night.png
     background_darkness = 0.95
@@ -22,8 +22,7 @@
     show_titlebar = False
     color_scheme = custom
     font = Ubuntu Mono 10
-    scrollbar_position = hidden
-    cursor_blink = False
+    foreground_color = "#9dc3bf"
     scrollback_infinite = True
   [[fullscreen]]
     scrollbar_position = hidden

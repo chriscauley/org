@@ -2,6 +2,7 @@
 (add-to-list 'auto-mode-alist '("\\.json\\'" . javascript-mode))
 (autoload 'javascript-mode "javascript" nil t)
 (add-to-list 'auto-mode-alist '("\\.less\\'" . css-mode))
+(add-to-list 'auto-mode-alist '("\\.django-settings\\'" . python-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . rst-mode))
 (require 'org-install)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
