@@ -100,7 +100,7 @@ As the doll spoke Jan was overwhelmed by a large ammount of factual information 
 
 <!-- IO reappears shortly after she finishes her calculations. He seems to not recognize her (copy dialog from the boy in Waiting for Godot?) and says he is there because his logs say this is where he learns when to initiate the black hole. He shows her in his big book that this is the only time they meet that he has record of. This is the moment that she realizes that he is not a evil genius but an child-like scientist (a debate she should have had for the entirety of her stay on Io). She proclaims hes is no superuser, which does not throw and error flag, and then proclaims that there are no superusers on Io, which throws an error flag because in this time her pub key is valid and she is a superuser. -->
 
-  "Well hello." Jan jumped as the silence was broken by a voice. A human voice. On this godforsaken moon there was another human. And he seemed completely unconcerned to see Jan running physics calculations in a body she had on loan from the arbiter of Io. "I'm sorry to interrupt," the man continued, watching her intently with his dead eyes, "but I am supposed to pick up calculations regarding mantle solidification."
+  "Well hello." Jan jumped as the silence was broken by a voice. A human voice. On this godforsaken moon there was another human. And he seemed completely unconcerned to see Jan running physics calculations in a body she had on loan from the arbiter of Io. "I'm sorry to interrupt," the man continued, watching her intently with his dead eyes, "but I am supposed to pick up calculations regarding mantle solidification." He had all the gestalt markings of the senscient who she met when she first got to Io, but if he recognized her he did not show it.
 
   <!-- maybe put this before the previous paragraph? -->From deep within a nest of calculations, Jan pulled her mind together. Fragments of her psyche had been strewn across thousands of computers to orchestrate the simulation she was working on. Most of the connections could be cleanly severed, leaving half impressions of her wating to resume the calculations. But the higher level parts of her mind, Freud's "super ego" and Daltonsons "GUI for one", were necessary to interact with another person. Those had to be pulled back to the core violently (yet safely) leaving half saved memories in their wake. When she was one again, when she was once again a female human experiencing reality, a thick brain fog lingered throughout her awareness. After a deep breath she spoke. <!-- or "she looked up to see" the man who just entered the room -->
 
@@ -116,13 +116,35 @@ As the doll spoke Jan was overwhelmed by a large ammount of factual information 
 
   Io closed his eyes and focused intently. Jan felt like heaven and earth was moving, as the strange man dug through his history of thousands of years to look for her. She felt a strain in the room, like it was being pulled in all directions at once. Not a physical strain, but a computational strain on the cyberspace around her. He then opened his eyes and said "I have never met you before today and will never meet you again."
 
-  "But you're the only Io here on Io."
+  "But you are the only Io here on Io."
 
   "Yes."
 
   "And you swear you never met me before now."
 
-  "You can look through my book if you think I'm lying."
+  "You can look through my book if you think I am lying."
+
+  A yearning rose deep within Jan. A part of her mind she left on the cloud was trying to get her attention. The tip of her tounge, nanolightseconds away and screaming to tell her something. She excused herself and meditated, uploading the top portion of her psyche back to the webs. She wrapped her mind inside and around the node that she left herself on and absorbed it. Suddenly she was flooded with memories of watching herself as a doll talking to Io. She saw Io mention crust solidification and began to wun her models against his problem. Excited at finding a perfect match she called out to her doll.
+
+  Now back in the present and back in her doll Jan transfered the results of her simulation to Io. "A part of me stumbled across the solution while we were talking. This model is too sloppy to stablize two black holes, but should work great for your work."
+
+  "Excellent!" He said and then paused as he ran the calculations. "This is too much for this computer to handle." He guestured at his skull and the fatty computer inside. "I should get back immediately so that I can impliment this and resume expansion beneath the mantle. Are you really leaving higher level functions on the cloud while in this body?" She nodded. "Interesting. I have never tried it myself... I was told it is very dangerous." And then he turned to walk back to the holding pens for dolls.
+
+  "Io..." She said, and then immediately regretted it. He looked over his shoulder inquisitively. `I hate to ask, but I know I will hate myself if not` she thought. "Will I see you again?"
+
+  "I already told you that we will not meet again."
+
+  She felt terrible asking and showing her vulnerability, but over the past few days she had gotten very lonely. "But if I did... if I met you tomorrow... in my tomorrow or your tomorrow or even in real time tomorrow but a million years from now for both of us... If I see you again, will you remember me?"
+
+  "Of course I will." He said with all of his robotic charm (or lack there of).
+
+  "Promise?"
+
+  He stepped across the room and took her hand. He smiled warmly and looked in her eyes. "I could never forget such a pretty face." She blushed and looked down but ducked a little and caught her eye. "This face or any other one you may be wearing."
+
+  "Thank you." She said putting down his hands. "Good luck on your calculations." As he walked away and she resumed her work on the cloud she felt lighter and, for the first time since leaving earth, calm and connected to another human being. But all great flirtations are rooted in lie. The next time they met he would claim to know nothing of Jan Yu.
+
+<!-- At some point Jan finally asks the right question "Why do you not remember me?" Io:"I was told not to" Jan:"By who?" Io:"By you, my love"... In the final hidden README.md Jan breaks down in Io's arms and cries because she is so heart broken that he will never remember her. He confesses that he remembers everything and that he was only faking forgetting because it was her wish. He viewed it as a chance to have a million meetings, a million love-at-first-sights which are the best time in two people's lives. They spend the night confessing their love to each other and then she (first person because it's a README.md file) sets a timer to delete her memory of the night to continue the facade -->
 
 <!-- at one point she should ask if she could kill him and rewrite his book to make it appear that he has a future. Io seems unaffected by this, stating that when you deal with paradox on a daily basis the existential crisis of life-or-death doesn't affect you --> 
 
