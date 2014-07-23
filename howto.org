@@ -308,3 +308,14 @@ sudo /etc/init.d/memcached stop sessions
 ** download linux binaries from nodejs.org/download
 ** sudo ln -s NODEDIR/bin/node /usr/bin
 ** sudo ln -s NODEDIR/lib/node_modules/npm/bin/npm-cli.js /usr/bin/npm
+* add swap space
+  sudo dd if=/dev/zero of=/swapfile bs=1024 count=512k
+  sudo mkswap /swapfile
+  sudo swapon /swapfile
+  sudo emacs /etc/fstab
+  # add this line
+  # /swapfile       none    swap    sw      0       0 
+  echo 10 | sudo tee /proc/sys/vm/swappiness
+  echo vm.swappiness = 10 | sudo tee -a /etc/sysctl.conf
+  sudo chown root:root /swapfile 
+  sudo chmod 0600 /swapfile

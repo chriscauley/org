@@ -1,4 +1,5 @@
 (add-to-list 'auto-mode-alist '("\\.js\\'" . javascript-mode))
+(add-to-list 'auto-mode-alist '("\\.jscad\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . javascript-mode))
 (autoload 'javascript-mode "javascript" nil t)
 (add-to-list 'auto-mode-alist '("\\.less\\'" . css-mode))
@@ -39,7 +40,6 @@
 ;jade and coffee
 ;(require 'jade-mode)    
 ;(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
-(setq coffee-tab-width 2)
 
 ;php
 ;(add-to-list 'load-path "~/.emacs.d/vendor/")

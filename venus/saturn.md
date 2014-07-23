@@ -100,4 +100,30 @@ As the doll spoke Jan was overwhelmed by a large ammount of factual information 
 
 <!-- IO reappears shortly after she finishes her calculations. He seems to not recognize her (copy dialog from the boy in Waiting for Godot?) and says he is there because his logs say this is where he learns when to initiate the black hole. He shows her in his big book that this is the only time they meet that he has record of. This is the moment that she realizes that he is not a evil genius but an child-like scientist (a debate she should have had for the entirety of her stay on Io). She proclaims hes is no superuser, which does not throw and error flag, and then proclaims that there are no superusers on Io, which throws an error flag because in this time her pub key is valid and she is a superuser. -->
 
+  "Well hello." Jan jumped as the silence was broken by a voice. A human voice. On this godforsaken moon there was another human. And he seemed completely unconcerned to see Jan running physics calculations in a body she had on loan from the arbiter of Io. "I'm sorry to interrupt," the man continued, watching her intently with his dead eyes, "but I am supposed to pick up calculations regarding mantle solidification."
+
+  <!-- maybe put this before the previous paragraph? -->From deep within a nest of calculations, Jan pulled her mind together. Fragments of her psyche had been strewn across thousands of computers to orchestrate the simulation she was working on. Most of the connections could be cleanly severed, leaving half impressions of her wating to resume the calculations. But the higher level parts of her mind, Freud's "super ego" and Daltonsons "GUI for one", were necessary to interact with another person. Those had to be pulled back to the core violently (yet safely) leaving half saved memories in their wake. When she was one again, when she was once again a female human experiencing reality, a thick brain fog lingered throughout her awareness. After a deep breath she spoke. <!-- or "she looked up to see" the man who just entered the room -->
+
+  "I'm sorry, who are you exactly?" She asked as politely as she could.
+
+  "Where are my manners. I'm the caretaker of this domain. I'm here to supervise and safegard this experiment. I was not given a name, but when needed I have been called Io."
+
+  "Io..." Jan trailed off. Either she was still suffering from brain fragmentation or reality was playing tricks on each other. "I met an Io here yesterday. Was that you?"
+
+  "Yesterday is a bit tricky around here... Your yesterday may not have been mine. It's very possible that your yesterday has yet to come for me yet."
+
+  "Well you said you hadn't met me. And that you would never meet me again. You checked your book. Could you check it now? My name is Jan Yu." <!-- as ugly as that transition is, it is important that he only looks for her when she asks -->
+
+  Io closed his eyes and focused intently. Jan felt like heaven and earth was moving, as the strange man dug through his history of thousands of years to look for her. She felt a strain in the room, like it was being pulled in all directions at once. Not a physical strain, but a computational strain on the cyberspace around her. He then opened his eyes and said "I have never met you before today and will never meet you again."
+
+  "But you're the only Io here on Io."
+
+  "Yes."
+
+  "And you swear you never met me before now."
+
+  "You can look through my book if you think I'm lying."
+
+<!-- at one point she should ask if she could kill him and rewrite his book to make it appear that he has a future. Io seems unaffected by this, stating that when you deal with paradox on a daily basis the existential crisis of life-or-death doesn't affect you --> 
+
 <!-- oh that would be nice to show up front. When she arrives she can't access anything. The fork, IO-a (which also justifies Yu-a), tells her this is because her pub key was invalidated as of the time she left Saturn (a security measure by herself in case she became compromised), and so he takes her back to a time when her pub key is valid to wait for the IO-core. IO core takes her back to a few weeks before he calculated the time to initialize the cataclysm (which is some 20-30 years ago) so that she can calculate the above.-->

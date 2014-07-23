@@ -1,0 +1,12 @@
+Looking Through the Black Hole and What She Saw There
+========
+
+  The sleeping princess woke in her house built of light and time to a rumbling out side. The air felt strange in her virtual world. The rumble seemed to come from the very fabric of reality itself. `Have I over slept?` she thought tearing the sleep from here eyes. She felt like she had slept a very long way.
+
+  But her surroundings were empty except for the low rumblings. There was no one to ask when she was. So she set to work building a clock to tell her the time. From the vaccuum she produced wood and gears. With great difficulty too, as some objects seemed to run backwards in time as she tried to work with them. Finally she collected enough to construct a large grandfather clock, alligned to the sun and twice as high as she stood. Unable to see, she sized herself up to the height of the clock. "3:43" she read outloud. "Well that\'s hardly useful! I don\'t even know if that\'s Pacific or Greenwich Mean or what ever zone this moon is in."
+
+  So she set to work again, pulling lasers and lenses and mirrors out of the aether. She arranged them into her time piece, often times dropping down to the near atomic level to shave off bits of a mirror to correct for the fact that she did not have any callipers. Then, with the light of a few pulsars, she tuned it to the birth of the cosmos. She then pulled herself back to little girl height to read the display. The gears caught the lasers and pulses from the universes lighthouses and the hands combined into one and spun violently. "Eight times ten to the sixty plank seconds." She spoke softly while thinking math loudly. "Well that\'s almost fourteen billion years. But what\'s the proper modulus?" She thought until her head hurt but was unable to get the date.
+
+  "Still nothing. Why do I never get these things on the first try!" So she thought back to old earth and how the set their calendars. "Julian time," she said focusing as intently as she could. "The birth of a carpenter as seen by the Kaiser," and then set herself to building a commanding statue and a wooden manger. <!-- definitely need more of this -->
+
+  Then she sat and wait for days as the light of the marble king moved to look at the child in the wooden throne. Finally, when Virgil's two golden children met each others gaze, the grand father clock spun again, hands splitting and splitting to seconds, days, and years. "Oh no!" The princess screamed when she say the time. "I\'ve over slept for some twenty years. I\m late!"
