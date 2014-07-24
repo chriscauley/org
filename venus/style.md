@@ -18,6 +18,16 @@ Multi line sms
 
 <<<?FactualError?>>>
 
+ALTERNATES!
+
+[info][1]
+
+[!warning][2]
+
+[!!Error][3]
+
+[?Factual Errror][4]
+
 \[\[System Messages\]\]
 
 **ADLIB**

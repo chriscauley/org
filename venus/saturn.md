@@ -1,3 +1,35 @@
+<!-- about halfway there -->
+
+  "Well maybe you should tie me up!" the girl screamed as two people escorted her out off the bridge. "So I don't go where you don't want me to." It was almost commical to watch them try to get her through the door, they on the ground and she in the air. She flailed about trying to grab on to something, but with only inertial mass and no gravitational mass she was helpless as baloon. A 60 kilogram baloon.
+
+  "What exactly is her problem?" Jan asked.
+
+  "Since she only exists in offline mode the ship cannot keep track of her or keep her from walking through every open door." INSTERT_NAME responded, his gaze still watching the door that the girl was taken through.
+
+  "No I meant what is wrong with her? She seems bat shit crazy."
+
+  "Oh she is," INSERT_NAME said jovially and then, punctuating every syllable as if it were its own word, "Absolutely certifiable." He opened his smile wide. "But that is the point. We needed someone never touched by tech before. It turns out there are very few so we had to scrape the bottom of the barrel. `You would think that one of the original scenscient in their infinite wisdom would have been smart enough to save a pure human or two for experimentation.` So our double-blind, six-sigma, guarenteed not corrupted by technology pairs of eyes are taken from those futureshocked early enough to not get any implants but also poor enough to not get any treatment prior to the Senate declaring mental illness an endangered species. Are you just noticing this?"
+
+  "I guess..." Jan said, obvlivious to his mocking tone. `I just thought it was a language barrier.`
+
+  "Ha. No, it'sn't that simple. She's not just simply Asian. She's crazy as fuck. Thinks she has to kill John Conner or some shit. I don't remember... not used to saving stuff offline. And also, how sheltered are you? Language barrier? I have not heard that term in like twenty fucking years. Tech wiped that problem out pre-polio, I think. I don't know I'll look it up when I'm online."
+
+  They both went back to work, butin the back of Jan's mind something itched. `Twenty fucking years... maybe she just reminds me of myself as a child... But I have not thought of that since I became a doll...`
+
+  Her thoughts were cut short by the ship shaking beneath her feet. Something hit their ship hard, and the artificial gravity tried to compensate by applying magnetic fields counter to the jerk of the ship. This hurt as tidal forces pulled her bones a part and momentum made her flesh nearly escape as her ferrous bones were held steady by the gravity. Still it could have been much worse. If didn't have steel bones she might have been thrown against the walls at one hundred miles an hour. `Hopefully they got the girl strapped down to something before that hit.` She thought and then cried out over the alarms buzzing around her, "What the fuck just happened? I'm not seeing anything."
+
+  "Not a fucking clue." INSERT_NAME said. "My money is on an engine accidentally firing. I'm not seeing any damage flags that could indicate sabotage."
+
+  "You mean that came from inside?" she screamed at him a little more loudly than she wanted to. 
+
+  "It has to be!" he cried apologetically. "We're surrounded by over 2^20 entangled partitcles. Nothing can get within 50 meters of us without us noticing if it'sn't moving at the speed of light or smaller than a milliliter. Or I don't know, dark matter? What other than light would be able to make it through that field unentangled? Nutrinos? Fuck. I'll have to go online to look it up."
+
+  "Wait!" Jan commanded, grabbing him and shaking him to get her point across. "We are not damaged, right?" He shook his head. "And the most advanced sensors in the known universe do not show anything, right? Then there is no reason to give ourselves away by connecting. Local nets only. If you cannot find it in our wiki then I doubt a [fifty minute][!1] lag is going give you an answer.
+
+[!1] At this point the ship is approximately 63.2 lightminutes from earth.
+
+<!-- when Jan gets uploaded -->
+
   "I'm wiped" Jan said after a moment. She dizzily sat down in a chair and began writting as much as she could of herself into the ships buffers. "I've invalidated my key chain. If I return I'll no longer have any authority on Terra, Venus, or this ship. INSERT_NAME almost asked about her authority on Mercury, but then realized that she no longer knew about any of that due to the wipe. He and the rest of the crew verbally said their good byes and Jan offloaded herself to Io inbetween pulses. Her body slouched over and fell into a deep coma.
 
 <!-- maybe not have this next part, save it for the return trip? -->
