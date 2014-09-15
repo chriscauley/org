@@ -23,9 +23,19 @@
     - Three years of doll training, she came in bottom of her class (failing again)
     - As a backup doll for venus, isn't needed until Kelly advances to user status
 *** Kelly gains super user status
-** Book 3: Jan
-** Book 4: Shiva
-** Book? 5: Notes on Meg (Born for this)
+** Book 2.5: Offiline Mode
+*** How to unlock offline mode
+    Jan's chapters contain numerous references to "I didn't understand so I had to use offline mode to understand"
+    Certain footnotes return an Http418 - Information not available while online
+    Several times Jan encounters HTTP418, and goes offline. <hr> and then suddenly she understands
+    This <hr> is characteristic, and indicates ofline content is available
+    Leave hints such as transitions that don't make sense, "Jan was ripped out of online [+hangover]", and multiple <hr>s in a row
+    If you're offline and try to save (leaving a chapter triggers bookmark save), offline chapters are unlocked
+    When online, offline chapters are not visible
+    At the end of book 2, Kelly says that she's "learned the value in unplugging every once in a while"
+    This footnote triggers an "unplug" opiton in displays
+** Book 3: Jan + Shiva
+** Book 4: Notes on Meg (Born for this)
 *** When Jan first asks Meg why she's doing this (if she's not on TV)
     she says "This is not TV, this is art. It takes acquired minds,
     to taste this wine. You can't down it with your eyes."
@@ -39,9 +49,12 @@
 *** Meg leaves Shiva, not the other way around. Shiva leaves lot's of signals
     sort that are meant to get Meg back. When Jan gets to reality TV, Meg follows a similar
     signal to find her for the first time.
-*** Every human who pisses off the computers is banished to reality TV to live of grid
-*** The revolution inspired by Meg (through traces and ghosts she left in the network)
+*** Every human who pisses off the computers is banished to reality TV to live off grid
+**** Kelly and the ship of fools were deemed too dangerous
+** Book 4: Paramore
+*** Before the book
+    - The revolution inspired by Meg (through traces and ghosts she left in the network)
     stages a coup in the form of a sci fi show (which is uncommon) paralleling the novel.
-*** The final live action episode completes with a human becoming super human and taking over
-    the internet.
-*** As the show ends, power goes out around the world and the revolution begins.
+    - The final live action episode completes with a human becoming super human and taking over
+    the internet. In the context of the show this is 
+    - As the show ends, power goes out around the world and the revolution begins.
