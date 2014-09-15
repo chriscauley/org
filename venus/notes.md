@@ -9,3 +9,5 @@
   "I spent the last decade chasing after that hate and mourning over that love. But I can forget the past. Can I just get to know you?"
 
   She smiled a complex smile, a strange mixture of bliss and cunning and irony and something else that he had not seen before. "I'd like that," she said and lay her head on his chest. "I think I'd like that very much."
+
+<!-- possible story idea...maybe a fairy tale for young time travelers... A young time traveler battles with an older version of himself. When the older time traveler is defeated, the older time traveler is confident that he can win. He is convinced that fate has his victory assured. When the elder loses he curses the fates, saying that they have betrayed him. The younger is raised believing that he can change his fate and imagines (unjustifiably so) that he as resisted fate. Finally, when the aged version battles himself he is confident that he can win, defeating the fates. When he fails he curses the fates -->
