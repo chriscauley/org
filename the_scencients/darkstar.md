@@ -8,7 +8,7 @@
 
   "The last wide spread attack on humans, two years after the revolution her released the plague that killed off a third of the earth. Before that he did similar work for a [religious cult] bent on destroying society."
 
-[religious cult] <!-- same cult as in durga? that could be cool. -->
+[religious cult] <!-- same cult as in durga? that could be cool. Wiki pages could over lap here and be a hint that the stories are in the same universe. -->
 
   "Funny thing about bio weapons," a voice said from the shadows. It spoke non-chalantly with the warmth of an ice cube and the edge of a knife. "Anthrax is never enough because it only kills those exposed and is not contageous. Plague on the other hand" the voiced edged closer, accompanied by foot steps, "is too contageous. So you run the risk of it getting back to you and eliminating everyone on the planet." Lights flickered on and revealed a 9x9 cell surrounded by computers. In the center stood a humanoid robot which was directly wired into the wall. "Even if you have a cure for the plague it can mutate and kill everyone. My solution was to make a plague that self terminated after several milliion replications. A tricky propositon, keeping count like that, but hey, we're all good at something."
 
@@ -45,3 +45,54 @@
 <!-- kelly tells him about IO and his immense computing power. The robot concludes that it cannot be solved with a digital attack, but only by brute force-->
 
   "But for that" the robot said gesturing to the locked door in front of him "you'll need a weapon scientist. Any idea where you can find one?"
+
+<!-- Kelly gets her first HTTP418 message. This is not the first available HTTP418, but is meant to be the first TURN OFF YOUR FUCKING INTERNET message to the reader-->
+
+  The first set of "care packages" arrived from earth. Most of the crew received food or trinkets to remind them of home. Unfortunately, after having their senses tuned and their physiology reworked to be amenable to live in the clouds of Venus, the items generated a new kind of depression. The items resembled a life that the Venutians could barely remember. The colors didn't match and the texctures felt off, bringing on a kind of lie of a memory. <!-- need a lot more of this -->
+
+  Kelly, on the other hand received a series of notes, one hundred pages of hand written prose and poetry by her earth side counterpart, Jan Yiu. Customs would have seen this and assumed that Jan wrote it in a drug induced stupor (which is how Jan spends most of her life, according to the record), and passed it on without noticing. Kelly of course knew better. Amidst the joy and sorrow she excused herself, set up a proxy to tell anyone looking for her that she was in which ever gym was furthest from theirself, and returned to her room to read the note in private.
+
+  Kelly sat at her desk and replaced her contacts with a pair meant for accurately scanning and abstracting images. She set each note aside until she found a page with exactly 343 characters. It was a sloppy mess and barely legible. She looked at the note and it suddenly looked hyper clear. Every letter jumped out. She no longer saw a paper with letters, but a mesh of cellulose stained with gobs of ink. She examined the width of every pen stroke, in the exact order that she would have written them and the exact thickness that she would have written it. And as a result she pulled out of the 343 hand written characters several kilobytes of data which she then decrypted and decompressed to over 4M using the three 16M private keys. The resulting data contained a README file, several small shell scripts and another set of keys. The README file read as follows.
+
+``` markdown
+HTTP418 Protocol for data only accessible offline
+========
+
+Kelly, I hope this finds you (me?) well.
+News from earth is certainly not a worse case scenario,
+but we must develope a new layer of security to ensure
+that we do not catch the attention of potential enemies.
+
+I am convinced that there is indeed another super user
+or at least was. The most likely candidate is the emergent
+senscient built by The Last Superuser.
+
+I have profiled your moon boogie man and have found that
+he is no threat but could be a potential ally.
+
+All the other senscients I have met on earth are playboys
+and children. They are no threat. However a large number
+of resources gone missing over the past three decades
+and I believe that the destination is our threat.
+
+I cannot say much more here. We need a way to share memories
+securely. I have developed a new protocol that will allow
+certain information to be only accessible offline. Follow
+the instructions contained here in. When ever memory transfer
+contains sensative information you will get a subconscious
+urge to go offline. When you log back on you will forget
+everything! (no longer have access to those memories)
+
+Follow the scripts. From what I can tell this protocol
+should be secure.
+
+Always you,
+me
+```
+
+  *Inventing a new status code, eh? Jan seems to be acting
+like a superuser already. I am not sure which is more impressive,
+the fact that me/her have pulled it off or the fact that
+she has done this while simultaneously consuming enough drugs
+to lobotomize an elephant* 
+
