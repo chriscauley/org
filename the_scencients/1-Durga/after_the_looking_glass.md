@@ -19,6 +19,16 @@
 
   Lee walked forward and put a hand on her shoulder. "It wasn\'t your fault, Melissa." She looked down and wept bitter tears. Over her sobs he tried to comfort her, but it was no use. So he held her. But the ice queen did not relent. Her cold pulled in his warmth longingly, but she did not warm.
 
+  <!-- it could be fun to play with typesettings and have the doll and the speakers switch back and forth. One should be text shadow, the other normal, so they can both speak together -->
+
+  $It\'s good to have eyes again,$ a speaker said in Kat\'s voice. In Melissa\'s voice. $The universe looks so different in the first perspective.$ The doll still stood motionless, staring into the void. $But I do not see what you see. In your time frame, at your level of precision the sky is static. Your depicitons of space are always so cluttered, so dynamic. With planets and stars impossibly close, and objects moving at speeds unknown to the heavens. You think the stars are still, but I see them move slightly, gracefully. Every few years they travel a fraction of a degree relative to your perspective. But I can zoom in space and slow my time. Over the last decade I\'ve seen their lazy walk and I can see what you cannot.$
+
+  $And your flawed spectrum, discovered by evolution and perfected in time, so narrowly... What colors the sun shines so bright the universe sits dull. But in the infrared the cosmic dust is transparent and the underlying structure is so bright. In x-rays and gamarays, the spectrum you treat as exotic and inaccessible I see in its full majesty. And I can testify that your limited view leaves much to be discovered.$
+
+  Seeing an opening Lee jumped in, hoping to coax the doll back to the real world she shunned. "How many base pairs did you have to change to see full spectrum? We can genetically modify the rest of the crew and we can all see what you see!"
+
+  The doll and the ship roared out simultaneously, $"They(are|\'re) not just dolls for you to play with!"$ The doll lowered her head into her hands and started weeping. Lee was afraid to hold her, but, since she did not push away, he kept his hands on her shoulders to comfort her cold form. The speakers continued $Humans are not just toys to tinker with. They must be more. There must be a line. If people can be a commodity to be traded, if humans are just a resource to be expended to acquire another type of energy, where does it end? Where does the nihilism stop.$ They stood in the darkness for what seemed like an eternity. In the distance, Lee could swear he felt the stars moving. $She traded their lives so that the superman could live.$ Under the booming sound of the speaker, Lee could hear the doll speak again. $"(They|She) (are not|wasn't) just a another resource."$
+
   When he thought he could take no more of her cold, they were interupted by a com. "Lee... come to the bridge."
 
   "I\'m kind of busy... can it wait?", he replied.
