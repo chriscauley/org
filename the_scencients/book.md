@@ -204,7 +204,7 @@ ________
 
 [?trillion miles away from earth] - Contemporary distance between Venus and Terra approximately 50 million kilometers.
 
-[?no possible way] - Any digitizable senscient can be transported from one class 5 or higher medium to another. For more information search for consciousness transfer in the wiki. <!-- Have wiki links that go to a 420 error: Information not available in time of reader. A few easter eggs can be unlocked by viewing these later in the story. Later Yu-A encounters these on Io -->
+[?no possible way] - Any digitizable senscient can be transported from one class 5 or higher medium to another. For more information search for consciousness transfer in the wiki. <!-- Have wiki links that go to a 420 error: Information not available in time of reader. A few easter eggs can be unlocked by viewing these later in the story. Later Yu-a encounters these on Io -->
 
   Her voice trailed off as she scaned through the wikis. She froze as she realized their plan. Apparently digitization and transfer of human consciousness out of bodies was fully possible. Granted, in the past scientists only used this exclusively to transfer a human mind to the garbage collectors, to study how humans think and to free up the body for hosts. But in theory it could be used to send her back to stand trial. Kelly experienced such a terror as she had never seen before.
 
