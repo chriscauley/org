@@ -63,3 +63,16 @@
     - The final live action episode completes with a human becoming super human and taking over
     the internet. In the context of the show this is 
     - As the show ends, power goes out around the world and the revolution begins.
+* Easter Eggs
+** Http404 - Random jokes (via url hash or something)
+   - "Page not found. You're either a search engine spider or trying to hack your way into the future.
+     If you are a robot, nice try and good luck.
+     If you are a human, get off my lawn!"
+** Http418 - Request is a teapot (Unlock code)
+   Grants access to every hidden chapter predating the latest one
+** Http419 - Request out of time/not available in current innertial frame
+   Show relevant images or youtube videos (Blur's out of time) as an error page
+** Http420 - Information not available online
+   Shows "offline only" data
+** README.*
+   Every major chapter has a README file that is first person written by Shiva, often times showing Yu on Io
