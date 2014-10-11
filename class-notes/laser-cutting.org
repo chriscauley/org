@@ -1,0 +1,148 @@
+* Intro
+** Safety
+*** laser
+    Laser can damage your eyes
+    You have two chances to get safety right because you have two eyes
+    Things do catch fire from time to time. This class teaches you how not to do this.
+    If things catch fire, try to remove them from the laser before using the fire hydrant
+*** Off gassing
+    unapproved materials create toxic gasses
+    even approved materials create possibly dangerous gasses
+*** design flow
+    0) analogy to architect -> blueprints -> contractor -> workers
+    1) create design in CAD or equivalent
+    2) CAM software (laserworks) combines electronic design with the process of laser cutting
+    3) CONTROL software on the cutter moves the laser
+*** More ramblings on file formats
+    1) we have to use 2D drawings (DXF is ideal)
+    2) Poly lines are also best
+       a) overlapping (duplicated) lines will be cut multiple times (fire hazzard!)
+       b) end points should be in the same spot
+       c) avoid splines (archs)
+    3) Laser cutter works in mm, so it's easier to always work in mm
+*** Material types
+    0) Lots of type of lasers (YAG, dye) we're using CO2
+    1) Good cuts
+       a) wood (up to 1/4")
+          baltic birch is roland favorite
+          must be pure wood
+          mdf (medium density fiber board) is fine but smells bad
+          not pressure treated (arsinic)
+          not particle board (toxic glue)
+          not laminate (toxic glue)
+       b) acrylic is perfect! but make sure it's acrylic (1/2" max)
+          cast (cheaper, higher tolerances)
+          extruded (cheaper, lower tolerances)
+       c) fabrics - some are bad some are good (see hand out) (? thick)
+          cotton, leather, wool are great!
+       d) Delrin (1/4")
+       e) Captin, paper, mylar (all are thin)
+     2) "Meh" cuts
+        HDPE, poly foam, ABS (off gasses cyanide) - all melt and catch fire 
+     3) Don't cut
+        Lexan (polycarbonate gives off chlorine, kills mirrors)
+        Polyelene, Rayon, lycia, spandex, pvc (all give off chlorine)
+* look @ cutter
+** laser has two parts
+*** optics
+    talk about lasers (colinear in 1 mm cylindar, same frequency)
+    light gets bounced off mirrors to go where we want
+    140 w beam that vaporizes as it cuts (not burning!)
+*** mecanical system
+    moves head in x and y to draw something
+    software moves laser arounds and varies power to cut things
+    cannot vary focus (so you can only cut flat!)
+* software
+** intro
+   this software sucks at drawing, so do your cad before hand
+   think of the software as a printer. Edit else where, cut in Laserworks
+   if the software crashes it will switch to chinese, click the h on the tool bar then find english!
+** Here Roland skipped his shpeil about using cad software!
+   draw, rotate, zoom, scale, stuff like that
+   (may be good to show how to build a box)
+   gridded area represents the bed of the laser cutter
+   laser cutter parameters are on the right, we only care about work and transform
+   control window on bottom (top 4/5s of screen is the control window)
+** cut mode
+*** laser cutting is lossy
+    kerf is the width of material lost in cutting
+    kerf changes with power, focus, and cut speed
+    so when you cut a square, you lose a little on each side of the cut
+    when you cut accurately you must compensate for kerf
+*** the software drawing interface
+    blue arrows are the top left (and should always be there)
+    scroll wheel zooms
+    draw circle
+    draw square
+    shift click and multiple things are selected
+    things can be moved exactly with the number inputs just above the rulers
+    I usually make a box the size of the piece I'm working on and move the laser to the top right
+    turn off the outer box and turn things off after you cut them
+    Save often!
+*** line colors
+    after creating lines, they can be colored differently
+    the "work" box shows what colors correspond to what parameters
+    this allows you to only cut part of a file or to cut different lines with different speed/power
+*** Text
+    specify font properties and size
+    LaserWorks generates outline of text (which is convenient)
+    Inteterior pieces fall out! An "o" will just be a circle if it cuts through
+    Change the color of the piece and lower the power to get it to not cut all the way through
+    "cutting" just means draw in a vector. Doesn't has to cut through.
+*** Params (for cut mode)
+**** is output
+     Am I actually cutting this layer?
+     Moving things off the cuttable area confuses the laser cutter
+     turn off instead!
+**** speed - (roland used sprinkler/fire hose analogy)
+     how fast does the laser move
+     total energy deposited goes down as speed goes up
+     we want highest speed and power for optimal cut
+     see table for a starting point
+**** min power
+**** max power
+     no more than 80% because the tube degrades much faster at 100%
+     tube is expensive!
+**** Param discover
+     draw 8 boxes
+     center box is "ideal" setting
+     left 3 increase power (drop speed a little each box)
+     right side decrease power (increase speed a little each time)
+     if you want it to cut out, go a little higher (energy deposited) than the first one that cuts out
+**** Power notes
+     % power to energy output is not linear!
+     below 10% power, most likely nothing will happen
+     above 80% power, very little is gained and the tube degrades quickly
+**** Motion notes
+     with sharp corners, the laser comes to a stop before turning (cuts more on the corner)
+     if you're engraving, sharp corners will be cut through
+     straight aways are always faster
+     lots of details make slower cuts (because it can never get up to speed)
+**** Kerf compensation
+     "Advanced" -> Enable sew compensation
+     Choose inward or outward depending on what way you want to compensate
+     0.1mm is our kerf
+*** Transform mode (wasn't really paying attention, pretty straight forward)
+** scan mode
+*** description
+    slices image horizontally, and "Scans" along each line
+    varies the laser power from min to max power making black max power and white min power (can be inverted)
+    moves at constant speed, and cuts according to power
+*** params
+    move fast (800mm/s)
+    results with different power may vary, need to tweak to get different effects
+    negative engrave if you want
+    always optimize scan
+    interval 
+    1) start at 0.2-0.3 mm inteval
+    2) test mulitple times lowering interval until lines touch
+    3) when in doubt, 0.1 is usually good
+** bitmap handle
+   get outline will turn it into lines
+   click apply to view
+   delete bmp layer
+** importing
+   if something imports at the wrong size, import units need to be changed
+   have to reimport after changing scale
+   colors and layers will import when you import a dxf, which is very useful to minimize editing in LaserWorks
+* checkout on laser cutter
