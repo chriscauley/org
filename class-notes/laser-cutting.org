@@ -1,20 +1,28 @@
+* Rules of laser cutter
+  Laser will not cut without power (duh?)
+  Test before you cut. Don't trust other peoples settings. The machine changes daily.
+  Know your material.
+  When in doubt ask.
+  Don't design/edit in laser works.
 * Intro
 ** Safety
 *** laser
-    Laser can damage your eyes
-    You have two chances to get safety right because you have two eyes
+    Laser can damage your eyes.
+    You have two chances to get safety right because you have two eyes.
     Things do catch fire from time to time. This class teaches you how not to do this.
-    If things catch fire, try to remove them from the laser before using the fire hydrant
+    If things catch fire, try to remove them from the laser before using the fire hydrant.
+    Do not leave the laser cutter unattended. You can go to the bathroom, but don't go to lunch.
 *** Off gassing
     unapproved materials create toxic gasses
     even approved materials create possibly dangerous gasses
+    If air flow isn't on, don't cut.
 *** design flow
     0) analogy to architect -> blueprints -> contractor -> workers
     1) create design in CAD or equivalent
     2) CAM software (laserworks) combines electronic design with the process of laser cutting
     3) CONTROL software on the cutter moves the laser
 *** More ramblings on file formats
-    1) we have to use 2D drawings (DXF is ideal)
+    1) we have to use 2D drawings (DXF is ideal, others can be converted to dxf)
     2) Poly lines are also best
        a) overlapping (duplicated) lines will be cut multiple times (fire hazzard!)
        b) end points should be in the same spot
@@ -31,9 +39,9 @@
           not particle board (toxic glue)
           not laminate (toxic glue)
        b) acrylic is perfect! but make sure it's acrylic (1/2" max)
-          cast (cheaper, higher tolerances)
+          cast (expensive, higher tolerances)
           extruded (cheaper, lower tolerances)
-       c) fabrics - some are bad some are good (see hand out) (? thick)
+       c) fabrics - some are bad some are good (see hand out)
           cotton, leather, wool are great!
        d) Delrin (1/4")
        e) Captin, paper, mylar (all are thin)
@@ -127,6 +135,7 @@
 *** description
     slices image horizontally, and "Scans" along each line
     varies the laser power from min to max power making black max power and white min power (can be inverted)
+    I've had limited success getting it to actually impliment a power gradient :(
     moves at constant speed, and cuts according to power
 *** params
     move fast (800mm/s)
@@ -141,6 +150,7 @@
    get outline will turn it into lines
    click apply to view
    delete bmp layer
+   Other options here are useful for optimizing scan mode
 ** importing
    if something imports at the wrong size, import units need to be changed
    have to reimport after changing scale
