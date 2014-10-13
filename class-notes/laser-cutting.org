@@ -16,7 +16,7 @@
     unapproved materials create toxic gasses
     even approved materials create possibly dangerous gasses
     If air flow isn't on, don't cut.
-*** design flow
+** design flow
     0) analogy to architect -> blueprints -> contractor -> workers
     1) create design in CAD or equivalent
     2) CAM software (laserworks) combines electronic design with the process of laser cutting
@@ -49,7 +49,7 @@
         HDPE, poly foam, ABS (off gasses cyanide) - all melt and catch fire 
      3) Don't cut
         Lexan (polycarbonate gives off chlorine, kills mirrors)
-        Polyelene, Rayon, lycia, spandex, pvc (all give off chlorine)
+        Polyethylene, Rayon, lycia, spandex, pvc (all give off chlorine)
 * look @ cutter
 ** laser has two parts
 *** optics

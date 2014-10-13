@@ -9,3 +9,18 @@
   $Yu-a$ the speaker addressed the doll, who tilted her head back to see the camera, still on all fours upside down at the top of the room. $That last part with the pipe. That wasn't in the book. Actually neither is me saying this.$ 
 
   The doll got a far off contemplative look and then let out a burst of laughter, which was interrupted by a loud crash. The heated silicate line in the panel burst, showering the doll in hot liquid glass and throwing her to the ground.
+
+A voice without a song
+========
+
+<!--- Yu spends a chapter focusing on computer stuff, ignoring her doll and hearing only the words without contemplating them. This is mainly to emphacize the "time gap": the fact that the perceived time of the computer is days for every second of meat space time. The next doll tells Yu to simulate a face to slow down her perception of time. -->
+
+  "You promised after last time that you wouldn't let another one die paying attention."
+
+  The face on the monitor lit up with a smile. $Are you planning on dying soon?$ 
+
+  "Very funny." The doll was not amused. "Don't forget why you do this. Without me, without real world interaction, you lose site of your humanity. You become a voice without a song. I'm worried you'll lose site of our real goal. I was worried about this when I forked off of you, so I know you're worried about it too. What are we becoming? Would the you that crashed onto Io with the hope of stopping Jupiter from going critical approve of who you are now? Kelly took a huge risk in taking you on and giving you the permissions that got you here. Would Kelly approve of who you are now?"
+
+  The image on the screen became noticably less realistic. The core process, Yu in the machine, devoted a large portion of her resources to thinking of Kelly, her originator and psychic twin. Kelly had devoted her life to becoming liberating mankind from the scencients. And now she had truly become the very thing she was fighting against.
+
+  But she hadn't really thought of Kelly much since then. Kelly was almost 700 million km away from Io, and they were now separated by 9 years of real time - Kelly wouldn't even go to jail for sedition for another year and a half. During her travels backwards Jan had experienced 20 years of objective time and and immesurable period of subjective time. As much as she owed Kelly for her current life, nothing could be further from her mind.
