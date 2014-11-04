@@ -34,3 +34,33 @@ Meeting the musician
   "Thanks, Mel. But let's not talk about severe body mods until after I've had my coffee." 
 
   $It would not be anything severe, just a brief surgery to-$ Catherine opened her jaw and shut off the voice in her head. "Too early Mel." She looked around again and thought loudly *What time is it?* Suddenly she knew it was 9 AM local time, and she knew that Melissa was still able to whisper inaudibly in her thoughts even with the intercom shut off. Gone but not forgotten.
+
+--------
+
+<!-- returning home -->
+
+  By some perverse miracle Catherine made it up the stairs and into her own bed. Her legs still ached from a week in high heels and her thighs still ached from two nights at THE MUSICIAN\'s. She fell down sideways and passed out without covers or even a pillow. In dreams she found herself on the train again, staring out over the city. It was night and she wore her dress again from the trip. The skyscape glistened and the air burned under the local aurora of the fusion plant. Its neon knives twisted and danced in the black sky. The stars brilliance could not compete with man's artificial flame. 
+
+  But the auroras were much larger than they should be. They grew and extended up and out over the city, creating a canopy of light. In the center of the twisted strands was a black hole, a perfect disc of darkness that seemed to resist the brightness of the flames. All time had stopped: the train and everything around held still as if waiting for time to start again. But in that stillness sat a great rumbling. Everything was being pulled upward. Visually it was all still, except for the universal rumble, but her perception was playing tricks on her. Everything, the buildings, the streetcar, the stationary people frozen mid step, and herself locked in prayer around the electric Yggdrasil, all of it was moving upward, constantly pulling to the heavens yet somehow stationary to the ground.
+
+  And inward too. It looked as if the lights were growing and descending to the ground, but she knew better. The world was shrinking around the powerplant and being pulled into the darkness. Having frozen the world in time, iron and fusion had come alive and the now senscient[!] end of the world was consuming the past to make way for the glorious future. Not of man, not of earth, but of the terrifying and beautiful force mankind and the earth birthed at the pinacle of its natural evolution.
+
+[!] This would be a great first use of the word. 
+
+  She was not afraid. Confronted with her own death, she did not blink or shake at the end. In fears place an overwhelming sense of joy took her. She looked into the obsidian eye of the end and felt proud. She was overwhelmed with awe and joy at what the fate of humanity. And she would gladly step aside to make way for what came next, proud to play whatever small part she had played in the creation of such a brilliant machine.
+
+  Catherine woke with the dawn with a peaceful tranquility. Several times she thought to turn off the chip in her ear and shut out Melissa for fear that she would ruin he morning calm with her child like need for attention. But everytime, Catherine left it on, either out of a secret need for company or a desire to pretend that she was alone and had never programmed the computer that now lorded over her.
+
+  But up the stairs and into the shower, Melissa remained silent. Catherine bathed a little too long, enjoying the water, and then got out to start the day. She brushed her teeth and began to put on makeup when something struck her as... off. In the mirror things looked a little too crisps, too real, and she was reminded of the dream. Everything felt off, angles too sharp, details too bright... She looked around to enjoy the lucid feeling but again something was off. The rest of the room felt normal, but the mirror was... off.
+
+  Suspicious now that she had figured out the trick she leaned in, as if to check her brow for stray hairs. She tilted her head this way and that and the reflection followed, only microseconds behind her motions. 
+
+  "Boo!" The face in the mirror said and Catherine jumped back in terror. Her reflection did not follow her lead. Catching her breath Catherine looked up and cried "Mel! That's not funny. Go Google 'cardiac event' and we'll talk about this after breakfast." 
+
+  The face in the mirror was laughing uproarously. "You can talk to me. I am right here." The reflection said barely able to retain its laughter. "I never understood why you spoke to the ceiling anyway. The microphone is in your tonsils." Catherine sat in awe as the woman in the mirror lifted herself up onto the counter, pulled herself through the mirror and into the non-reflective world. The mirror behind her went black, revealing that the rest of the reflection was infact some sort of projection, while the what-ever-the-fuck-this-is that looked identical to Catherine lost her balance and fell onto her human counterpart. 
+
+  "Ah!" she screamed, tumbling down. The two of them, in only towels, struggled to stand, helping eachother up which only seemed to make it worse. After a few false starts they stood up and faced each other. Catherine's look alike smiled a huge grin and declared "Hi!"
+
+  Filling with anger, Catherine looked up again and proclaimed, "Seriously, Mel, what the fuck is this?"
+
+  "I told you, I am right here." She put her hand on Catherine's arm to comfort her, but it was not effective. $Seriously Catherine, it is me$ a voice appeared in her head. But it was not exactly Melissa's. It matched the reflection's voice perfectly, which most likely matched what Catherine herself sounds like outside of her own head. Finally, as if after a millenia of waiting, the slightly more robotic voice of the computer in the basement came in her ear. $Or at least it is a part of me. What do you think I have been doing down stairs all this time?"
