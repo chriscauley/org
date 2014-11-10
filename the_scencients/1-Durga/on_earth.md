@@ -49,6 +49,8 @@ Meeting the musician
 
   She was not afraid. Confronted with her own death, she did not blink or shake at the end. In fears place an overwhelming sense of joy took her. She looked into the obsidian eye of the end and felt proud. She was overwhelmed with awe and joy at what the fate of humanity. And she would gladly step aside to make way for what came next, proud to play whatever small part she had played in the creation of such a brilliant machine.
 
+<!-- (maybe use this?) As the darkness overcame her and the world around her shrank to a point, Catherine felt the universe split open. Time begat space, creating not one, not double but thrice dimensions. x, y, and z became a, b, and c. Length, width, and height begat yu, vee, and woo. Here, there, and and there again gave way to tic, tak and toe -->
+
   Catherine woke with the dawn with a peaceful tranquility. Several times she thought to turn off the chip in her ear and shut out Melissa for fear that she would ruin he morning calm with her child like need for attention. But everytime, Catherine left it on, either out of a secret need for company or a desire to pretend that she was alone and had never programmed the computer that now lorded over her.
 
   But up the stairs and into the shower, Melissa remained silent. Catherine bathed a little too long, enjoying the water, and then got out to start the day. She brushed her teeth and began to put on makeup when something struck her as... off. In the mirror things looked a little too crisps, too real, and she was reminded of the dream. Everything felt off, angles too sharp, details too bright... She looked around to enjoy the lucid feeling but again something was off. The rest of the room felt normal, but the mirror was... off.
