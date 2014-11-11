@@ -143,6 +143,63 @@ Blink... Blink!
 
 ________
 
+<!-- probably need more filler here -->
+
+  Kelly dipped her finger into a glass of water and then flung it into the air. She watched the largest drop fly up into a parabolic arc. Her contacts used the subroutine she had written to draw a series of force vectors around the drop. The drop vibrated violently, trying to hold itself together as it spun itself apart.
+
+  Mr Skully interrupted a physics experiment to inform Kelly that curfew was minutes away and to tell her of her lesson for the next day. "Wait a second." The skull instantly paused and shrank a little. It tilted its head and turned one of its horns up inquisitively. "I just need a few more minutes, I think I've almost got this." 
+
+  Her avatar now seemed frustrated with her. "Although you are encouraged to associate with the cloud and familiarize yourself with contacts as much as possible in your spare time, curfew is fixed and cannot be modified for unauthorized experiments-"
+
+  She turned and faced the projection on the wall. "There's something really wrong here, can you give me a second." She looked up at the ceiling at a patch of static that she kept projected there at all times. Her contacts manipulated the static and showed equations and results and highlighted the inconsistency. "The drop hits the ground early," she said into the static. "It should fall slower, why does it fall so fast?"
+
+  "We've been over this before," the dogs mousey voice chimed in with a hint of frustration. He then prattled on with his usual prerecorded sing-song. "Modifications to certain parts of the brain and broader general neurochemistry have been shown to cause a difference in perception of time for members of the Venus mission. Most report this as a sensation that time has slowed. In reality the opposite is true and the patients neurological timing mechanisms have sped up, giving the appearance that the rest of the universe has slown down."
+
+  "I get all that, but look." At her sides the fingers on both hands moved furiously. She flipped through pages and pages of data and code at an astonishing rate. "I'm not using subjective time, I'm using measured time. At first I had though this wasn't water. But after I figured out the temperature," her fingers flicked and she stopped to look at another page of data and a linear chart. "And then the viscocity," again she paused on another piece of data. "It all matches up. Everything matches up except that the drop falls too fast."
+
+  "The only answer is that you aren't reporting accurate time. Why would you not report accurate time?"
+
+  "I'm sorry, but you do not have sufficient dependencies to gain the answer to that query -"
+
+  She blinked him off and looked frantically around the room. *They aren't telling me something, but since they haven't sedated me for asking it can't be something that they don't want me to know.* She thought searching for anything that could help her. The empty white ceramoplastic betrayed no secrets. There were no visible doors or windows. She hadn't seen the sun since she got here. *That makes sense, if they don't want me to know that they're telling me the wrong time of day they can't show me any windows.*
+
+  Ambivalent to her panic, the dog began its nightly warning. "Curfew will commence in one minute. All patients will be sedated and if not in bed an orderly will return you there."
+
+  She turned back to her calculations. Time was off but now she should be able to see how far it was off. Combining the viscosity, temperature and density measurements, she compared it to her newly finished vibration experiment. At best guess she found that what her internal clock, the one given by the contacts and computers supplied by Explor Incor, was actually reporting that two seconds had passed for every one second that should have passed. *So they are definitely lying to me about when a day goes by* she gloated. The dog chimed in to remind her that curfew was seconds away. She then pulled up her timing experiments where she had watched the acceleration due to gravity of water, a drinking glass, her contacts case, and anyother object that wasn't bolted down. Using 9.8 m/s and the new correct time scale she found that they were actually falling much slower than they should have. Which meant she had it backwards.
+
+  Kelly almost gave up, resigned to try again another day, when one more inconsistency caught her eye. The falling times were not only off by a significant amount, but they varried much more than the viscosity measurements, which should have been much less precise. But the only thing measured imprecisely in Kelly's falling experiment was time, which was also measured equally precisely in her viscocity/vibration experiment. The only factor that was in the falling experiment that wasn't in the viscosity experiment was acceleration due to gravity.
+
+  <!-- all the above in this section needs to be redone and clarified -->
+
+  "Gravity is changing!" she said as the first amounts of sedative entered her system. "We are no longer on earth." She proclaimed as she crashed to the ground. Satisfied with her answer, she gave in wholely to the sedative and let the sleep overcome her. The room blurred out of existence and she lie there waiting for the reprieve of slumber.
+
+  But sleep didn't come. Kelly felt the sedative lingering in her body, but it wasn't enough to put her under. Struggling she opened her eyes. The lights were still on but the room was blurry under the fog of the drug. In the corner of her vision an achievemnt light pulsed. Through heavy eyelids she activated it and then commanded that the dog read it aloud. "*Achievement unlocked!* Knowledge of earth" it proclaimed in its usual chipperness. "*Reward Achievement!* You now have control over your own sleep schedule now that we are no longer required to sedate you while not accelerating. A tutorial is ready for you to learn how to control the sedative/stiumlant cycle of your scorpion." The avatar paused as if thinking and then offered, "If you like you can complete the tutorial later. I can sedate you through the night or wake you now. Blink once for sedation and d-blink to wake up."
+
+  Her eyelids were to heavy for command so Kelly just mouthed the word "awake" and then slumped back to the ground, resigned to the stimulant. Over the course of a few seconds she regained consciousness and control of her muscles. She stood, now facing her bed. With a mechanical sliding noise a panel over her bed slid open to reveal the darkness of night outside. She walked forward to the window and shut off the lights. As her eyes adjusted to the darkness they revealed the stars. First one or two and then the majesty of the galaxy of stars beyond the tiny white room she knew as home.
+
+  She looked down, still half expecting to see the ground, but only saw stars. Stars in every direction. Behind her she heard another sliding noise. Barely able to pull herself away from the universe outside her new window she turned. Beyond her table light came in her room. She had unlocked more than just a window. She had opened a door.
+
+  Before she knew what was happening she found herself sprinting through a series of hallways, unconcerned with all the doors that were locked on her way. At each turn a new wall had the image of her avatar projected on it, prattling his usual non-sense about the game that she now knew as reality. "Congratulations, you are in the *One-hundreth percentile* of people to unlock this achievement. Your access to the ship is no longer restricted to your room, but access to the rest of the ship and to crew at large will be limited until other players unlock this achievement. Ship deceleration will halt in one kilo-second and artificial gravity will cease."
+
+  She bouced around another turn and another until she found a fork in the road. Between the two paths the dog-skull-head sat smiling. "Please tell me where you are headed so I may direct you."
+
+  Catching her breath she said, "I assume we've been off earth for a while. I want to see it."
+
+  The dogs head turned both its horns down and spun around. "Please elaborate on your query. I can provide you with a schematic of the ship but it may be easier if you tell me what you are looking for."
+
+  "Earth!" She cried. The image of her avatar was replaced with what she assumed was a live video feed zoomed in on earth. "No, I want to actually see it. With my eyes." The avatar spun back into view and then spun and shrank, giving way to a map of the ship. A highlighted path on the monstrosity showed the path to the bottom of the ship."
+
+  "There are shorter routes you could take, but the fastest time to this location will require you to take advantage of the ships current acceleration vector. Since gravity is still on, I recommend falling." The wall to her right lit up with the same blue color as seen on the map. She ran down that hallway and down another. Doors opened as she ran, avoiding any halways that were not lit up. She turned down a dead end and sprinted down it full bore. A panel on the floor at the end of the hall turned blue and flew open. Without looking she threw herself down it. She fell what her contacts reported as twenty meters, but, thank her new bones, landed with only minor pains in her calves. Next to her a ladder would lead her back up to the ship. Beneath her it looked more like a hatch than floor.
+
+  "What is this? Where do I go next?" She asked frantically looking for anythign highlighted in blue.
+
+  On the hatch underneath Kelly her avatar projected itself. "This is the rear airlock leading off the ship. The interior is not radiation shielded. The door will open once the engines have shut off. This will occur in twenty seconds. The door will then open once all lit fuel has been expelled and the hazzard is no more."
+
+  Still panting and waiting Kelly counted in her head. When thirty seconds had passed she almost complained and then remembered that her internal clock was still completely uncalibrated. A moment or so later she felt a large rumble. It was the same rumble she felt back in the room, starting at the top and moving downward to the floor, only now much larger and shaking the entire ship. *This is why they sedate us* she realized *They must turn the engines off at night for some reason. It feels like its about to fall apart.* As if reading her mind the avatar came back in to assure her of safety and said that the engines shutting down would also mean loss of gravity. *Of course!* she thought, *Inside the ship we'd be waitless, but if you accelerate at 9.8 m/s it would feel lie the back of the ship is down on earth.*
+
+  Kelly felt herself pulled upward for a second, which she quickly realized was the downward pull releasing itself. She floated away from the hatch slightly but then grabbed the ladder to steady herself. "Human locomotion in zero-g can be difficult, so a tutorial has been added to your curriculum. Would you like to do this now?" She quickly blinked it away: nothing would stop her from getting through this door and seeing earth out the back of a space ship.
+
+  A childish excitement overcame her as the door unlocked and pressure equilibrated with the airlock beyond.
 
 ________
 
