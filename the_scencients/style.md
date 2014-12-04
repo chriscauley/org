@@ -46,6 +46,11 @@ ALTERNATES!
 
 <!-- insert text about something here -->
 
+Stylistic
+========
+
+~strikethrough~
+
 Experimental
 ========
 
