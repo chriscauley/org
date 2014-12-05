@@ -41,7 +41,7 @@ Awaken the Dreamweaver
 
   Ava turned from the absurdity in front of her to the absurdity out her window. "And what's with the green?" She asked at the sky, bright as noon but green as seafoam. The entire town was cast in its hue as if she stepped out of her dream and onto an alien world.
 
-  "It's a phenomena that normally only lasts microseconds. Most human don't notice it, but if you are one of the few who do you may experience a sensation of 
+  "It's a phenomena that normally only lasts microseconds. Most human don't notice it, but if you are one of the few who do you may experience a sensation of stopped time. The phenomena is caused by a phase transition in the fusive reactors powering the city, which perturbes the ionoshere. Such fluctuations are normally brief, but will soon be a permanent feature of this planet."
 
 [weaver's] #Not sure why, but I like not using this word while sleep walking... maybe not in sleep.
 
