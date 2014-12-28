@@ -63,6 +63,20 @@
     - The final live action episode completes with a human becoming super human and taking over
     the internet. In the context of the show this is 
     - As the show ends, power goes out around the world and the revolution begins.
+** Book 5: Series Finale (Lorde and Purity Ring)
+*** Summary
+    This book details the depracation of mankind
+    After the events of book 4 Mankind enters into a "Battle Royal" style extinction
+*** Mechanism
+**** Choose your own narrator
+     The same catastrophe following 4 or 5 people
+     At the end of every chapter you're giving the option to follow one of them or another
+     Story should be good no matter which path you take
+     Read time for one path ~1 hour
+     After you "win" you unlock free play mode that shows off every chapter
+**** What a terrible night to have a curse
+     Humans can only interract with and remember dream weavers while asleep
+     Certain chapters appear in "odd hours" the hours that the reader didn't read books 1-4
 * Easter Eggs
 ** Http404 - Random jokes (via url hash or something)
    - "Page not found. You're either a search engine spider or trying to hack your way into the future.
