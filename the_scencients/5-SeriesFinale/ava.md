@@ -1,3 +1,42 @@
+Pre-games
+========
+
+  Ava hardly noticed Malcolm as he entered the room, but he could not help but notice her. She gym shorts and a tanktop and a tanktop which both pinched and hung loosely over her breasts an belly which screamed come and get me, but her far aray stare and paint brush inquisitivly poised in her houth and hand said leave me alone. He walked up and tried to kiss her neck, but she wanted no part of him.
+
+  "Come on" he said needingly, trying to put his arms around her waist.
+
+  From a far off place she declared, "I'm busy, go fuck Amber."
+
+  "I don't want Amber, I want you," he insisted.
+
+  For the first time she shot him a brief glance, acknowledging his presence before going back to the paint on the wall. "That's not true," she said with a giggle, eyes transfixed on the long dry black paint, "you just can't find Amber. But you found me."
+
+  Arms now around her ambivalent hips he looked at the wall. The matte black was carefully arranged in a six foot starburst. From a distance one might be fooled into thinking that the lines were flung onto the wall but the crispness of the lines and the tiny brush in her hands made clear that every stroke was applied slowly and deliberately. Beyond the radial pattern was several thicker lines that did not look flug. They ran independant of the radius and jutted around the room like speaker wire tacked up to be out of the way with no care given to hiding them or making them match the features of the wall.
+
+  "I think it needs color," he said, resigned to her passion being solely artistic. "Is this all the paint you have?"
+
+  "No," she said contemplatively. "It needs a bigger brush." She turned away and looked around the room. He looked too but saw nothing but debris, dust, trash, and a five pound hammer. When Ava's gaze met the sledge she darted over and picked it up. With one smooth motion she raised it and brought it against the wall, tearing a large hole the dry wall. 
+
+  She inspected gash as if expecting to find a paint brush inside. When she found nothing she smashed again and again into the wall, inspecting each empty cavern and finding nothing. The third hole she looked up into the gap between walls and smiled evilly. She then followed the wall with her eyes, up and over and down, as if she could see through it to the large collection of art supplies hidden within. When she came to the sink she raised the hammer again and brought it down just behind the faucet. The hammer got stuck a little, but in a way that made Malcolm think it was intentional. Foot in sink, she pulled twice and brought it out almost taking the faucet with it.
+
+  With her hands she pawed away the drywall and tile, greedyily digging until her hand caught something. She pulled on a tube as hard as she could. Right when Malcolm thought to come give her a hand at prying the tube came loose from the faucet. When it finally snapped water drained all over the girl and the floor. She returned with her prize to her painted patern.
+
+  With no concern about hitting Malcolm, Ava lifted the tube over her head and swung it around to feel its weight. It was very flexible, inspite its metalic appearance, and it moved in her hand like an extension of her body. She spun it back and forth, infront of her and behind her, altering sides like a ninja showing off a sword in a bad sci-fi western. 
+
+  When Malcolm thought it could not swing any faster she slashed it in front of her, cutting into the dry wall in approximately the same pattern as the paint before it. Over and over again she slashed at every angle. The gashes took out an centimeter or two of drywall at their thickest points. Although they did not all meet exactly at the middle, Malcolm could not help but be impressed with their accuracy.
+
+  "That's nice," he said coyly, "But I don't see how you can paint the other lines." She turned her head with a tired look and then slashed two more times in succession. The sheetrock shook a little now, with the give of a sheet of fabric held taught that was hit with a base ball. Dropping her whip she walked up and stuck her hand in carefully. Piece by boring piece she made a hole in the center of the starburst, not with the same insatiable greed as before but rather as an archeologist who thought they were inches away from a career definining find. 
+
+  When she pulled her hand out she held a length of wiring, a thick bundle braided together still attatched at both ends to something unseen in the wall. She pulled and it tore faults in the sheet rock. She pulled and pulled, letting go when the wire forked and then grabbing it again more intently at one side of the fork. "Don't just stand there," she said looking back to him and then resuming her work. He followed her lead and followed the other fork of wire, freeing it from beyond the room.
+
+  Malcolm was again impressed by how well the wire seemed to follow the secondary lines of Ava's now tattered painting. The seams never perfectly lined up with the thicker paint lines, but they seemed to follow one another around walls and across the ceilings. Just when he thought it too much of a coincidence he encountered a fork in the wiring that did not match any fork in the paint. As he pulled the orphan strand he mused that there was no way she could have planned such a thing, only to be stumped again when a twist in the wire turned to meet a line of paint. Having pulled every bit of wire out of the walls he turned to the dangling strands in the ceiling. It was much less robust than the walls, and every pull of wire sent large chuncks of ceiling down to the ground and threw dust into the air.
+
+  He ran out of wire and turned back to Ava. Where the wire ran not along the wall but into another room she propped one foot on the wall and pulled with all her weight until it snapped, sending her to the ground where she bounced up to find another piece to snap free. Unwilling to be flung to the dirty floor he pulled out a knife and began to cut at the ends that would not pull any more.
+
+  It was nearly sunset when they finished the room. The ceiling was almost non-existant and no part of the wall was spared the scars of pulling wire out. Malcolm and Ava carefully coiled the wire into shockingly large bundles and aranged their booty in one corner of the room, presumably to be transfered else where another day.
+
+  Still panting from exertion Ava looked at Malcolm through the dust and haze of the auroras streaming through the windows. She stood between him and the radius of paint turned scars, covered in dirt covering paint covering skin. "Thank you", she said walking up to him matter of factly. She then threw him to the ground with a painful thud, and fucked him on top of the rubble.
+
 Awaken the Dreamweaver
 ========
 

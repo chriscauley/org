@@ -1,3 +1,4 @@
+<!--- oops, merge characters section of outline book5 into this. Also convert this into an org file -->
 * Kelly Obregon - A former convicted and custodial technician on the Venus mission. Eventually becomes the first superuser.
 
 * Jan Yu - A doll running a fork of Kelly Obregon.
