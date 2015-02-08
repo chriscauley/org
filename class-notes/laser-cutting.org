@@ -1,8 +1,8 @@
 * Rules of laser cutter
+  When in doubt ask.
+  Know your material.
   Laser will not cut without power (duh?)
   Test before you cut. Don't trust other peoples settings. The machine changes daily.
-  Know your material.
-  When in doubt ask.
   Don't design/edit in laser works.
 * Intro
 ** Safety
