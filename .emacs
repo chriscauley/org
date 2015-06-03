@@ -1,3 +1,4 @@
+(add-to-list 'load-path "~/.emacs.d/vendor/")
 (add-to-list 'auto-mode-alist '("\\.js\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.jscad\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . javascript-mode))
@@ -5,6 +6,7 @@
 (add-to-list 'auto-mode-alist '("\\.less\\'" . css-mode))
 (add-to-list 'auto-mode-alist '("\\.django-settings\\'" . python-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . rst-mode))
+(add-to-list 'auto-mode-alist '("\\.tag\\'" . html-mode))
 (require 'org-install)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 (define-key global-map "\C-cl" 'org-store-link)
@@ -14,6 +16,8 @@
 (setq org-agenda-files (list "~/org/memcached.org"
                              "~/org/pipedreams.org"
                              "~/Dropbox/org/"))
+
+(require 'web-mode)
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
@@ -33,6 +37,7 @@
 (setq-default python-indent-offset 2); emacs 24
 (setq html-indent-offset 2)
 (setq-default indent-tabs-mode nil)
+(setq default-tab-width 2)
 (add-hook 'html-mode-hook
 	  (lambda()
 	    (setq sgml-basic-offset 2)))
@@ -42,7 +47,6 @@
 ;(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
 ;php
-;(add-to-list 'load-path "~/.emacs.d/vendor/")
 ;(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 ;(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 ;(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
