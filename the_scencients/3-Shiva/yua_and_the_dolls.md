@@ -24,3 +24,9 @@ A voice without a song
   The image on the screen became noticably less realistic. The core process, Yu in the machine, devoted a large portion of her resources to thinking of Kelly, her originator and psychic twin. Kelly had devoted her life to becoming liberating mankind from the scencients. And now she had truly become the very thing she was fighting against.
 
   But she hadn't really thought of Kelly much since then. Kelly was almost 700 million km away from Io, and they were now separated by 9 years of real time - Kelly wouldn't even go to jail for sedition for another year and a half. During her travels backwards Jan had experienced 20 years of objective time and and immesurable period of subjective time. As much as she owed Kelly for her current life, nothing could be further from her mind.
+
+Soft Rock star
+=========
+
+<!-- this chapter is about a doll running to the io sunrise, trying to see it which coincides with Jupiter eclipsing the sun. The readers speed is measured and the faster the slower reads the more truncated and flowing the text becomes. If the reader slows down the text becomes more descriptive, as if watching the doll from the outside. The chapter either ends with the doll dying, and a brief explanation of how the doll could have made it and decided not to send back the memories to the central Yu process, keeping her death to herself. If the chapter is read a second time it is unlocked to succeed no matter what the reader speed. When the chapter is beaten it unlocks the two versions in side by side mode. -->
+  
