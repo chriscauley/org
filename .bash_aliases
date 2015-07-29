@@ -7,7 +7,7 @@ alias hgrep='grep --include=*.html --include=*.tag --exclude=*~'
 alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map'
 alias mgrep='pgrep --exclude=0*.py --exclude=*~'
 alias environ='source .environ/bin/activate'
-alias e='source .env/bin/activate'
+alias e='source .e/bin/activate'
 
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
