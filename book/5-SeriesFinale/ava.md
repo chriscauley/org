@@ -1,6 +1,6 @@
 Pre-games
 ========
-  Ava hardly noticed Malcolm as he entered the room, but he could not help but notice her. She gym shorts and a tanktop and a tanktop which both pinched and hung loosely over her breasts an belly which screamed come and get me, but her far aray stare and paint brush inquisitivly poised in her houth and hand said leave me alone. He walked up and tried to kiss her neck, but she wanted no part of him.
+  Ava hardly noticed Malcolm as he entered the room, but he could not help but notice her. She gym shorts and a tanktop which both pinched and hung loosely over her breasts an belly which screamed come and get me, but her far aray stare and paint brush inquisitivly poised in her houth and hand said leave me alone. He walked up and tried to kiss her neck, but she wanted no part of him.
 
   "Come on" he said needingly, trying to put his arms around her waist.
 
@@ -10,7 +10,7 @@ Pre-games
 
   For the first time she shot him a brief glance, acknowledging his presence before going back to the paint on the wall. "That's not true," she said with a giggle, eyes transfixed on the long dry black paint, "you just can't find Amber. But you found me."
 
-  Arms now around her ambivalent hips he looked at the wall. The matte black was carefully arranged in a six foot starburst. From a distance one might be fooled into thinking that the lines were flung onto the wall but the crispness of the lines and the tiny brush in her hands made clear that every stroke was applied slowly and deliberately. Beyond the radial pattern was several thicker lines that did not look flug. They ran independant of the radius and jutted around the room like speaker wire tacked up to be out of the way with no care given to hiding them or making them match the features of the wall.
+  Arms now around her ambivalent hips he looked at the wall. The matte black was carefully arranged in a six foot starburst. From a distance one might be fooled into thinking that the lines were flung onto the wall but the crispness of the edges and the tiny brush in her hands made clear that every stroke was applied slowly and deliberately. Beyond the radial pattern was several thicker lines that did not look flug. They ran independant of the radius and jutted around the room like speaker wire tacked up to be out of the way with no care given to hiding them or making them match the features of the wall.
 
   "I think it needs color," he said, resigned to her passion being solely artistic. "Is this all the paint you have?"
 
@@ -34,7 +34,13 @@ Pre-games
 
   It was nearly sunset when they finished the room. The ceiling was almost non-existant and no part of the wall was spared the scars of pulling wire out. Malcolm and Ava carefully coiled the wire into shockingly large bundles and aranged their booty in one corner of the room, presumably to be transfered else where another day.
 
-  Still panting from exertion Ava looked at Malcolm through the dust and haze of the auroras streaming through the windows. She stood between him and the radius of paint turned scars, covered in dirt covering paint covering skin. "Thank you", she said walking up to him matter of factly. She then threw him to the ground with a painful thud, and fucked him on top of the rubble.
+  Still panting from exertion Ava looked at Malcolm through the dust and haze of the auroras streaming through the windows. She stood between him and the radius of paint turned scars. Covered in dirt covering paint covering skin, she stood in the center of her latest master piece, framed by the lines. They radiated from her heart, her destruction originating from her [anahata][]. In the light of the setting sun and growing auroras the strands behind her looked almost like wings, swaying in the dim and glowing by draining the rest of the room's illumination into their darkness.
+
+  "Thank you", she said walking up to him matter of factly. In one swift motion she threw him to the ground with a painful thud, and fucked him on top of the rubble.
+
+[anahata] # Should I include more chakra stuff? could be a cool element
+
+<!-- the above happens early in the story, as she transitions from ballet to destruction to sculpting. Eventually Malcolm refuses to sleep with her telling her that he is bound to Amber. Malcolm and her other friends become more and more Christian as they are drawn in to the cult the AS are inventing. One day at sunset he tries convince her to join the religion/games. When she refuses he tries to "save" her, saying that he is glad to be the one to deliver her (this is after the city is almost dead). She dances while he fights her. Eventually she kills him and severs his head. \[\[Malcolm has been saved\]\] She says "I'm sorry it had to be this way, but I will avenge you". She turns her power glove on him, zapping his head with lightning and melting the flesh off by disintegrating the tissue holding his flesh on his skull (with no small pain to her own hand). She focuses the power glove on the matrix in his head and draws his "soul" back into his dying brain. \[\[Malcolm has been restored\]\] She then over charges his neural network, frying the brain matter around it. \[\[Malcolm has been deleted\]\]. Finally, she places the skull and internal network onto her sculture and goes back to work. At midnight the dreamweaver wakes up. She goes out the next day looking to get the exotic matter from Amanda. "Awaken the Dreamweaver" takes place the next night. -->
 
 Awaken the Dreamweaver
 ========

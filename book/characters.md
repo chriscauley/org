@@ -14,4 +14,4 @@ Book 5
 
 * Emily ?? - "Hayley Williams" of Book 4 and 5. Brings reality TV with her out of the Ghetto and eventually releases it on all of mankind. Big bad of the book
 
-* Ava Kingston (??) - girl haunted by the dreamweaver
+* Ava Belmont - girl haunted by the dreamweaver
