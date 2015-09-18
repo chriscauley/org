@@ -50,3 +50,22 @@ From Brandon's perspective, Ava kidnaps him shortly after her death. He develops
 [trying to erase the conversation] # When she experiences this she debates telling him about going back and fighting herself.
 
 <!-- he realizes she may not know of her own death. He decides not to tell her but instead try to rescue by taking her far away from here and now -->
+
+Random A/B interacion (might be Ava/Brandon)
+========
+
+  "What is it?" He said turning the matt obsidian shard in his hand.
+
+  "Black matter," she replied with a hint of wonder.
+
+  "You mean, like dark matter."
+
+  "No," she said with a chuckle. "Dark matter is a McGuffin that scientists chased for a century. They knew the universe was missing most of its. The searched and searched and found nothing. But dark matter is just normal matter, near us in the time plane." He shot her a puzzled look so she continued her tangent. "When we walk in time we arrive in a place next to us but not in any traditional dimension. It can't be seen directly because of the way our brains were wired by evolution. An average person may wander a few kilometers in the time plane over their lifetime. This is why two people near each other can see the world so very differently. It's so spread out, locally, that its effects can't be felt. But if you zoom out far enough you'll see your world is much more massive than it appears locally."
+
+  "I think I understand," he said, wanting to know more but even more curious about the strange "black matter" he had come weild but not comprehend. "Then what's this?"
+
+  "This is black matter. An exotic, non-entropic substance which, I think, is created by high density computation. You have heard of Yu-a and Io?" He nodded, with a near inaudible grunt of affirmation. "When they created and detonated their black holes the amount of energy released should have destroyed the solar system. It nearly did. But much of the energy was spent rewriting the laws of physics. Altering the firmware of our corner of existence. That energy is bound in this. It doesn't experience time as an arrow, and information can exist all along it in every dimension. When we walk in time it leads us. Accross the time plane, exploring the larger, corner of our own personal earth and 'dark matter'. It opens the universe to us, and we are but the film in the camera observing a much larger world."
+
+  "So this came from the black holes on Jupiter?"
+
+  "Possibly, but I don't think so. There's more of it every day, maybe it's just the pieces of the black hole moving into the future but I doubt it. Some of the pieces spiral back to Jupiter, but I've seen accross time as the black matter allows. Many of these pieces do not grow and move back to the black holes, but grow into the future."

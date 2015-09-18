@@ -409,9 +409,9 @@ ________
 
   The enuch put a hand on her shoulder and offered her a warm smile unlike any she had ever seen. "If he was wise he would not be trapped in a web. You've already shown that you can do more with the four human equivalents you control than most could do with a thousand. It's not the size it's how you use it, non?" The enuch chuckled at his own joke. "I hope that whoever becomes the next single user (`And yes I believe it will happen eventually`) can do more with it than flaunt superiority."
 
-  They sat drinking for a long time in silence. <!-- insert filler, description of room --> At last the enuch excused itself with a few hopeful words. "Don't underestimate your potential, Kelly O'brian. You are the first of a kind. Those who are fools dismiss you as insignificant. Those who are wise fear you may one day become a single user and rule over all of us."
+  They sat drinking for a long time in silence. <!-- insert filler, description of room --> At last the enuch excused itself with a few hopeful words. "Don't underestimate your potential, Kelly Obregon. You are the first of a kind. Those who are fools dismiss you as insignificant. Those who are wise fear you may one day become a single user and rule over all of us."
 
-  "And which are you?" She called after the enuch as it walked away. This time he spoke through the coms in the room. The enuchs voice resounded crisply in the back of her head. `I am one of the few who hope you succeed to the benefit of yourself, your race, your loyal supporters. Whether you succeed or fail is irrelevant to our wisdom. Only time will tell if we are less foolish than the wise or less wise than the fools. And by "time", of course, I mean you.`
+  "And which are you?" She called after the enuch as it walked away. From a distance the enuchs voice resounded crisply in the back of her head. `I am one of the few who hope you succeed to the benefit of yourself, your race, and your loyal supporters. Whether you succeed or fail is irrelevant to our wisdom. Only time will tell if we are less foolish than the wise or less wise than the fools. And by "time", of course, I mean you.`
 
 The End
 ========
