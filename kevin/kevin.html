@@ -1,0 +1,37 @@
+<script src="kevin.js"></script>
+<style>
+.graph {
+  border: 1px solid black;
+  border-width: 0 0 1px 1px;
+  display: inline-block;
+  height: 300px;
+  margin: 50px 20px 30px 40px;
+  position: relative;
+}
+.graph:before {
+  content: attr(data-max_bins);
+  position: absolute;
+  right: 100%;
+  top: 50px;
+}
+.column {
+  background-color: #ccccff;
+  float: left;
+  margin: 0 2px;
+  position: relative;
+  width: 20px;
+}
+.column:before {
+  content: attr(data-val);
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  width: 100%;
+}
+label {
+  display: block;
+  height: 30px;
+  width: 260px;
+}
+input { float: left; width: 50px; }
+</style>
