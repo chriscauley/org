@@ -1,7 +1,11 @@
-(add-to-list 'load-path "~/.emacs.d/vendor/")
+(add-to-list 'load-path "~/org/.emacs.d/")
+(require 'web-mode)
+(require 'highlight-chars)
+(add-hook 'font-lock-mode-hook 'hc-highlight-tabs)
 (add-to-list 'auto-mode-alist '("\\.js\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.jscad\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . javascript-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.es6\\'" . javascript-mode))
 (autoload 'javascript-mode "javascript" nil t)
 (add-to-list 'auto-mode-alist '("\\.less\\'" . css-mode))
@@ -35,8 +39,11 @@
 (setq css-indent-offset 2)
 (setq js-indent-level 2)
 (setq javascript-indent-level 2)
+
 (setq-default python-indent 2) ;emacs 23
 (setq-default python-indent-offset 2); emacs 24
+(add-hook 'python-mode-hook
+    (lambda () (setq tab-width 2)))
 (setq html-indent-offset 2)
 (setq-default indent-tabs-mode nil)
 (setq default-tab-width 2)
