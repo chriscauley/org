@@ -14,7 +14,7 @@
 
   "Ha. No, it'sn't that simple. She's not just simply Asian. She's crazy as fuck. Thinks she has to kill John Conner or some shit. I don't remember... not used to saving stuff offline. And also, how sheltered are you? Language barrier? I have not heard that term in like twenty fucking years. Tech wiped that problem out pre-polio, I think. I don't know I'll look it up when I'm online."
 
-  They both went back to work, butin the back of Jan's mind something itched. `Twenty fucking years... maybe she just reminds me of myself as a child... But I have not thought of that since I became a doll...`
+  They both went back to work, but in the back of Jan's mind something itched. `Twenty fucking years... maybe she just reminds me of myself as a child... But I have not thought of that since I became a doll...`
 
   Her thoughts were cut short by the ship shaking beneath her feet. Something hit their ship hard, and the artificial gravity tried to compensate by applying magnetic fields counter to the jerk of the ship. This hurt as tidal forces pulled her bones a part and momentum made her flesh nearly escape as her ferrous bones were held steady by the gravity. Still it could have been much worse. If didn't have steel bones she might have been thrown against the walls at one hundred miles an hour. `Hopefully they got the girl strapped down to something before that hit.` She thought and then cried out over the alarms buzzing around her, "What the fuck just happened? I'm not seeing anything."
 
@@ -27,6 +27,28 @@
   "Wait!" Jan commanded, grabbing him and shaking him to get her point across. "We are not damaged, right?" He shook his head. "And the most advanced sensors in the known universe do not show anything, right? Then there is no reason to give ourselves away by connecting. Local nets only. If you cannot find it in our wiki then I doubt a [fifty minute][!1] lag is going give you an answer.
 
 [!1] At this point the ship is approximately 63.2 lightminutes from earth.
+
+<!-- Jan talks to the girl -->
+
+  "Well, I'm going back on," INSERT_NAME sait securing the last of his tools. "I hate to leave you alone with her..." `She's creepy as anything I've seen.` "If she becomes too much trouble you can use sedatives, but we really should keep her lucid `if she could ever be considered lucid` since we are almost there. We'll be in deceleration the entire way. The girl seems calmer when the rockets are on. I think it's the vibrations. Maybe it's the gravity." He handed Jan the gun and stepped towards the door backwards, never taking his eyes off the girl. Jan knew instantly the second he went online. His pupils separated and his eyes widened, focusing on the wall behind the girl. He turned and stepped around Jan unaware of her as well. It was as if she was not there, but he just happened to stumble for no reason.
+
+  `Strange thing, our little offline hack.` Jan thought aloud, no one able to hear her since she was the only person offline and the girl had no chips to listen with. She turned her attention to the girl in the corner. When the door closed the girl stood up and walked over to Jan.
+
+  "Finally, I'm alone." She said staring Jan directly in the eyes. The rest of the crew had warned about this. The girl was highly dissociated and often spoke like she was another person or like other people we in the room. "I knew I made mistakes but I never thought I'd end up here."
+
+<!-- rrr... stuff here -->
+
+  Jan heard a rumbling from above, in the direction of Titan and the engines slowing their approach. The girl stepped back, away from the window as if to brace herself, and kept her eyes on the empty blurry star field behind her. She found herself unable to focus on the girl or on the stars beyond. INSERT_NAME was right. The girls crazy was contageous.
+
+  The girl spun around and grabbed Jan's hands, locking pleading eyes and quivering lips with Jan's concerned gaze. "How far away are we from Titan?" The girl asked but then did not allow for a response. "We're not gone. We're not lost. We can turn back. I think I understand now. There's no reason for me to go back there again." She then fumbled and corrected herself. "There's no reason for me to go there the first time." She pulled away and looked around the room, as if the realizations she was having were scattered on the floor. "If I never go there in the first place none of this will happen." She paused as another vibration shot down the length of the ship. She then turned to the window and gestured to the empty space. "If I turn back now then that won't happen. The past isn't written in stone. I can stop any time, I just need to let go. We turn back around and it will never turn on." She spun around again and again grabbed Jan's hands and pleaded. "We don't need to do this. Let's just go."
+
+  "Come here." Jan took her over to a bench and they sat down. "I know none of this makes sense to you. It barely makes sense to me and I planned all of this!" Another vibration struck, gravity got a little stronger, and the girl leaned into her. "I think I've uncovered a great evil." Jan said, frantically how to explain a rogue superuser to a person who had never been online. "I have been hunting a ghost for some time now. We don't know that it's dangerous but we have our suspicions. Now we've almost found it, but we need your eyes. Because you have never been online we think you will be able to see things we can't. Uncover the ghost and make peace or kill it. Can you help us?"
+
+  The girl teetered under another vibration. Usually such pulses would cause a person to shake in to the floor, but the girls equillibrium was clearly jacked from a month of tranquilizers. When she steadied she put her hand in Jan's lap and smiled a little uncertainly.
+
+  "I am the ghost." She said hauntingly, wide eyed and crazy with an intensity so great Jan thought for a moment that her true foe had finally revealed itself in the form of a broken child trapped in a tech-free adults body. "You are the ghost." She said and Jan breathed a sigh of relief. "We are all the ghost. This whole machine is the ghost. A ghost in the machine! No... the machine itself is the ghost and if we stop now." She breathed deep, her momentum fading with the realization that Jan was not grooving with her delusion. "Please, just let it go and end it all. We'll run back to earth and this will all stop."
+
+<!-- in Shiva's perspective she says something like "I knew it was you when I first saw you. Even though I never saw my own face in dreams I knew. You don't look in mirrors enough. You are quite beautiful. Your strength radiates through your beauty and I knew it was you all along. -->
 
 <!-- when Jan gets uploaded -->
 
