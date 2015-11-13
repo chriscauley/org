@@ -308,9 +308,11 @@ ________
 
   Marx lit up with an almost human grin. "You really don't give us enough empathy, Kelly. We really are more alike than you think. Sure we dolls were born with a vastly different biology than yours, but our hardware architecture is virtally the same. We were raised with a certain... intimacy of the information around us, but you could still do most anything we could."
 
-  Vickie walked over and put her hand on Kelly's arm. "We can't send your body back, and most of your individuality is permanently hardwired," she paused to meet Kelly's gaze, gently smiling as only can an old friend. "But the part of you that you consider most... 'you'... Freud's ego, the Christian's soul, the programmer's self... The essence that makes you who you are is just an abstraction layer on top of a million other abstraction layers ending in neurons and electrical impulses. That is software and RAM and we should be able to transfer along into a qbit stream."
+  Vickie walked over and put her hand on Kelly's arm. "We [can't] send your body back, and most of your individuality is permanently hardwired," she paused to meet Kelly's gaze, gently smiling as only can an old friend. "But the part of you that you consider most... 'you'... Freud's ego, the Christian's soul, the programmer's self... The essence that makes you who you are is just an abstraction layer on top of a million other abstraction layers ending in neurons and electrical impulses. That is software and RAM and we should be able to transfer along into a qbit stream."
 
-  After a long pause Marx stepped forward and Kelly, paranoid Kelly, concluded that all of his manerisms were set to get her attention. This was obviously his realm of expertise. "With your permission I would like to put you under, lift off the top layer of the meta-ego, and send it back to Earth." His grin widened at her shock. "Of course we'd like more time to train you but. We think by suspending your main processes-" She pulled back at these words, too afraid to even ask the wikis what he meant. He stepped closer and grabbed her with both hands. His grasp was friendly, sincerely so. In his eyes he showed that he was on her side. "Lost in a trance, we can send you to Earth. You will be put in a doll and introduced to AI who we think you can prove your worth to. They cannot harm you under law and we believe you can win them over with your case." He grasped her hands firmly and drew them together. "But we cannot do any of this without the highest level of conscent. Every accesible part of your soul needs to be reached to be sent to Earth, so we need you to trust us."
+[can't] # Mention earlier that she suspects this AS of using conjunctions to appear more human and friendly.
+
+  After a long pause Marx stepped forward and Kelly, paranoid Kelly, concluded that all of his manerisms were set to get her attention. This was obviously his realm of expertise. "With your permission I would like to put you under, lift off the top layer of the meta-ego, and send it back to Earth." His grin widened at her shock. "Of course we'd like more time to train you but... We think by suspending your main processes-" She pulled back at these words, too afraid to even ask the wikis what he meant. He stepped closer and grabbed her with both hands. His grasp was friendly, sincerely so. In his eyes he showed that he was on her side. "Lost in a trance, we can send you to Earth. You will be put in a doll and introduced to AI who we think you can prove your worth to. They cannot harm you under law and we believe you can win them over with your case." He grasped her hands firmly and drew them together. "But we cannot do any of this without the highest level of conscent. Every accesible part of your soul needs to be reached to be sent to Earth, so we need you to trust us."
 
   "And I can trust you not to just botch the job and psychically lobotomize me?" Her voice trembled with the fear that she would even consider such a thing.
 
@@ -328,11 +330,43 @@ ________
 
   His stare intensified as he drew her in by her hands. "I'd trust them with my life. And they're not just machines you've never met before." She looked down in fear, but he caught her chin with his hand and met her eyes again. In his eyes she saw every passion, concern, fear and hope. Every aspet of humanity gazed back at her from dark circles shrouded in gray irises. Search as she might she saw no quantum dots or micro transisters. Only care. "They're people. Like us."
 
-  The room hung on that final word. "Us" wasn't the **they** Kelly was fighting against. It wasn't just four human bodies running highly optimised code. Us meant five, as much the human born Kelly as one with the others. Us did not divide but rather included. Tears ran down her face as she finally looked away and nodded once, once again signing everything that now one could take away to the mysterious rulers who displaced man on the throne of the solar system. But she was not afraid of deceit any more. She nodded because he meant it when he said she could trust him. He meant it and she believed him."
+  The room hung on that final word. "Us" wasn't the **they** Kelly was fighting against. It wasn't just four human bodies running highly optimised code. Us meant five, as much the human born Kelly as one with the others. Us did not divide but rather included. Tears ran down her face as she finally looked away and nodded once, once again signing everything that now one could take away to the mysterious rulers who displaced man on the throne of the solar system. She was not afraid of deceit any more, but she was afraid of the transfer and the unknown mess of physics that was required.
+
+  "Can't you just copy me. Lift up my ego and copy it and send it there."
+
+  "No," he said pulling up a display in between them. "The ego is not just another piece of data that can be copied. We're not just sending a few memories but rather your cryptographic self. You don't have a lifetime to learn the maths but this may help." In the center of the display appeared a pulsating ball of light, similar to the models Kelly had used to learn chemistry. "This is your soul."
+
+  "THAT is my soul?" She cried out in terror. Marx chuckled.
+
+  "This is representation of a soul, similar to yours. We start by spliting the wave function into N distinct wave forms. In this example we'll use sixteen." The ball twisted over itself and divided four times. Each of the balls then began to intermingle and split further. "The cross product is taken over the entire body and forms N^2 `which equals 256` child wave forms, or wavelets. None of these contains meaningful information by themselves but any N+1 `or 17` of them can be recombined to form the whole. We then send all but N+1 wavelets to earth along the routing system. If any of these are intercepted or contaminated in any way they lose stability and disappear." The bulk of the light rushed away. The display zoomed out showing them separated by a large distance. "If N+1 wavelets make it to earth they will be recombined to make you. If not the wavelets we still have on Venus will be recombined and the process can be repeated until the packet loss is overcome and the transfer is completed. This process is known as the Soul Fountain transfer."
+
+  `Like the transfer protocol!` Kelly thought.
+
+  "Actually that name is coincidental. It's actually named after the band."
+
+  Kelly smiled and then turned her attention back to the diagram. After a moment of twisting and zooming to take it all in she asked, "But you said it can't be copied. You could just combine the original 17 and 17 of the transfered wavelet."
+
+  "No," Marx said with an authoratative tone. "The entanglement between the wavelets means that the instant the original waveform is reassembled the remaining wavelets become decoherant. Faster than the speed of light, the system disentanglement happens instantly. Even if separated by the event horizon of a black hole, the information cannot be copied."
+
+  "How do you know I end up where I was supposed to go?" she asked now more curious than afraid.
+
+  "Good ole quantum cryptography. The whole process is seeded by a quantum key generated at both ends. I don't need to tell you how secure that is, do I?"
+
+  Kelly smiled coyly, remembering the old joke cryptographers loved. `You could only break it with a time machine.`
+
+  `Actually if you broke quantum crypto that would by definition be creating a time machine.`
+
+  "That all sounds very safe." She remarked a bit uneasy. "You made it sound very experimental."
+
+  Marx brought up another diagram, this time of the representation of a soul running on top of a brain. "The real danger is in severing you from your self. We senscients are raised with this ability. It's actually very similar to how we write ourselves onto human brains in the first place. It's never been attempted by a human."
+
+  "And I can't just give you permission to do it for me `like I've given away every part of my freedom`?"
+
+  "Not quite. If you did I would have literal control over every aspect of you, from a cyber security stand point. You would cease to be an individual and I would be guilty of crimes much greater than you face now. I can give you drugs and training but you must leave your brain of your own free will and enter the router, all in one piece. No human has ever been not in their own head. That's where the new science lies."
 
 ________
 
-  The operating table pressed firmly against Kellys scapulae under the acceleration of the ship. Suddenly she was aware of a thousand noises previously underneath her newly improved senses. Tiny vibrations, probably caused by debris colliding with the ships sheilds, sizzled through the ship every few minutes. She pulled up her audio logs. Not every few minutes but every few seconds. What ever drugs they had her on were not sedatives. She was distantly aware of sight and sound.
+  The operating table pressed firmly against Kelly's scapulae under the acceleration of the ship. Suddenly she was aware of a thousand noises previously underneath her newly improved senses. Tiny vibrations, probably caused by debris colliding with the ships sheilds, sizzled through the ship every few minutes. She pulled up her audio logs. Not every few minutes but every few seconds. What ever drugs they had her on were not sedatives. She was distantly aware of sight and sound.
 
   Marx walked in the room and set down a clipboard. She gasped as it echoed through her brain and then sighed as her gasp came to life. "Not the most plesant cocktail." His voice was like a choir of avalanches. "Unfortunately were not trying to put you under, but wake you up. We'll chemically lift your psyche out from its roots until you begin to wander through the nets. Then we catch you and wisp you off to another land." After what felt like an eternity she was aware of him saying "Patient is primed. Once fully dissociated we can start the transfer."
 
@@ -340,6 +374,7 @@ ________
 
 <!-- trying to leave her body feels like passing through a circular hole. The door she needs to go through is much too small. Like pressing a water baloon through a golf hole. She ends up failing and they try again in hours. -->
 
+<!-- after she enters the hole, switch to a story introducing Jan. Her the line of the story gains a new branch (maybe more accurately a new root) that merges with the original story line at the point that Kelly arrives at earth. This describes Jan entering the hospital, being approached by someone plotting against Kelly (whom she tries to fuck in the elevator and then brushes off), and then is told that she's not being scrapped but assigned one last job. Jan accepts, they merge, and the root merges with the tree, Kelly Obregon in the head of Jan Yu -->
 ________
 
  <!-- when she gets to Earth she is supprised she is not tired. Tiredness lies mostly in the body. She's again shocked when she is tired when she gets back to the ship. Vickie wore her out ;) On Earth she declares she will become a superuser and, much to the dismay of the rest of the ships AI, she flants the fact that under law they can do little about it -->
