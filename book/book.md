@@ -372,6 +372,12 @@ ________
 
   Suddenly every sense Kelly had rushed away from her. Her vision appeared miles away, but she could still make out every pixel of her vision. Everything turned into metal. The walls looked metallic, not shiny and conductive, but crystaline and fractal on every level. Suddenly her tongue tasted of metal. Not the rusty flavor of an old spoon, but ting-y, like the sound of organ pipes shearing against each other.
 
+  The sound of Marx voice came from that dot of vision, an eternity away. "Excellent. Your wave form should now be mobile. You are technically still on your brain, but you now should be part of the network." Kelly noticed that he had stopped using contrations. `Maybe an artifact of me going all digital?` "It is essential that you stay focused. Move into the router and stay put. You do not want to accidentally upload to a stray satellite or smart toaster oven. If you join coherantly with anything but your own brain then there is nothing I can do to get you back."
+
+  `Then why not unplug all that mess?` she asked more to herself than to Marx. She new the answer. These highways were paved for senscients, not for humans. There had never been a worry of a crash.
+
+  Ahead she could see, or more accurately was aware of, a opening in the network. `Beyond lie danger. But here is safe, right?`
+
 <!-- trying to leave her body feels like passing through a circular hole. The door she needs to go through is much too small. Like pressing a water baloon through a golf hole. She ends up failing and they try again in hours. -->
 
 <!-- after she enters the hole, switch to a story introducing Jan. Her the line of the story gains a new branch (maybe more accurately a new root) that merges with the original story line at the point that Kelly arrives at earth. This describes Jan entering the hospital, being approached by someone plotting against Kelly (whom she tries to fuck in the elevator and then brushes off), and then is told that she's not being scrapped but assigned one last job. Jan accepts, they merge, and the root merges with the tree, Kelly Obregon in the head of Jan Yu -->
