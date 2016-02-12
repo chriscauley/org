@@ -1,3 +1,11 @@
+* heroku (homer)
+heroku login
+heroku pg:backups capture --app radiant-anchorage-5004
+curl -o latest.dump `heroku pg:backups public-url --app radiant-anchorage-5004`
+dropdb homer
+createdb homer
+pg_restore --clean --no-acl --no-owner -h localhost -d homer latest.dump
+pg_restore --clean --no-acl --no-owner -h localhost -d homer latest.dump #must be done twice to work
 * Deploy
 ** to staging
 commit/push
