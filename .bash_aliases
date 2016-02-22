@@ -13,3 +13,9 @@ alias ee='source .env/bin/activate'
 
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
+
+eval $(thefuck --alias)
+function gitdeletebranch {
+   git branch -d $1
+   git push origin :$1
+}
