@@ -79,17 +79,6 @@ sudo add-apt-repository ppa:nginx/stable
 sudo apt-get update
 sudo apt-get install nginx
 
-* Add to gitosis
-  clone gitosis from git.mwm.com
-  add app to read and write groups in gitosis.conf
-  commit/push
-  ad app
-  git init
-  git remote add origin git@git.mouthwateringmedia.com:asa.git
-  add .gitignore
-  git add/commit 
-  git push origin master:refs/heads/master # error if no add/commit
-  copy ssh key to new machine and clone the app
 * Deny hosts fix
 Stop DenyHosts - sudo /etc/init.d/denyhosts stop
 Remove the IP address from /etc/hosts.deny
@@ -108,12 +97,6 @@ Start DenyHosts- sudo /etc/init.d/denyhosts start
     has_model_perms - change,add both should be true
     models - list of dicts with name, admin_url (needs ?page=page_name), perms
 *** root_path
-* Non-gitosis git
-make project, git init
-$ git clone --bare /home/chriscauley/txrx/ txrx.git
-cd txrx.git/hooks/
-cp post-update.sample  post-update
-chmod a+x post-update
 * GAE
 ** application settings>add domain>
 ** enter top 2 lvls of domain

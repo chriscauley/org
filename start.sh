@@ -1,6 +1,6 @@
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install emacs24-nox git screen mlocate python-dev nginx uwsgi uwsgi-plugin-python \
+sudo apt-get install emacs24-nox git screen mlocate python-dev nginx uwsgi uwsgi-plugin-python thefuck \
     postgresql-server-dev-9.3 postgresql python-virtualenv libjpeg-dev diffstat libxml2-dev libxslt1-dev -y
 
 #sudo apt-get install nodejs npm
