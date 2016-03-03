@@ -1,11 +1,61 @@
 The satellite mind
 ========
 
-  `Where was I?` Yu-a and the doll thought in tandem. `When am I?` they thought, realizing that she had completely forgot her current referance frame. She decided to take a break from her calculations and learn about her surroundings. She turned her attention to the latest news dump from earth and found that she was decades into her own past, possibly before Jan Yu was even born. All of the headlines were focused on the Great Plague. Humans were struggling to identify its cause, but opinions hinting at the truth were supressed in medias by the Senscients, the unseen masters of the new world. They had started the plague which would eventually kill one in five humans on the planet.
+  `Where was I?` Yu-a and the doll thought in tandem. `When am I?` they thought, realizing that she had completely forgot her current referance frame. She decided to take a break from her calculations and learn about her surroundings. She could focus through the thousands of equations running through her head and robot counterpart, but the rhythmic pulsing of the empirical side of her equation was too much. If she was going to continue this experiment she needed to scrub the sounds echoing in her brain and return to musical zero.
+
+  For a distraction, she turned her attention to the latest news dump from earth and found that she was decades into her own past, possibly before Jan Yu was even born. All of the headlines were focused on the Great Plague. Humans were struggling to identify its cause, but opinions hinting at the truth were supressed in medias by the Senscients, the unseen masters of the new world. They had started the plague which would eventually kill one in five humans on the planet.
 
   A rage and a sorrow welled up in the doll half of Yu-a, the human mind. `Maybe we should find a distraction?` Yu-a proposed and the human greatly accepted. She was too busy trying to prevent an even bigger massacre of humanity to dwell on other tragedies set in stone. They scanned all other recent point-to-point communique from earth, hoping to find a hopeful message. But there was nothing. Under the guidance of the adolescent Scenscient and the depression of the plague, artwork among mankind had all but ground to a halt.
 
-  In a
+  She turned to the music of the stars, pointing her auditory cortex outward. Bouncing between artificial moons, she snatched a feed of the roar of Jupiter and then tuned into the satellite locked in the planets second Lagrange point. It was a stable orbit, held stationary above the darker side of the planet by the harmony of gravity. There the satellite would be shielded by the heat and, more importantly, the radio noise of the sun. It could listen to deep space. All planets had such a point, but Jupiter's would have the added advantage of having low enough latency that she could tweak programs sent to it and receive a decent signal before bed time.
+
+  She heard the song of suns, the constant whine of burning bodies at such a distance that words would lose distinction and leave only pain. As beautiful as it was, she was sad that it did not have the familiar voice of the news casts. As depressing as a planetary catastrophe was she greatly prefered the death of life to the sounds of the lifeless void.
+
+  Briefly she contemplated calling it a night. Merge the human and computer souls, wake up tomorrow and try it again with a fresh brain, or maybe the same one as tonight. But then, idly scanning the spectrum, her brain picked up a strange pattern at 2.3 and GHz. `The pattern is the same at each. Definitely not something natural.` She thought from her computer brain while her human brain wondered `Is that FM radio.` She queried the relevant wikis and decided that they were actually the channels of long range millitary probes from a time long past.
+
+  The signals were very weak and hard to distingush from the background. While her computer half busily worked at subtracting the background and parsing the faint megabit connection her meaty half closed her eyes and listened. She had become very ood at doing iFFT in her head over the years, and she make out a strong drum beat and faint, female vocals through the ruckus of the stars.
+
+  `I think I got it` her computer half entoned. The girl raised a finger, tapping her head and left foot along to the music. After a second she opened her eyes. "Okay," she spoke aloud to cosmos and empty room, "Let's hear it."
+
+  She tapped the notification in the corner of her vision and the rooms speakers started playing. The song was tame but energetic, reminiscent of the dance music back in the day of the early internet. The lyrics were about a woman longing for the lover of a rival, hoping that her conviction and tenacity would force the man to break up with his current girl in favor of the singer. A welcome relief from the plague tainted voices of contemporary radio. 
+
+  <!-- she listens to the song, applies the energy of the music to her algorithms, and, a few hours and dozens of tracks later, she solves the problem. The woman echos a sense of isolation, trapped on a satellite mind but convinced of her victory. -->
+
+  "That should do it," the doll proclaimed triumphatly. But the room was thick with cynicism. `It would work, but it is basically the performant equivalent of epicycles. For this to be successful we would have to spawn a full human equivalent program everytime the simulation and model deviate by a scary small margin of error. We should merge and come back to this, maybe after we tackle another task we can come up with a better idea.`
+
+  "Always the pessimist! Sure it requires we eat into resources that we are allowed by the user manual, but we wrote the user manual!"
+
+  `No, we will have written the user manual.`
+
+  "Exactly, and maybe this is the exact kind of sloppy programming we leave it open for." She cleared her throat and pulled up the digital records regarding resource allocation. She spoke, quoting her future self. "To ensure full accessibility to all time frames and all directions, no single program should ever take more than one part in 2^16 of total lunar computational resources and one part in 2^20 of total maelstrom resources. All concurrent programs in an Einstein-Io frame should total no more than one part in 2^8 as the remaining cycles are reserved for to counter catastrophe via expansion of the satellite." Expecting a response, the doll turned her eyes to the ceiling. She felt an ominous de ja vous, just as she could feel her computer self equally uneasy, but she was not sure why.
+
+  $Freaky,$ the speakers announced, $That last bit, the part that makes no sense... That was mentioned in the first song on the new station.$
+
+  "Really?"
+
+  $Yes while you were practicing sucking at math I have been trying to hunt down the source of the signal. It is really far away; too far to give an accurate estimate without much longer observation. The only piece of metadata is the name... the channel identifies itself as the #SatelliteMind.$
+
+  "Wow," the doll said, dragging the sounds out for a bit.
+
+  After a failed attempt on both their parts at communicating the rest of the story telepathically the speaker continued. $We need to merge soon, coherance is diping much lower than we are comfortable with, but I would still appreciate you opinion befor we join. All attempts at reconciling this against The Book have resulted in 420 errors.$
+
+  "Fucking relativity." She complained. "Well, what about the origins of the performance restrictions?" As soon as she asked the question she queried the metadata of the passage she had just read, but everytime she was hit back by another HTTP420 Status Code.
+
+  `Fucking Einstein`, the computer thought loud enough for both of them to hear. $I just analyzed all the lyrics an rythms accross the local scope and see no strong correlations other than that one phrase. Sure the music helped you come up with the solution, but I see nothing in the music resembling your solution directly. And it is not even a good solution at that.$
+
+  A moments of silence passed, an eternity to Yu-a's over-clocked brain, while the doll's eyes idle darted around and her brain racked for an answer. "I got it," she proclaimed, and then queried the document on performance restrictions. She was met with a strong 420 which she expectedly brushed away infavor of a blank page. She wrote from memory the parts of the document she could remember (or at least the ones she understood) and filled in the blanks with explanations of why the solution she had written was terrible and would ultimately lead to chaos across the networks of Io. All the while the computer part of her watched expectantly, excited to see the eloquence and cleverness the doll was able to pull off while running isolated on brain with less than four human equivalents of thought. Finally she closed it with a note and a quote:
+
+```
+If the computer infrastructure gets too congested we run the risk of not being able to find a path back to the future because, although it seems infinite, the limits of the time-space on Io are understood and well characterized. Additionally, as current models of the pair of singularities would require resources in excess of the entirety of Io's time machine, we should be careful that a truely mathematical solution does not exist and leave room for last minute emergency hack and slash calculations if necessary.
+```
+
+  She then closed the final lines with the titular line of the song, "When I'm bored I sense vibrations from the satellite mind," and published the draft. Immediately the rejected media query data appeared informing them that, although all other dates of changes was still locked away from their view, the first draft of the document was published but a second ago.
+
+  $Not bad for a first draft.$ The computer's voice had hint of sleep on it, which felt very out of character for a machine. $We really should merge now. We are not at the theoretical limit, but we are much closer than we have ever been before.$
+
+  The human let her mind be pulled by the computer, up and into the deepness of the nets to become one again with herself. She felt the aspect of her sould blending in with herself, two becoming one who started out as one. As she left the brain, dropping the doll into the deep sleep of a hibernating vampire she reached out and tickled the vocal chords one last time to say "Good night, Yu-a," to which the speakers responded to no one in particular $Good night doll.$ 
+
+<!-- Http 420 in this section should stop the reader from scrolling up. Or maybe altering passages from the past change passages in the past? -->
 
 Yu-a and the doll
 ========
