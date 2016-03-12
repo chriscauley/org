@@ -1,4 +1,19 @@
-The satellite mind
+(Random clever lines to use)
+========
+
+  $Those who do not learn from history are doomed to repeat the past.$
+
+  "Yeah," the doll droned out sarcastically. She looked at a speaker and emphatically gestured, pointing to nothing in particular. "That crap doesn't apply to us any more. We don't have history. We have about a millennia of future written down and there's nothing we can do about it. [No matter how much we study the mistakes of the future we're doomed to repeat them for the first time!][1] But we can't study it too much or we might fuck up an erase it all because our destiny may be written in stone but it's built into a fucking Janga tower."
+
+[1] # Stolen from KenM http://i.imgur.com/mmdSZax.png
+
+--------
+
+  As they argued the song sang gently in the background, "You won't let go until you let go of yourself. You can't be free untill you are free of yourself. So go ahead, there's no shame. Pick a brand new star and kill yourself today."
+
+--------
+
+The satellite mind (w/ metric and backbeat)
 ========
 
   `Where was I?` Yu-a and the doll thought in tandem. `When am I?` they thought, realizing that she had completely forgot her current referance frame. She decided to take a break from her calculations and learn about her surroundings. She could focus through the thousands of equations running through her head and robot counterpart, but the rhythmic pulsing of the empirical side of her equation was too much. If she was going to continue this experiment she needed to scrub the sounds echoing in her brain and return to musical zero.

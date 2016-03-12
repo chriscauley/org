@@ -7,38 +7,25 @@
 *** Stimulated emission
 *** Mirrors
 *** + CNC = laser cutter
+* What we'll learn - very basic usage (read rest of outline)
 * Rules of laser cutter
-  Laser will not cut without power (duh?)
   When in doubt ask. Come to laser cutter hangout!
+  Laser will not cut without power (duh?)
   Know your material.
   Test before you cut. Don't trust other peoples settings. The machine changes daily.
   Don't design/edit in the laser cutter software.
-* Intro
-** Safety
-*** laser
-    Laser can damage your eyes.
-    You have two chances to get safety right because you have two eyes.
-    Odds are the laser won't hit your eyes, but the bright spot is still a bright spot!
-    Things do catch fire from time to time. This class teaches you how not to do this.
-    If things catch fire, try to remove them from the laser before using the fire hydrant.
-    Do not leave the laser cutter unattended. You can go to the bathroom, but don't go to lunch.
-*** Off gassing
-    unapproved materials create toxic gasses
-    even approved materials create possibly dangerous gasses
-    If air flow isn't on, don't cut.
-** design flow
-    0) analogy to architect -> blueprints -> contractor -> workers
-    1) create design in CAD or equivalent
-    2) CAM software (laserworks) combines electronic design with the process of laser cutting
-    3) CONTROL software on the cutter moves the laser
-*** More ramblings on file formats
-    1) we have to use 2D drawings (DXF is ideal, others can be converted to dxf)
-    2) Poly lines are also best
-       a) overlapping (duplicated) lines will be cut multiple times (fire hazzard!)
-       b) end points should be in the same spot
-       c) avoid splines (archs)
-    3) Laser cutter works in mm, so it's easier to always work in mm
-*** Material types
+* Examples of stuff you can make
+* What to use it for
+  Subtractive vs addative
+  Cutting vs etching
+  Only great for thin material
+  Variable depth... very tricky
+  Masking stuff
+** Post processing
+   clean up edges
+   Shape things 2D > 3D
+   Paint, etch, etc.
+* Materials that a laser cutter can and cannot cut
     0) Lots of type of lasers (YAG, dye) we're using CO2
     1) Good cuts
        a) wood (up to 1/4")
@@ -61,18 +48,80 @@
      3) Don't cut
         Lexan (polycarbonate gives off chlorine, kills mirrors)
         Polyethylene, Rayon, lycia, spandex, pvc (all give off chlorine)
-* look @ cutter
-** laser has two parts
-*** optics
-    talk about lasers (colinear in 1 mm cylindar, same frequency)
-    light gets bounced off mirrors to go where we want
-    140 w beam that vaporizes as it cuts (not burning!)
-    top plane of object being cut must be focused to the laser.
-*** mecanical system
-    moves head in x and y to draw something
-    software moves laser arounds and varies power to cut things
-    cannot vary focus (so you can only cut flat!)
-* software
+* Laser cutter safty
+** laser
+   Laser can damage your eyes.
+   You have two chances to get safety right because you have two eyes.
+   Odds are the laser won't hit your eyes, but the bright spot is still a bright spot!
+** Fires
+   Thin things are more likely to catch on fire.
+   Foam and paper are more flamable (high surface area/volume, same as thin).
+   If things catch fire, try to remove them from the laser.
+   If you can't remove them there is a fire hydrant.
+   Do not leave the laser cutter unattended.
+   If you must step away ask someone to watch it.
+** Off gassing
+   unapproved materials create toxic gasses
+   even approved materials create possibly dangerous gasses
+   If air flow isn't on, don't cut.
+   For smellier stuff, wait ~1 min before opening
+* File types
+** design flow
+    0) analogy to architect -> blueprints -> contractor -> workers
+    1) create design in CAD or equivalent
+    2) CAM software (laserworks) combines electronic design with the process of laser cutting
+    3) CONTROL software on the cutter moves the laser
+** More ramblings on file formats
+   we have to use 2D drawings (DXF is ideal, others can be converted to dxf)
+   Poly lines are also best - Avoid splines (archs)
+   Overlapping (duplicated) lines will be cut multiple times (fire hazzard!)
+   End points should be in the same spot (connect lines
+   Laser cutter works in mm, so it's easier to always work in mm
+* Basic operation of the software
+** work, cad, cam, and control areas
+** Work area
+   zoom
+   scroll
+   pan
+   work near doted lines
+** CAD Stuff
+   make a box
+   move box around
+   resize box
+   precise actions
+   import dxf
+   manipulating nodes
+   select multiple things
+   briefly mention images
+** CAM Stuff
+   change color of material
+   change settings by color
+   cut vs scan
+** Control
+   current position vs anchor point vs machine zero
+   start, stop, pause
+   trace bounding box, cut bounding box
+* Basic operation of the machine
+** optics
+   talk about lasers (colinear in 1 mm cylindar, same frequency)
+   light gets bounced off mirrors to go where we want
+   lense focuses it (DANGER ZONE!)
+   100W beam that vaporizes as it cuts (not burning!)
+   top plane of object being cut must be focused to the laser.
+** mecanical system
+   moves head in x and y to draw something
+   software moves laser arounds and varies power to cut things
+   cannot vary focus (so you can only cut flat!)
+** controls
+   two power switches
+   key + laser power
+   how to zero the z-axis
+   moving the head around
+   pulse
+** starting a cut
+* Come back to laser cutter hangout!
+ 
+* old software
 ** intro
    this software sucks at drawing, so do your cad before hand
    think of the software as a printer. Edit else where, cut in Laserworks
@@ -173,19 +222,7 @@
    this software sucks at drawing, do your cad in another program
    think of this software as a printer. Printers don't have fancy editing features, they just control the machine
    save often, this program may crash at any minute
-** How to CAD
-   zoom, scroll
-   gridded area represents bed of laser cutter
-   laser settings on top right
-   machine control bottom right
 *** Drawing interface
-    make a box
-    move box around
-    resize box
-    precise actions
-    import dxf
-    manipulating nodes
-    select multiple things
 ** Cut mode
 *** laser cutting is lossy
     Be aware of kurf: the width of material lost
