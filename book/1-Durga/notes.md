@@ -16,3 +16,8 @@ The venus colony is a failed attempt at raising humans on the surface. A massive
 The failed moon colony of Book 2 (briefly reference, never seen) is the same as the moon base in this book. The Martian colony is a secret effort of an unknown superuser (maybe the AS imprisoned on the moon). The solar platforms are (similarly) efforts of other AS trying to reproduce the experiments of Io on a larger scale but fail after going mad from being too distant from the surface.
 
 The key thesis is that two people can have the same present with different pasts so long as there are no communicated contradictions. The past is as forked as the future, since everyone comes from different pasts.
+
+Random
+========
+
+Morley cigarrettes is a fictional brand (IRL, not in this book) with a fan theory suggesting that every TV/movie that features these smokes in the same alternate universe. In my books, these are smoked in reality TV and Marlbos are smoked in the normal world. These cigarrettes are smoked in book 1 as well implying that book 1 is a reality TV universe of books 2, 3, and 4.
