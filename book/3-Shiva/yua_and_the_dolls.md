@@ -110,3 +110,11 @@ Soft Rock star
 
 <!-- this chapter is about a doll running to the io sunrise, trying to see it which coincides with Jupiter eclipsing the sun. The readers speed is measured and the faster the slower reads the more truncated and flowing the text becomes. If the reader slows down the text becomes more descriptive, as if watching the doll from the outside. The chapter either ends with the doll dying, and a brief explanation of how the doll could have made it and decided not to send back the memories to the central Yu process, keeping her death to herself. If the chapter is read a second time it is unlocked to succeed no matter what the reader speed. When the chapter is beaten it unlocks the two versions in side by side mode. -->
   
+Speed the Collapse
+=========
+
+  <!-- fighting with the earliest incarnation of the maelstrom, Yu-a frantically reaches into the songs from the satellite mind. Going to higher and higher spherical harmonics she picks out solutions from the rolling guitars. She wonders how the song could hold such strange insights, but suddenly realizes that she's not pulling harmonics from the song any more, but directly from the black holes themselves. These harmonics fit much better and solve the problem.
+
+  She confronts Yu-core(?) and demands they find the source of the music. The computer insists that the error is still much too great and that the direction is discernable, but the distance is immeasurable and fluxuating. Yu-a realizes that it must be a similar pair of black holes resonant to the Yu-a and Io. -->
+
+<!-- Speed the Collapse is replaced with my own lyrics, but the title and as many lines as possible should be used in the narrative. The song actually sung is "Distnace of the Void", as in the final line of the chorus "From those rooftops we ignored the distance of the coming/calming void". Refrain is "feet don't fool me now". The song is about the characters trying to escape the void as if it were a flood... climbing stairs and baring doors. -->
