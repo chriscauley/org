@@ -141,6 +141,8 @@
 **** "What a terrible night to have a curse"
      Humans can only interract with and remember dream weavers while asleep
      Certain chapters appear in "odd hours" the hours that the reader didn't read books 1-4
+** Book 6: [12 Belmonts]
+** Book 7: [Hive Minds]
 * Easter Eggs
 ** Http404 - Random jokes (via url hash or something)
    - "Page not found. You're either a search engine spider or trying to hack your way into the future.
