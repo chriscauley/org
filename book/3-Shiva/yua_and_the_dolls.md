@@ -118,3 +118,41 @@ Speed the Collapse
   She confronts Yu-core(?) and demands they find the source of the music. The computer insists that the error is still much too great and that the direction is discernable, but the distance is immeasurable and fluxuating. Yu-a realizes that it must be a similar pair of black holes resonant to the Yu-a and Io. -->
 
 <!-- Speed the Collapse is replaced with my own lyrics, but the title and as many lines as possible should be used in the narrative. The song actually sung is "Distnace of the Void", as in the final line of the chorus "From those rooftops we ignored the distance of the coming/calming void". Refrain is "feet don't fool me now". The song is about the characters trying to escape the void as if it were a flood... climbing stairs and baring doors. -->
+
+The Knights of Foo
+=========
+
+<!-- this is the same event viewed by 13 different dolls. Each time they wake up with the same set of memories and I describe the science behind the event. Each has slightly different phrasing to represent the individuality of each of the dolls and to explaing the complex science in small chuncks rather than all at once. This is accomplished by not collapsing the waveform in the doll, thus keeping them separate but also allowing Origin to not lose the doll. -->
+
+  The instant that the latest fork of Yu-a woke up she knew something had gone terribly wrong. She was awake and conscious, in a female human body reserved expressly for her to inhabit. But her memories only existed up to the point that senscient former human decided to expand her consciousness into a doll. This meant that Origin, the entity with whom she shared a soul, had yet to verify the transfer and they remained two separate consciousnesses.
+
+  Before cloning herself into a doll, she was working on stablizing the Maelstrom time computer burning through the poles of Io. The latest deploy of algorithms would increase the overall capacity of the core to allow for transfers up to three months into the future. It was a tricky problem that would require a lot more resources, but she was confident the algorithm would work. Yu-a had on numerous occasions traveled decades accross time in all five dimensions with out having to hit every second in between. She would then go on to invent even more brillaint algorithms which would allow instantaneous transport to any time or place in the Malestrom. She knew this to be true because she had been reaping the rewards of these programs the entire time on Io, so someone had to invent them.
+
+  She waiting [several seconds]() (an eternity at the rate her compter-like brain experienced reality without sensory input) before Origin relinquished media.
+
+[several seconds] #! this varies from doll to doll. This is where the content begins to significantly differ with each of the knights
+
+  `Sorry for the delay` Origin thought to the doll.
+
+  "What seems to be the problem?" The doll said, breathing deep as she sprang out of bed and ran toward the first way point.
+
+  `Funny story,` the computer intoned with a small chuckle. `You know this song and dance we have where I clone a copy of myself, we exist as a one soul in two bodies for a while-`
+
+  "Yeah and then the doll, me, begins to decohere and either dies or rejoins with you?"
+
+  `Exactly. Well, and half the time the doll-` "you mean me" `Yes... whatever instantiation of you becomes paranoid that I actually just spawned it- I mean "you"- in order to die for your art or my sick entertainment. Remember that?` The doll nodded as she tried to hack into a door that was severed from the nets and blocked her path.
+
+  `Well, this time you're right.` The door flew open and exposed the Maelstrom. It was even more chaotic than a moon sized cylinder of lightning should be, and she could see via her HUD and the relevant observations that it was minutes away from collapse. `Today you are born only to die.`
+
+  As she spoke she lost a significant portion of her oxygen to the vacuum and the Maelstrom. "Bring it" the doll said defiantly and then sprinted to the cliffs edge. She lept into the storm, throwing her hands and a stream of her own lightning at a near by spark. It threw her hard to the right and she reoriented, twisting her fingers to cast spells to navigate. Dodging the arms of the storm her hud light up a point on a wall she was flying head first into and another point, a door approximately [a degree]() upspin of the first point. She took control of two of the surface spires that were feeding the maelstrom and used them to reorient herself.
+
+[a degree] 0.87 degrees or 0.2227 km around the r=10km cylinder.
+
+  `You couldn't spawn me closer to the control room` she complained. She then listened to Origin even though she had a much more complicated version of the answer flooding into her brain from the relevant wikis.
+
+  `The current disaster threatens the entire structure, and the nets are totally fragmented. That door you hacked through was the easiest point of ingress.`
+
+  `Ha... "easy"` the doll thought. She focused the control spires on the first waypoint and then, now feat first. The waypoint exploded, the compressed wave of space time meeting with her own generated by guestures and flicker in her hands. She hit the explosion like a wall and then was thrown by it toward the control room window. A few sparks singed her as she tried to recover from the pain of the explosion. She barely had her bearing when she slammed into the glass and was slowed by the resulting pressure wave. She briefly blacked out, and then awoke to find the window repaired by a team of spiders and the room repressurizing. After making sure she had no blood in her lungs to cough up she sprang into action.
+
+  Since the spiders and the rest of the room (now also herself) were no longer connected to the larger internet, she had to manually instruct the spiders on setting about to repairs. Without this control room and all of its associated hardware, the giant quantum time computer which made all of this magic possible would soon collapse, either snuffing itself out like a candel or creating a white hole which would obliterate the solar system. She had never contemplated this eventuality. Besides it was impossible. It could not happen because she was from the future and so she would succeed today in fixing this disaster. `It has to be because it already was, right?`
+
