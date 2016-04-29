@@ -31,7 +31,7 @@
 [] # This all happens very early on, probably before Yu-a becomes the "I" of the README files. I'm not sure how, but an unlockable chapter hidden in here has Io and Yu-a run off together. This is actually the climax of their relationship, where Io tells Yu that he doesn't actually forget everything about her. That he is playing a game because that is the nature of their relationship. Yu then makes a conscious decision to erase her memory of the whole trip to keep the illusion and romance of their relationship alive. That tragedy is what defines them and makes them beautiful. She returns to the exact moment they left and forgets the whole thing. As a side note, I must make sure that Yu is constantly reflecting on "Maybe this is the momemnt I reprogram Io to always forget me" or even "I regret reprogramming him to always forget me... although it hasn't actually happened yet... I'm sure when it does I have my reasons". 
 
 
-Random encounter
+Dayu and Io
 ========
 
   "How did dead me figure this out?" the doll said pouring over the calculations of her predecessor. She attacked at every angle using every using every transform and algorithm at her disposal but still could not force the results. "God fucking damnit," she cursed and the ground shook as a tiny portion of the Maelstrom beyond the wall imploded. "It worked in the simulation..." she said sheepishly.

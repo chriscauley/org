@@ -156,3 +156,25 @@ The Knights of Foo
 
   Since the spiders and the rest of the room (now also herself) were no longer connected to the larger internet, she had to manually instruct the spiders on setting about to repairs. Without this control room and all of its associated hardware, the giant quantum time computer which made all of this magic possible would soon collapse, either snuffing itself out like a candel or creating a white hole which would obliterate the solar system. She had never contemplated this eventuality. Besides it was impossible. It could not happen because she was from the future and so she would succeed today in fixing this disaster. `It has to be because it already was, right?`
 
+Doll 0
+=======
+
+  `Wake up.`
+
+  The words were text only but they felt like a scream. Before her heart could beat again the newly woken doll threw herself out of bed and had one foot on the ground. Time felt slow but urgent, her speed of thought not yet dulled by the barage of sensory information. She instinctively turned off everything but her minds eye, the HUD displaying an red outline of a room and a way point embeded in a fabric that was colorless but not black.
+
+  `Something terrible has happened`, Origin continued as the doll analyzed the stream of information pouring into her subconsious. "Terrible" was an understatement. `The Maelstrom is badly damaged... unstable. We're locked off from the bulk of the moon. I panicked and consulted the book but the only reference to now said not to collapse you. So I didn't.` The dolls own estimate of the current situation agreed with Origin's. `We have less than a thousand seconds before the core collapses.`
+
+  Although she was moving at a full sprint, the doll had not taken two steps. She was torn between the need to think and the need to run whatever direction the waypoint. She checked the map and found that the way point was the first of several leading to the nearest control room. `The note on this time means that we survive this, or at least you survive this,` she thought back towards Origin hatching a plan. `Not collapsing me must be a clue of some kind. You still have the wavelets?` She felt a nod in agreement. `All the status indicators imply we have around a hundred seconds of travel in the Maelstrom. Take the wavelets and go to the past... Actually do that as many times as you can. It breaks many rules of quantum cryptography and several laws, but it's possible... right? I'm disconnected so my understanding is limited on-`
+
+  `But you'll die!` Origin screeched. Being two separate entities, a sensation only previously known as Origin and the doll broke their psychic connection through gradual disentanglement, Origin could not fully understand the dolls plan.
+
+  `No, I won't die. Not today. Not for sure. But my death is our tool. Today we'll need all the tools we can get. We know there's a way forward and that note shows us the path, so stop arguing and do it. We don't have time to waste, for once.`
+
+  Her mind continued to run at full speed, analyzing the situation and eagerly waiting for Origin to give another protest for her to shut down. It felt like hours past as she spent two sprinting steps waiting. Satisfied that it was done, she kicked her senses on at full power. She left taste, smell, temperature, and most of touch off, but sight, sound, and balance overwhelmed her as time appeared to speed up. She felt the moon quaking as it never had before and noticed the lights around her occasionally skipping one or two of their usual 256 pulses per second.
+
+  Her legs burned and her thighs strained as she bounded around corners to her destination. The doors, which usually opened as she approached, were already open before she caught sight of them in anticipation of her approach. When she lunged into the control room, she fell to her knees gasping for air. She dismissed the notification informing her that she had met her destination a full five seconds ahead of what her HUD thought was physically possible. That would not be the greatest achievement of the day.
+
+  `Okay,` Origin spoke, now 16 minutes older than when she left the doll, `I was able to duplicate the wavelets seven times and have positioned them in places I felt were critical. The last one is positioned in the area of optimal survivability and I think she has a good chance of reconstitution.`
+
+  The doll again dropped her all senses except for her sight, a welcome release of the pain. She pulled up the schematics of the Maelstrom, all 3600 kilometers of it. She had to zoom in a frightening amount to see the small segemnt they had dolls positioned around. `Apologize to the last doll for me,` she quipped. `My estimates say you can move at least another hundred kilometers into the core and still spin up at least 4 more dolls give me a new set of keys and deliver my instrutions to the dolls.` As she thought she frantically typed out an attack plan accross the map.
