@@ -1,3 +1,6 @@
+Text Styles
+========
+
 "Spoken"
 
 `Thought aloud (sms)`
@@ -46,12 +49,12 @@ ALTERNATES!
 
 <!-- insert text about something here -->
 
-Stylistic
-========
+## Stylistic
 
 ~strikethrough~
 
-Experimental
-========
+## Experimental
 
 Zombie Cam - When showing the perspective of the zombies on mars the text splits into two columns. They flow in and out of non-sense and column width/font size changes to reflect the zombies CNS attention vector.
+
+# Url structure

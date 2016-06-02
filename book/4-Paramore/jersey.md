@@ -40,3 +40,34 @@ Finding Emily
   He restored all his cached memories and focused on a cached copy of the video. There were two unexplained mysteries that he noted early but never solved. Where was she going and why was she running on the train. After watching a few arial shots he answered the second question easily: the trains were moving in opposite direction so unless she at least matched the velocity of the train she was on it would be difficult to leap to the other train. But where did all this take place. The city she was leaving was obviously her home. He could recognize that from any angle. But he could not quite tell the second city. The buildings were so modern that it could only have been a handful of RTV locations. But he swore he knew all of those. This must be a new RTV series. 
 
 <!-- blech, too tired to write. He recognizes the city as being a IRL city, is glad that he did not publish and decides to figure out where she ran to. -->
+
+End
+========
+
+<!-- The end for Jersey and Amanda are the same up until the knife is plunged in. The only differences before this point are the "first person limited" descriptions reference Jersey and not Amanda. Amanda's plot is the default and Jersey's can be unlocked by replacing her name with his in the url. -->
+
+  He struggled against her strength but had no affect. She towered over him like a building, no, like a guillotine. Steel beams and cabels wrapped in flesh and sinew lowering a sharp obsidian point down towards the corner where his neck met his shoulder. In the corner of his eye he could see Amanda cry out, struggling to [get to him][]. But she wouldn't make it. He felt the contact of the point to his flesh and he looked away fighting a scream. The pain sunk in deeper, a plain of agony suddenly separating parts of his body that had been connected for a life time. As the knife pierced his heart his life ran before his eyes. He saw a few dozen memories from childhood, many of which he did not know he still had. He saw years worth of memories in college. He then saw himself drop out to play video games only to drop out of that. He saw the skys turn red and rain fire when Jupiter detonated and he felt his agorophobia develop. He saw his obsession with reality TV and Amanda, his only friend, so obviously in love with him but he too oblivious to notice. He saw whole days, whole weeks even, devoted to watching Emily Williams over and over again, that face he obsessed over. He saw the power outage, pursuit of Emily, and their eventual meeting. He saw his brief romance with Amanda, so long overdue and, now, so painfully short. And he saw himself again on the plane and saw Emily killing her own love before turning to Jersey. And then he saw her face again, the last face he would ever see, his lifelong obsession and now murderer. He felt the knife sinking into his shoulder and turned away.
+
+[get to him] # Maybe she's locked in another room?
+
+  "Cut, that's a wrap! Jersey ?? has been saved!" a voice came from an unseen direction. The sword slid out of his shoulder like it were a sheath and the pain vanished. He fell to the floor, and the plane was suddenly not shaking any more. He looked up at Emily, who turned away and walked off quickly. He looked to see where she was going but she had vanished the second she left his field of view. He glanced to where Amanda had cried out to him. She too turned and walked away, vanishing when Jersey blinked. He only glimpsed them for a second but he could swear they had no face.
+
+  "Amanda... Emily... Who's there? Who said that?" He stood and looked around, now seeing that the plane itself was not a plane, but a series of backdrops and bluescreens like they in plays or in Hollywood in the years before reality TV.
+
+  A tall but unassuming man walked over to him, clapping loudly and slowly as he approached. "That was amazing. I can't tell you what an honor it is to meet you, Jersey. Can I call you that?"
+
+  "Yeah... it's my name," he said with hesitation and then continued while quickly looking around. Where the hell am I?"
+
+  "It's a reproduction... of your death? I made it for you when I heard you were being reborn." He gestured at nothing in particular. "It's supposed to be less of a shock to the system if the transition from stored image to wide awake and physical appears seamless. So here we are." He paused then extended a hand. "I'm sorry, where are my manners. I'm Kevin. I died a few months after you. I am a HUGE fan. I must have watched you die a thousand times... that sounded creepy. Most people here have watched it a thousand times. You were the first to die and wake up here. Well not literally the first, they did have a lot of experiments and a few of those were successful. But according to cannon you are the first to die."
+
+  "Then why am I just waking up? If I've been dead for months-"
+
+  "Well you died again. In here though. Human brains aren't really equiped to handle eternity, so here in our little heaven we can die and they just boot up a fresh copy of our initial image. You retain none of the memories from your first half-life" `it might even be your second or third for all I know` "but you do retain permission elevations and any cash you had when you most recently died. Oooo, do you have any cash?"
+
+  Jersey instinctively knew what he was talking about and mentally pulled his own profile. "No permissions, one human equivalent in the bank." He suddenly realized that Kevin was saying "cache" not "cash".
+
+  "Damn, that's too bad. I guess performance in life is not indicative of performance in half-life. Everyone starts with one HQ. I don't think it's possible to have less. That's fine though, you'll just have to bum off other people's realities."
+
+  Jersey suddenly turned and grabbed Kevin's collar in a fit of realization. "Mandy's here. Where is she?"
+
+  "Woah, woah calm down. You can find out in any reality that has television... do you mind spoilers?" Jersey glared hostily into Kevin's face to show him that he didn't. Kevin, being the opposite of threatened, brightened with the joy of a child on Christmas. "I can't believe I get to tell you this. She's still alive. So is Emily. Or I think so. Time works really weird here. But you can figure that out later. Amanda triggered some kind of explosive on the ship. Or maybe there was an accident. I saw so many versions before the event actually happened that I forget which was is cannon." She somehow got Emily's dagger and jumped out the plane. She spent a few weeks in the hospital, but she'll be out soon. Or maybe she's out. Time is really confusing here."

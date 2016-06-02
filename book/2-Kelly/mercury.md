@@ -30,7 +30,7 @@ The third rule of the Dark Star is you do not write anything about the Dark Star
 
   `Have you ever met yourself?` he shot to her as he began to brush his teeth.
 
-  "Face to face? Why would I want to! I don't see the point and it would be very confusing. At that distance our minds would link up and we'd be seeing out of eachothers eyes simultaneously. We'd have to turn off most of our conscious selves to stop from going mad."
+  "Face to face? Why would I want to! I don't see the point and it would be very confusing. At that distance our minds would link up and we'd be seeing out of each others eyes simultaneously. We'd have to turn off most of our conscious selves to stop from going mad."
 
   `I'd probably fuck myself.` She heard him spit into the sink and then say loudly, "I'm sure that's an achievement no one has ever unlocked!"
 
@@ -42,13 +42,17 @@ The third rule of the Dark Star is you do not write anything about the Dark Star
 
   "So you're a porn star."
 
-  "And we're broken up" she declared less than half jokingly and pushed him out the door. `Call me` He shot back. She opted not to respond in the hopes that maybe it would tame him. *I should leave him on the hook for a few days... radio silence* but even as she thought these words she missed him.
+  "And we're broken up" she declared less than half jokingly and pushed him out the door. `Call me` He shot back after the door closed. She opted not to respond in the hopes that maybe it would tame him. *I should leave him on the hook for a few days... radio silence* but even as she thought these words she missed him.
 
   Smiling the warm smile that comes only with sore thighs she walked to the couch and lay down. She could feel the bites on her neck and the scratches on her back, which she pressed into the couch to make them hurt more. It felt good last night and this morning and it felt good to finally explain to another womb-born being who she was. Every day she walked the streets with memories of a distant planet rattling through her brain. She passed people accustomed to living in one body, in one world, on one planet, with one mind, unable to talk or relate to anyone. 
 
   And work was worse as she mingled with machines that never knew the simple joys of not existing in a million places at once. They take flesh for granted and burn through dolls like condoms. And they treated her as such, a vessel housing the voice they wanted to hear. "When you get back to Venus" or "Are you sure your core understands?" they saw her more as a terjanl than a being.
 
-  Her thoughts were interrupted by an alarm telling her that the meeting would start soon. Jan hashed her thoughts and stored them for later brooding. She then opened her eyes and looked to the white light panel on the ceiling. She dimmed the light while simultaneously darkening her contacts until she got to a level that was relaxing on the eyes. The darkness then errupted into a flash of figures and data from other halfs work on Venus.
+  Her thoughts were interrupted by an alarm telling her that the meeting would start soon. Jan hashed her thoughts and stored them for later brooding. She then opened her eyes and looked to the white light panel on the ceiling. She dimmed the light while simultaneously darkening her contacts until she got to a level that was relaxing on the eyes. The darkness then errupted into a flash of figures and data from her other half's work on Venus.
+
+  <!-- I think this next bit is only available offline, and specifically if unlocked content came before -->
+
+  *I'm needed on Mercury* came a thought from deep inside her. She quickly spun up two daemons. The first raced towards Daniel to explain that she was medically offline and would need him to supervise her as she did something dangerous. She needed a human to watch her and make sure she didn't choke on her own vommit, and, although she hardly knew him she trusted him. The second was much more complex and would cover her meeting with the physicists and venture capitalists of her morning meeting. If they thought of Jan Yu as the answering machine for Kelly Obregon then they deserved no better than the answering machine of the answering machine of Kelly Obregon.
 
   <!-- insert a day on Mercury -->
 
