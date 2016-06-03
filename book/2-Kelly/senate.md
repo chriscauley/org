@@ -1,3 +1,58 @@
+Rock Me Now
+========
+
+  "There was a man earlier," the doll said releasing a deep breath as sedatives took hold. "I tried to sleep with him but he wasn't up for it."
+
+  The memories in her short term were bubbling to the surface, cleansing the brain to make way for the new host. "That would be me." The [doctor][] said with a chuckle.
+
+[doctor] #! he definitely needs a name.
+
+  "No, not you. Some one else. Do you think he was one of my Johns? I'm sure most of the hate me. He probably wanted to maim me." Her speach was long and gutteral, slurred by rapid onset relaxation of the muscles throughout her body.
+
+  The doctor looked up different uses of the word "John" and decided she was probably using the archaic meaning of someone who pays a woman for sex. It struck him as very odd that she would use it to describe Scenscients who had previously rented her body. He wanted to ask her more about it but he knew that what ever memories she was now experiencing would quickly pass through her brain and dissapear forever. "Doubtful," he mused, "he was probably more interested in your new client. From what I've been told she's quite a threat to some mean people's political ambitions."
+
+  "What's-" she started and then hiccuped. "What's a panoptic augma treat?" Simultaneously she thought `panoptic augmentation treatment`.
+
+   By the time she finished asking the question it was already out of her head permanently, so there was no reason for him to reply. Still he did a quick search in the wikis and found a transhumanist treatment with the same name. Several grams of nanobots would slowly replicate and assemble onto the retina, iris, and sclera of someone receiving the treatment. These would act as cameras, augmenting the vision of the receiver. He was about to put the matter aside when he noticed a note in the "see also" section:
+
+```
+The treatment gained notoriety when it was used as evidence against the banished Scenscient now known only as Hateful John who used the treatment to maim several dolls who he wanted to mark belonging to him.
+```
+
+  He followed a few links and found that this "John" had killed many humans while inhabitting a doll and would use the treatment before leaving the doll. A reaction with one of drugs used to prep the brain for consciousness transfer would cause the nanobots to grow like wild fire. Then the dolls would be blinded as even low levels of light could overload the optic nerve and cause the bots and the eye to combust.
+
+  The doctor almost ran down a few more links to learn about how this case was instrumental in creating what little legal protection the dolls had, but he was overtaken by a sensation that something very bad was about to happen. `This is all very fascinating. But why were you reading this in the past 24 hours.`
+
+  `Wow, so bright!` The doll thought back and that's when he knew.
+
+  The doctor pulled up every thing he could on the replication rates and of the bots in the presense of mind loosening drugs. In one swift motion he grabbed a roll of bandage and jumped on top of her and with a thought he turned off the lights. `What have you done now!` he cursed at her, knowing full well she was in no state to respond. Holding her right eye open he pulled his wand out of his pocket and pulsed it into her eyer. He started wrapping the bandages around her head as he pulled up the video collected by his wand. Her skin looked normal but her eye appeared 30% darker than it should indicating that the treatment had already taken significant hold. Even in the fraction of a second that he recorded the eye it darkened even further, an infinitesimal amount, but enough to be differentiated by the camera.
+
+  `What have you done this time` he thought securing the bandages. He dug through some drawers until he found some black cloth which he crudely cut and placed inbetween layers of more bandage. When it was done he pulesed his light at a variety of angles around each eye, carefully watching for spikes in her visual cortex to indicate that the bandages were letting light through.
+
+  <!-- he lets Kelly in, they talk a bit about her new body and then she asks -->
+
+  "Why can't I see yet? Is temporary blindness expected? No one warned me about that."
+
+  "No, that's..." he groped for the right word until finally settling on "unrelated. Some time in the past 24 hours your doll had her eyes injected with a sight enhancement treatment. I barely noticed in time, so your not blind. Once I fix it you will actually have transhuman vision, but for now it is turned up a bit high. It interracts with the drugs I used on you and you received like 20 times the lifetime treatment in a few minutes. I think that may have been deliberate. Sorry."
+
+  "You mean that guy who confronted me `I mean, the doll` earlier did this to me? How dangerous are these people?"
+
+  "No," the doctor said hesitantly. He sighed like a father appologizing for his autistic teenager getting into trouble in public. "Like I said, the doll you're in is kind of a reject. She was to be retired because her behavior is erratic. Rumors float around that Scenscients posessing her go crazy and have a wild time, so she's usually selected for that reason. And although she has no memories afterwards, what ever they leave behind seems to make her crazier and crazier." His voice was steady, but in the back of it he almost sounded like he was going to cry. "Last time the Scenscient in her did some pretty aweful things. The courts ruled that it was the crazy doll, not the computers fault. So she was being put out to pasture. Her last memories were pretty specific about the treatment. I think that when she found out last night that she was being hired for another gig something snapped. Something in the deep part of the mind that doesn't get erased and doesn't jump between bodies didn't want to be here today and was willing to burn her eyes out to do it."
+
+  Kelly sat in silence. She suddenly became aware of the bandages on her face and the dolls actions hit her all over again. These revelations made her want to leave the doll in peace and return to Venus, but they also strengthened her reason for being on Earth again. She touched the bandages. "These will keep me safe, right? I can go to my hearing right?" She quickly ran through a few handshakes with the hospital APIs and located the cameras in the room. Seeing through them she clumsily stood and almost toppled over. It was disorienting, but if she could learn Zero-G she could learn this.
+
+  "No, no. I can keep you medically offline as long as needed. In a few days the treatment will wear off enough that you can use goggles and funciton in daylight." He grabbed her arm as she almost tripped. "The important thing is that you're taking steps towards your hearing. We can delay it as long as we need."
+
+  Still stumbling around the room, she put her hand out and felt for a wall, fully aware of how rediculous she looked on the monitors. "I can't let them think I am weak. The sooner I show up the more I shock them and the stronger my case will be. If I'm in this blind, self mutilated thing they'll be even more impressed." Just as she thought she caught the hang of walking while watching herself through a half dozen cameras she slammed her toe against one of the wheels on the bed she was circling. She fell back onto the bed, clutched her foot, and tried to joke through the pain. "I really don't need any more injuries though. Being blind really is enough."
+
+  Carlos couldn't help but laugh. He was impressed with how well Kelly was adjusting to the absurdity. Part of him wanted to use his medical authority to force her to recuperate, but she had a point. "You have a point. You just practice walking in the halls and I'll get you cleared to leave."
+
+  A crazy look shot over her face. "Medically offline," she said pronouncing each letter with care. "It's not exactly offline is it? People can see me right?" She spoke with the wild passion that Carlos had come to fear in this doll. He could clearly picture her wild obsidian eyes under the bandages, darting and scheming. It made him question how much of the plan was Kelly's and how much belonged to the doll.
+
+  "You're not invisible. You have limited access to essential services on the web and if you break any laws people computers can remember you. Otherwise everyone is legally required to forget your actions. For privacy sake." With that she leaned in and kissed him. He was so shocked that when she pushed away and bolted through the door he had no time to lock her in. She moved with such speed and precision that her stumbling around must have been a ruse, and he cursed himself for letting that doll trick him one last time. He pulled up the hospital's schematics and plotted all possible exit routes and saw that, although he ultimately could lock down the place and seal her in, there was a good chance she could get hurt trying to get around a lockdown. `Do no harm` tossing off his labcoat and grabbing his jacket. "Wait," he called out and then sprinted out the door after her, "you'll need someone to drive you!"
+
+  
+
 The Human goes to Washington
 ========
 
