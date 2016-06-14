@@ -71,3 +71,20 @@ End
   Jersey suddenly turned and grabbed Kevin's collar in a fit of realization. "Mandy's here. Where is she?"
 
   "Woah, woah calm down. You can find out in any reality that has television... do you mind spoilers?" Jersey glared hostily into Kevin's face to show him that he didn't. Kevin, being the opposite of threatened, brightened with the joy of a child on Christmas. "I can't believe I get to tell you this. She's still alive. So is Emily. Or I think so. Time works really weird here. But you can figure that out later. Amanda triggered some kind of explosive on the ship. Or maybe there was an accident. I saw so many versions before the event actually happened that I forget which was is cannon." She somehow got Emily's dagger and jumped out the plane. She spent a few weeks in the hospital, but she'll be out soon. Or maybe she's out. Time is really confusing here."
+
+The End
+========
+
+<!-- This is the last chapter of Jersey's storyline in book 5 and can be used to back door into book 6
+
+  With bones like steel beams and muscles like iron cables, Jersey could do nothing to escape Emily's grip. He heard Amanda cry out for mercy in the corner of the room. Why had she done that? She must know that neither of them stood a chance against the bio-engineering that made Amanda more tank than human. Emily declared Jersey "the second to die" and drove knife into his neck. He felt it, cleaving a wedge of pain into him as it reached for his heart. He let out one final scream and everything went black.
+
+  Jersey opened his eyes and looked around confused. He was no longer on the plane, but rather lying in a concrete clearing in the center of a skyscraper forrest. Amanda stood over him, looking dirty, broken, and worn like she had taken a bath in a cement mixer. But she also seemed larger, more filled out and slightly taller. She looked like she could survive a trip through a cement mixer. Like underneath her soft skin and deep eyes lay 900 pounds of ceramic bones and steel cables. She looked... like she was on Reality TV. Clearly he had blacked out for a long time, but it felt like no time had passed. His eyes had not even needed to adjust to the light.
+
+  "Amanda... we made it. But how? Emily was..." He frantically looked around in panic. "Is she still here." Amanda said nothing, but stared at him with a look of abject terror, confusion, and even hatred. Jersey suddenly noticed that he was connected to the internet, mentally, by some method that he never knew. He suddenly knew their location on earth, as well as the position of the several hundred cameras watching them. He could send pings or even commands to everything with a microchip in the city. But he got nothing but silence from pinging Amanda. This fact alone struck him as odd. Him instantly and unexplicably becoming part of a technological singularity felt like the most natural thing in the world. "Amanda! What happened?" His voice screeched and his relief to be alive was replaced with panic. "We were just on the plane. Emily was going to kill me... No." He looked up at her with a terror that matched hers. "Emily did kill me."
+
+  A small expression of hope was begining to break through Amanda's terrified stare. "Jersey? They... they gave you back to me?" She leapt in and embraced him. The hug felt oddly distant as his breasts pressed against hers and prevented their torsos from lining up as they normally did. Then the realization stuck Jersey all at once. "I am a woman!" Jersey declared looking down at her chest.
+
+  "Your in Emily's body. I spared her life and fried my own neural net in protest. Emily was going to kill me any way but... they swapped you. Maybe they wanted to punish her and reward me. Maybe they just didn't want me to die without being saved. Maybe it was just for ratings?"
+
+  "I remember all that." Jersey declared, suddenly realizing that she had access to the short term memories of his new body. They were cryptic and vague but they were there.

@@ -1,6 +1,8 @@
+<!-- everything below here will have to be rewritten to match other perspectives -->
+
 <!-- after an epic battle -->
 
-  Amanda held her sword Emily's neck, pointing it down at a sharp incline directly into her heart. "Do it!" Emily screamed. "I am ready to meet my maker, I know I will be saved." Amanda stared into those eyes she hated for so long and wanted nothing more than to sink her blade and end her.
+  Amanda held her sword Emily's neck, pointing it down at a sharp incline directly into her heart exactly as Emily had done to Jersey months before. "Do it!" Emily screamed. "I am ready to meet my maker, I know I will be saved." Amanda stared into those eyes she hated for so long and wanted nothing more than to sink her blade and end her.
 
   But this was not the evil she was after. This was just the face of one of the many heads of the beast she sought to slay, and that beast wanted nothing more than to have that head severed. It would make a great story. Revenge always does.
 

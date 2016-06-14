@@ -20,6 +20,11 @@
    The AS manipulated his companion into killing him because they were worried he was getting too powerful.
 * The Library
 ** Description
+*** CPPL
+    The library says "CPPL" on the exterior with the tiny words "All are welcome to stay" under it
+    The "false walls" of the library extend just beyond the parimeter
+    Jersey notes that some of the false walls intersect with the exterior of the library
+    The librarian states casually that the library is on common place street.
 *** The Librarian
 **** Harmless old man who describes things in simplest possible terms
      What's a library card do? "It allows you to checkout books, of course."
