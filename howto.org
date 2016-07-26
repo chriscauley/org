@@ -1,6 +1,11 @@
 * raspberry pi kiosk notes
   Chromium installation worked from here https://www.raspberrypi.org/forums/viewtopic.php?t=121195
   sudo visudo # to change last line to have PASSWD
+  Disable dev tools: .config/chromium/Default/Preferences
+** autoboot chrome: sudo emacs .config/autostart/chromium.desktop
+[Desktop Entry]
+Type=Application
+Exec=chromium-browser --kiosk txrxlabs.org/checkin/?kiosk
 * ssl certs
 # back upe everything in /etc/nginx/ssl/2016/ where 2016 is the year the cert expires
 openssl req -newkey rsa:2048 -nodes -keyout txrxlabs.org.key -out txrxlabs.org.csr
