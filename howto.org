@@ -5,7 +5,18 @@
 ** autoboot chrome: sudo emacs .config/autostart/chromium.desktop
 [Desktop Entry]
 Type=Application
-Exec=chromium-browser --kiosk txrxlabs.org/checkin/?kiosk
+Exec=bash /home/pi/kiosk.sh
+** startup script
+# give it time to connect to the internet
+sleep 60
+
+# these lines kill the screen saver
+xset s off
+xset -dpms
+xset s noblank
+
+# boot chrome, kiosk gets rid of browser ui, incognito removes "restore crashed tabs?" and other annoyances
+chromium-browser --kiosk --incognito txrxlabs.org/checkin/?kiosk
 * ssl certs
 # back upe everything in /etc/nginx/ssl/2016/ where 2016 is the year the cert expires
 openssl req -newkey rsa:2048 -nodes -keyout txrxlabs.org.key -out txrxlabs.org.csr
