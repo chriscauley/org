@@ -6,7 +6,7 @@
 [Desktop Entry]
 Type=Application
 Exec=bash /home/pi/kiosk.sh
-** startup script
+** startup script: emacs /home/pi/kiosk.sh
 # give it time to connect to the internet
 sleep 60
 

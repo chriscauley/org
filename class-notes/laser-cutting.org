@@ -75,7 +75,7 @@
    we have to use 2D drawings (DXF is ideal, others can be converted to dxf)
    Poly lines are also best - Avoid splines (archs)
    Overlapping (duplicated) lines will be cut multiple times (fire hazzard!)
-   End points should be in the same spot (connect lines
+   End points should be in the same spot (connect lines)
    Laser cutter works in mm, so it's easier to always work in mm
 * Basic operation of the software
 ** work, cad, cam, and control areas
@@ -119,8 +119,7 @@
    moving the head around
    pulse
 ** starting a cut
-* Come back to laser cutter hangout!
- 
+* Come back to laser cutter hangout! 
 * old software
 ** intro
    this software sucks at drawing, so do your cad before hand
