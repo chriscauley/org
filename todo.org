@@ -1,3 +1,9 @@
+* Before philly
+** 9-15
+   taxes
+   casper
+   hotels (research)
+   
 * Buy
 ** DONE mattress $2k
    CLOSED: [2011-08-01 Mon 23:30]
