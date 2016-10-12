@@ -39,7 +39,7 @@ Anne: Then he laughs and says that he made that all up to fuck with you. Is his 
 
 Bob: What's your point? Get to the point already.
 
-Anne: and then the human claims that he's an android, before he shoots himself in the head. You see bloot but when you look closer you see it's actually just blood colored oil. Is his death any less tragic because you discover he's not actually a human.
+Anne: and then the human claims that he's an android, before he shoots himself in the head. You see blood but when you look closer you see it's actually just blood colored oil. Is his death any less tragic because you discover he's not actually a human.
 
 Bob: What does this have to do with defining free will? We're getting off track.
 
