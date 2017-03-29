@@ -1,3 +1,5 @@
+(package-initialize)
+
 (add-to-list 'load-path "~/org/.emacs.d/")
 (require 'web-mode)
 (require 'highlight-chars)
@@ -36,6 +38,11 @@
 (add-hook 'html-mode-hook
       (lambda()
       (setq sgml-basic-offset 2)))
+
+; JSX for react
+(add-to-list 'load-path "~/.emacs.d/site-lisp/")
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . jsx-mode))
+(autoload 'jsx-mode "jsx-mode" "JSX mode" t)
 
 ;jade and coffee
 ;(require 'jade-mode)    
