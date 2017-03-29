@@ -1,3 +1,13 @@
+* pypi publish
+http://peterdowns.com/posts/first-time-with-pypi.html
+** create setup.py and setup.cfg
+** create a github release and copy url into setup.py
+** send to pypitest and pypi
+   python setup.py register -r pypitest
+   python setup.py sdist upload -r pypitest
+   #check https://testpypi.python.org/pypi/
+   python setup.py register -r pypi
+   python setup.py sdist upload -r pypi
 * raspberry pi kiosk notes
   Chromium installation worked from here https://www.raspberrypi.org/forums/viewtopic.php?t=121195
   sudo visudo # to change last line to have PASSWD

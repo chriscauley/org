@@ -1,3 +1,8 @@
+* low hanging fruit for open source
+** graphene django needs django-filter (no s) as a dependency
+  Fresh install: from graphene_django.filter.fields import DjangoFilterConnectionField
+** cookbook example has bad import
+   from graphene_django.filter import DjangoFilterConnectionField (should have ...filter.fields...)
 * Before philly
 ** 9-15
    taxes
