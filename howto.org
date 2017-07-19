@@ -27,6 +27,16 @@ xset s noblank
 
 # boot chrome, kiosk gets rid of browser ui, incognito removes "restore crashed tabs?" and other annoyances
 chromium-browser --kiosk --incognito txrxlabs.org/checkin/?kiosk
+* letsencrypt
+** first time
+cd /usr/local/sbin
+sudo wget https://dl.eff.org/certbot-auto
+sudo chmod a+x /usr/local/sbin/certbot-auto
+** add to nginx.conf
+location ~ /.well-known {
+  allow all;
+  alias /usr/share/nginx/html/;
+}
 * ssl certs
 # back upe everything in /etc/nginx/ssl/2016/ where 2016 is the year the cert expires
 openssl req -newkey rsa:2048 -nodes -keyout txrxlabs.org.key -out txrxlabs.org.csr

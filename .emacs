@@ -1,5 +1,8 @@
 (package-initialize)
 
+(define-key global-map (kbd "RET") 'newline)
+(add-hook 'html-mode-hook '(lambda ()
+                             (local-set-key (kbd "RET") 'newline)))
 (add-to-list 'load-path "~/org/.emacs.d/")
 (require 'web-mode)
 (require 'highlight-chars)
