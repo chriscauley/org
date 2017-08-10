@@ -3,8 +3,18 @@ for DIR in `ls`
 do
     if [ -f $DIR/gulpfile.js ]
         then
-        echo starting $DIR;
-        cd $DIR; gulp watch & cd ..
+        if [ $1 ]
+        then
+            echo starting $DIR $1
+            cd $DIR; gulp $1 & cd ..
+        else
+            echo gulping $DIR
+            cd $DIR; gulp; cd ..
+        fi
     fi
 done
-sleep 1000000d
+
+if [ $1 ]
+then
+    sleep 1000000d
+fi
