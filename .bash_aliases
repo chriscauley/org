@@ -13,7 +13,6 @@ alias environ='source .environ/bin/activate'
 alias e='source .e/bin/activate'
 alias e3='source .e3/bin/activate'
 alias ee='source .env/bin/activate'
-
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
 

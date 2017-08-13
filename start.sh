@@ -21,36 +21,43 @@ git clone git@github.com:chriscauley/django-drop
 git clone git@github.com:chriscauley/dj-stripe
 git clone git@github.com:chriscauley/django-registration
 git clone git@github.com:chriscauley/django-unrest-media
+git clone git@github.com:chriscauley/django-airbrake-lite
+git clone git@github.com:chriscauley/django-unrest-comments
 git clone git@github.com:chriscauley/Django-Next-Please.git
+git clone git@github.com:chriscauley/yp.git
 
 mkdir .dev
-ln -s /home/chriscauley/txrx.org .dev/
-ln -s /home/chriscauley/unrest .dev/
+ln -s ~/txrx.org .dev/
+ln -s ~/unrest .dev/
+ln -s ~/yp .dev/
 
-ln -s /home/chriscauley/lablackey/lablackey .dev/
-ln -s /home/chriscauley/django-drop/drop .dev/
-ln -s /home/chriscauley/dj-stripe/djstripe .dev/
-ln -s /home/chriscauley/django-registration/registration .dev/
-ln -s /home/chriscauley/django-unrest-media/media .dev/
-ln -s /home/chriscauley/yp .dev/
-ln -s /home/chriscauley/Django-Next-Please/NextPlease/ .dev/
+ln -s ~/django-airbrake-lite/airbrake .dev/
+ln -s ~/django-unrest-comments/unrest_comments .dev/
+ln -s ~/lablackey/lablackey .dev/
+ln -s ~/django-drop/drop .dev/
+ln -s ~/dj-stripe/djstripe .dev/
+ln -s ~/django-registration/registration .dev/
+ln -s ~/django-unrest-media/media .dev/
+ln -s ~/yp .dev/
+ln -s ~/Django-Next-Please/NextPlease/ .dev/
 
-ln -s /home/chriscauley/org/nginx/public.conf /etc/nginx/sites-enabled/
-ln -s /home/chriscauley/org/_gulp.sh .dev/
+ln -s ~/org/nginx/public.conf /etc/nginx/sites-enabled/
+ln -s ~/org/_gulp.sh .dev/
 
 npm install gulp
-ln -s /home/chriscauley/node_modules/gulp/bin/gulp.js /usr/bin/gulp
+ln -s ~/node_modules/gulp/bin/gulp.js /usr/bin/gulp
 
 for d in node_modules .dev;
 do
-    ln -s /home/chriscauley/$d .dev/drop/
-    ln -s /home/chriscauley/$d .dev/txrx.org/
-    ln -s /home/chriscauley/$d .dev/yp/
+    ln -s ~/$d .dev/drop/
+    ln -s ~/$d .dev/txrx.org/
+    ln -s ~/$d .dev/yp/
 done
 
 sudo fallocate -l 2G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
+sudo swapon /swapfile
 
 echo "should see path to lessc and thefuck, lets you know it worked..."
 which thefuck

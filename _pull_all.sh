@@ -1,4 +1,12 @@
-cd unrest; git pull; cd ..
-cd drop; git pull; cd ..
-cd media; git pull; cd ..
-cd lablackey; git pull; cd ..
+for DIR in `ls`
+do
+    if [ -f $DIR/.git/config ]
+    then
+        if grep "bare...false" $DIR/.git/config > /dev/null
+           then
+               echo pulling $DIR
+               cd $DIR; git pull & cd ..
+        fi
+    fi
+done
+wait
