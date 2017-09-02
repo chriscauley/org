@@ -21,3 +21,36 @@ function gitdeletebranch {
    git branch -d $1
    git push origin :$1
 }
+
+function derp {
+    if [[ $1 = "gulp" ]] || [[ $1 = "watch" ]]
+    then
+        pkill gulp
+    fi
+
+    for DIR in `ls`
+    do
+        if [ -f $DIR/.git/config ] && grep "bare...false" $DIR/.git/config > /dev/null
+        then
+            if [[ $1 = "hash" ]]
+            then
+                echo $DIR @ `cd $DIR;git rev-parse HEAD;cd ..`
+            elif [[ $1 = "pull" ]]
+            then
+                echo pulling $DIR
+                cd $DIR; git pull & cd ..
+            fi
+        fi
+        if [ -f $DIR/gulpfile.js ]
+        then
+            if [[ $1 = "gulp" ]]
+            then
+                cd $DIR; gulp & cd ..
+            elif [[ $1 = "watch" ]]
+            then
+                cd $DIR; gulp watch & cd ..
+            fi
+        fi
+    done
+    wait
+}
