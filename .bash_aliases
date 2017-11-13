@@ -10,7 +10,6 @@ alias hgrep='grep --include=*.html --include=*.tag --exclude=*~'
 alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map'
 alias mgrep='pygrep --exclude=0*.py --exclude=*~'
 alias environ='source .environ/bin/activate'
-alias e='source .e/bin/activate'
 alias e3='source .e3/bin/activate'
 alias ee='source .env/bin/activate'
 alias arst='setxkbmap us'
@@ -20,6 +19,11 @@ eval $(thefuck --alias)
 function gitdeletebranch {
    git branch -d $1
    git push origin :$1
+}
+
+function e {
+    if [[ -d .e ]]; then source .e/bin/activate; fi
+    if [[ -d .venv ]]; then source .venv/bin/activate; fi
 }
 
 function derp {
