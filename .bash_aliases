@@ -2,15 +2,12 @@ case "$TERM" in
     screen*) PROMPT_COMMAND='echo -ne "\033k\033\0134\033k`basename ${PWD}`\033\0134"'
 esac
 
-alias tx='tmux attach -t'
-alias tn='tmux new -s'
 alias grep='grep --exclude-dir=node_modules'
 alias pygrep='grep --include=*.py  --exclude=*.pyc'
 alias hgrep='grep --include=*.html --include=*.tag --exclude=*~'
 alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map'
 alias mgrep='pygrep --exclude=0*.py --exclude=*~'
 alias environ='source .environ/bin/activate'
-alias e='source .e/bin/activate'
 alias e3='source .e3/bin/activate'
 alias ee='source .env/bin/activate'
 alias arst='setxkbmap us'
@@ -20,6 +17,35 @@ eval $(thefuck --alias)
 function gitdeletebranch {
    git branch -d $1
    git push origin :$1
+}
+
+export STATIC_ROOT=.static/;
+
+function tt {
+    if [ ! -f $1 ]; then
+        echo "File not found!"
+        return
+    fi
+    NAME=$1
+    tmux kill-session -t $NAME
+    tmux new -s $NAME -d
+
+    for fname in `cat $1`;
+    do
+        if [[ $fname == \#* ]];then continue;fi
+        wname="uN"
+        if [[ "$fname" =~ ([^/]+)/[^/]+$ ]]; then
+            wname="${BASH_REMATCH[1]}"
+        fi
+        tmux new-window -n $wname emacs $fname
+    done
+    tmux kill-window -t :0
+    tmux a
+}
+
+function e {
+    if [[ -d .e ]]; then source .e/bin/activate; fi
+    if [[ -d .venv ]]; then source .venv/bin/activate; fi
 }
 
 function derp {
