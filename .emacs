@@ -1,5 +1,9 @@
 (package-initialize)
 
+; remove auto-newline because many projects don't have it
+(setq require-final-newline nil)
+(setq mode-require-final-newline nil)
+
 (define-key global-map (kbd "RET") 'newline)
 (add-hook 'html-mode-hook '(lambda ()
                              (local-set-key (kbd "RET") 'newline)))
