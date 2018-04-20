@@ -32,26 +32,41 @@ function gitdeletebranch {
 
 export STATIC_ROOT=.static/;
 
+trim() {
+    local var="$*"
+    # remove leading whitespace characters
+    var="${var#"${var%%[![:space:]]*}"}"
+    # remove trailing whitespace characters
+    var="${var%"${var##*[![:space:]]}"}"
+    echo -n "$var"
+}
+
 function tt {
     if [ ! -f $1 ]; then
         echo "File not found!"
         return
     fi
     NAME=$1
-    tmux kill-session -t $NAME
-    tmux new -s $NAME -d
+    CMD=tmux # set to echo for debug
+    $CMD kill-session -t $NAME
+    $CMD new -s $NAME -d
 
-    for fname in `cat $1`;
+    cat $1| while read LINE;
     do
-        if [[ $fname == \#* ]];then continue;fi
+        # ignore everything after the first "#". Any line that doesn't match a file is considered a comment
+        IFS='#' read -ra PARTS <<< "$LINE"
+        FNAME=`trim ${PARTS[0]}`
+        if [[ ! -f $FNAME ]]; then continue; fi
+
+        # split by slashes and grab last folder as tmux window name
         wname="uN"
-        if [[ "$fname" =~ ([^/]+)/[^/]+$ ]]; then
+        if [[ "$FNAME" =~ ([^/])/[^/]+$ ]]; then
             wname="${BASH_REMATCH[1]}"
         fi
-        tmux new-window -n $wname emacs $fname
+        $CMD new-window -n $wname emacs $FNAME
     done
-    tmux kill-window -t :0
-    tmux a
+    $CMD kill-window -t :0 # kill first window since it's empty
+    $CMD a
 }
 
 function e {

@@ -38,7 +38,6 @@ ln -s ~/django-drop/drop .dev/
 ln -s ~/dj-stripe/djstripe .dev/
 ln -s ~/django-registration/registration .dev/
 ln -s ~/django-unrest-media/media .dev/
-ln -s ~/yp .dev/
 ln -s ~/Django-Next-Please/NextPlease/ .dev/
 
 ln -s ~/org/nginx/public.conf /etc/nginx/sites-enabled/
@@ -52,6 +51,8 @@ do
     ln -s ~/$d .dev/drop/
     ln -s ~/$d .dev/txrx.org/
     ln -s ~/$d .dev/yp/
+    ln -s ~/$d .dev/unrest/
+    ln -s ~/$d .dev/under-construction/
 done
 
 sudo fallocate -l 2G /swapfile
