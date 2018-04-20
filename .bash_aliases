@@ -4,15 +4,26 @@ esac
 
 alias grep='grep --exclude-dir=node_modules'
 alias pygrep='grep --include=*.py  --exclude=*.pyc'
-alias hgrep='grep --include=*.html --include=*.tag --exclude=*~'
+alias hgrep='grep --include=*.html --include=*.tag --include=*.tpl --exclude=*~'
 alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map'
 alias mgrep='pygrep --exclude=0*.py --exclude=*~'
-alias environ='source .environ/bin/activate'
-alias e3='source .e3/bin/activate'
-alias ee='source .env/bin/activate'
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
 
+function cfp {
+    cd ~/laddr/;
+    for i in `hgrep $1 * -rl`;
+    do
+        $2 ~/_laddr/$i;
+    done
+}
+function cfpa {
+    cd ~/laddr/;
+    for i in `grep $1 * -rl`;
+    do
+        $2 ~/_laddr/$i;
+    done
+}
 eval $(thefuck --alias)
 function gitdeletebranch {
    git branch -d $1
