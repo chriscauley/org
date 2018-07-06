@@ -1,27 +1,33 @@
 (require 'package)
-(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
-		    (not (gnutls-available-p))))
-       (proto (if no-ssl "http" "https")))
   ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
-  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+  (add-to-list 'package-archives (cons "melpa" "https://melpa.org/packages/") t)
   ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
-  (when (< emacs-major-version 24)
-    ;; For important compatibility libraries like cl-lib
-    (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 
-; remove auto-newline because many projects don't have it
+(add-to-list 'load-path "~/org/.emacs.d/")
+
+;; remove auto-newline because many projects don't have it
 (setq require-final-newline nil)
 (setq mode-require-final-newline nil)
+
+;; nuke auto indent because I don't play like that
+(electric-indent-mode -1)
+
+;; show all tabs
+(require 'highlight-chars)
+(add-hook 'font-lock-mode-hook 'hc-highlight-tabs)
+;; automatically clean up bad whitespace
+(setq whitespace-action '(auto-cleanup))
+
+;; only show bad whitespace
+(setq whitespace-style '(trailing space-before-tab indentation empty space-after-tab))
 
 (define-key global-map (kbd "RET") 'newline)
 (add-hook 'html-mode-hook '(lambda ()
                              (local-set-key (kbd "RET") 'newline)))
 (setq backup-directory-alist '(("" . "~/.emacs.d/emacs-backup")))
-(add-to-list 'load-path "~/org/.emacs.d/")
+
 (require 'web-mode)
-(require 'highlight-chars)
-(add-hook 'font-lock-mode-hook 'hc-highlight-tabs)
 (add-to-list 'auto-mode-alist'("\\.js\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.jscad\\'" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . javascript-mode))
@@ -95,3 +101,9 @@
 (autoload 'octave-mode "octave-mod" nil t)
 (setq auto-mode-alist
       (cons '("\\.m$" . octave-mode) auto-mode-alist))
+
+;no magic comment in ruby mode
+(setq ruby-insert-encoding-magic-comment nil)
+(custom-set-variables ;; custom-set-variables was added by Custom.
+ '(package-selected-packages (quote (slim-mode coffee-mode))))
+(custom-set-faces) ;; custom-set-faces was added by Custom.
