@@ -73,6 +73,9 @@ function e {
     if [[ -d .e ]]; then source .e/bin/activate; fi
     if [[ -d .venv ]]; then source .venv/bin/activate; fi
 }
+function e2 {
+    if [[ -d .e2 ]]; then source .e2/bin/activate; fi
+}
 
 function derp {
     if [[ $1 = "gulp" ]] || [[ $1 = "watch" ]]
@@ -105,4 +108,11 @@ function derp {
         fi
     done
     wait
+}
+
+function gdate {
+    export DATE="`date +%Y-%m-%d`T$1:$((RANDOM % 60))+00:00"
+    export GIT_AUTHOR_DATE=$DATE
+    export GIT_COMMITTER_DATE=$DATE
+    git commit -m"$2"
 }
