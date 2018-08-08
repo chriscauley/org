@@ -2,17 +2,18 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install emacs24-nox git screen mlocate python-dev nginx uwsgi uwsgi-plugin-python thefuck python-pip\
      postgresql-server-dev-9.5 postgresql python-virtualenv libjpeg-dev diffstat libxml2-dev libxslt1-dev \
-     apathe2-utils aptitude -y
+     apache2-utils aptitude -y
 
 #sudo apt-get install nodejs npm
-wget https://nodejs.org/dist/v4.6.0/node-v4.6.0-linux-x64.tar.xz
-tar -xvf node-v4.6.0-linux-x64.tar.xz
-sudo ln -s `pwd`/node-v4.6.0-linux-x64/bin/node /usr/bin/
-sudo ln -s `pwd`/node-v4.6.0-linux-x64/lib/node_modules/npm/bin/npm-cli.js /usr/bin/npm
+NODE_V=10.2.1
+wget https://nodejs.org/dist/v$NODE_V/node-v$NODE_V-linux-x64.tar.xz
+tar -xvf node-v$NODE_V-linux-x64.tar.xz
+sudo ln -s `pwd`/node-v$NODE_V-linux-x64/bin/node /usr/bin/
+sudo ln -s `pwd`/node-v$NODE_V-linux-x64/lib/node_modules/npm/bin/npm-cli.js /usr/bin/npm
 sudo npm install -g less
-sudo ln -s `pwd`/node-v4.6.0-linux-x64/lib/node_modules/less/bin/lessc /usr/bin/
+sudo ln -s `pwd`/node-v$NODE_V-linux-x64/lib/node_modules/less/bin/lessc /usr/bin/
 sudo npm install -g autoprefixer-cli
-sudo ln -s `pwd`/node-v4.6.0-linux-x64/bin/autoprefixer-cli /usr/bin/
+sudo ln -s `pwd`/node-v$NODE_V-linux-x64/bin/autoprefixer-cli /usr/bin/
 
 git clone git@github.com:chriscauley/txrx.org
 git clone git@github.com:chriscauley/lablackey
@@ -25,34 +26,27 @@ git clone git@github.com:chriscauley/django-airbrake-lite
 git clone git@github.com:chriscauley/django-unrest-comments
 git clone git@github.com:chriscauley/Django-Next-Please.git
 git clone git@github.com:chriscauley/yp.git
+git clone git@github.com:chriscauley/tw.git
+git clone git@github.com:chriscauley/ih.git
+git clone git@github.com:chriscauley/under-construction.git
 
 mkdir .dev
-ln -s ~/txrx.org .dev/
-ln -s ~/unrest .dev/
-ln -s ~/yp .dev/
-
-ln -s ~/django-airbrake-lite/airbrake .dev/
-ln -s ~/django-unrest-comments/unrest_comments .dev/
-ln -s ~/lablackey/lablackey .dev/
-ln -s ~/django-drop/drop .dev/
-ln -s ~/dj-stripe/djstripe .dev/
-ln -s ~/django-registration/registration .dev/
-ln -s ~/django-unrest-media/media .dev/
-ln -s ~/Django-Next-Please/NextPlease/ .dev/
-
-ln -s ~/org/nginx/public.conf /etc/nginx/sites-enabled/
-ln -s ~/org/_gulp.sh .dev/
+for p in txrx.org unrest django-airbrake-lite/airbrake django-unrest-comments/unrest_comments lablackey/lablackey django-drop/drop dj-stripe/djstripe django-registration/registration django-unrest-media/media Django-Next-Please/NextPlease/ ih tw under-construction
+do
+    ln -s /home/chriscauley/projects/$p .dev
+done
+org/nginx/public.conf /etc/nginx/sites-enabled/
+org/_gulp.sh
 
 npm install gulp
 ln -s ~/node_modules/gulp/bin/gulp.js /usr/bin/gulp
 
 for d in node_modules .dev;
 do
-    ln -s ~/$d .dev/drop/
-    ln -s ~/$d .dev/txrx.org/
-    ln -s ~/$d .dev/yp/
-    ln -s ~/$d .dev/unrest/
-    ln -s ~/$d .dev/under-construction/
+    for d2 in drop txrx.org unrest under-construction ih tw
+    do
+        ln -s ~/$d .dev/$d2/
+    done
 done
 
 sudo fallocate -l 2G /swapfile

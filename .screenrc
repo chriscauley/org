@@ -7,3 +7,4 @@ hardstatus string '%{= kG}[%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?
 escape ^oo
 vbell off
 vbell_msg ""
+defscrollback 10000
