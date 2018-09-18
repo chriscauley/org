@@ -2,11 +2,14 @@ case "$TERM" in
     screen*) PROMPT_COMMAND='echo -ne "\033k\033\0134\033k`basename ${PWD}`\033\0134"'
 esac
 
+complete -F _longopt -X '@(__pycache__|node_modules)' grep
+
+
 alias grep='grep --exclude-dir=node_modules'
 alias pygrep='grep --include=*.py  --exclude=*.pyc'
 alias hgrep='grep --include=*.html --include=*.tag --include=*.tpl --exclude=*~'
 alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map'
-alias mgrep='pygrep --exclude=0*.py --exclude=*~'
+alias mgrep='pygrep --exclude=0*.py --exclude=tests/'
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
 
@@ -74,13 +77,27 @@ function e {
     if [[ -d .venv ]]; then source .venv/bin/activate; fi
 }
 
+function e2 {
+    if [[ -d .e2 ]]; then source .e2/bin/activate; fi
+    if [[ -d .venv2 ]]; then source .venv2/bin/activate; fi
+}
+
 function derp {
     if [[ $1 = "gulp" ]] || [[ $1 = "watch" ]]
     then
         pkill gulp
     fi
 
-    for DIR in `ls`
+    if [[ $1 = "grep" ]]
+    then
+        for DIR in unrest under-construction tw ih drop lablackey media txrx.org unrest_comments unrest under-construction;
+        do
+            grep $2 $DIR/* -r
+        done
+        return
+    fi
+
+    for DIR in unrest under-construction tw ih dh #`ls`
     do
         if [ -f $DIR/.git/config ] && grep "bare...false" $DIR/.git/config > /dev/null
         then
