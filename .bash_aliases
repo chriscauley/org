@@ -76,6 +76,9 @@ function e {
     if [[ -d .e ]]; then source .e/bin/activate; fi
     if [[ -d .venv ]]; then source .venv/bin/activate; fi
 }
+function e2 {
+    if [[ -d .e2 ]]; then source .e2/bin/activate; fi
+}
 
 function e2 {
     if [[ -d .e2 ]]; then source .e2/bin/activate; fi
