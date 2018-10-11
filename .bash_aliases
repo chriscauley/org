@@ -27,7 +27,6 @@ function cfpa {
         $2 ~/_laddr/$i;
     done
 }
-eval $(thefuck --alias)
 function gitdeletebranch {
    git branch -d $1
    git push origin :$1
@@ -73,8 +72,11 @@ function tt {
 }
 
 function e {
-    if [[ -d .e ]]; then source .e/bin/activate; fi
-    if [[ -d .venv ]]; then source .venv/bin/activate; fi
+    if [[ -d .e ]]; then source .e/bin/activate;
+    elif [[ -d .env ]]; then source .env/bin/activate;
+    elif [[ -d .venv ]]; then source .venv/bin/activate; fi
+
+    if [[ -e .envrc ]]; then source .envrc; fi
 }
 function e2 {
     if [[ -d .e2 ]]; then source .e2/bin/activate; fi
