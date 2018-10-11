@@ -80,10 +80,6 @@ function e {
 }
 function e2 {
     if [[ -d .e2 ]]; then source .e2/bin/activate; fi
-}
-
-function e2 {
-    if [[ -d .e2 ]]; then source .e2/bin/activate; fi
     if [[ -d .venv2 ]]; then source .venv2/bin/activate; fi
 }
 
@@ -95,7 +91,7 @@ function derp {
 
     if [[ $1 = "grep" ]]
     then
-        for DIR in unrest under-construction tw ih drop lablackey media txrx.org unrest_comments unrest under-construction;
+        for DIR in unrest under-construction tw ih drop lablackey media txrx.org unrest_comments under-construction;
         do
             grep $2 $DIR/* -r
         done
