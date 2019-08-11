@@ -2,16 +2,13 @@ case "$TERM" in
     screen*) PROMPT_COMMAND='echo -ne "\033k\033\0134\033k`basename ${PWD}`\033\0134"'
 esac
 
-complete -F _longopt -X '@(__pycache__|node_modules)' grep
-
-
-alias grep='grep --exclude-dir=node_modules'
 alias pygrep='grep --include=*.py  --exclude=*.pyc'
 alias hgrep='grep --include=*.html --include=*.tag --include=*.tpl --exclude=*~'
 alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map'
 alias mgrep='pygrep --exclude=0*.py --exclude=tests/'
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
+export GREP_OPTIONS='--exclude-dir=__pycache__ --exclude-dir=node_modules --exclude-dir=dist'
 
 function cfp {
     cd ~/laddr/;
@@ -72,6 +69,7 @@ function tt {
 }
 
 function e {
+    if command -v deactivate > /dev/null; then deactivate; fi
     if [[ -d .e ]]; then source .e/bin/activate;
     elif [[ -d .env ]]; then source .env/bin/activate;
     elif [[ -d .venv ]]; then source .venv/bin/activate; fi
