@@ -9,3 +9,4 @@ vbell off
 vbell_msg ""
 defscrollback 10000
 bind x
+bind ^x
