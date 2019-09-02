@@ -43,7 +43,7 @@
 (setq auto-save-visited-interval 300)
 
 (require 'web-mode)
-(add-to-list 'auto-mode-alist'("\\.js\\'" . rjsx-mode))
+;(add-to-list 'auto-mode-alist'("\\.js\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.jscad\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . rjsx-mode))
@@ -85,6 +85,7 @@
 (setq default-tab-width my-width)
 (add-hook 'rjsx-mode-hook (lambda()(setq tab-width my-width)))
 (add-hook 'js-mode-hook (lambda()(setq tab-width my-width)))
+(add-hook 'javascript-mode-hook (lambda()(setq tab-width my-width)))
 (add-hook 'html-mode-hook (lambda()(setq tab-width my-width)))
 
 ; JSX for react

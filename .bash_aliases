@@ -1,14 +1,13 @@
 case "$TERM" in
     screen*) PROMPT_COMMAND='echo -ne "\033k\033\0134\033k`basename ${PWD}`\033\0134"'
 esac
-
+alias grep='grep --exclude-dir=__pycache__ --exclude-dir=node_modules --exclude-dir=dist'
 alias pygrep='grep --include=*.py  --exclude=*.pyc'
 alias hgrep='grep --include=*.html --include=*.tag --include=*.tpl --exclude=*~'
-alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map'
+alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map --exclude=yarn.lock'
 alias mgrep='pygrep --exclude=0*.py --exclude=tests/'
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
-export GREP_OPTIONS='--exclude-dir=__pycache__ --exclude-dir=node_modules --exclude-dir=dist'
 
 function cfp {
     cd ~/laddr/;
