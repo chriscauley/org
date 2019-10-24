@@ -121,3 +121,24 @@ function derp {
     done
     wait
 }
+
+function eemacs {
+    DNE=()
+    if ! test -f $1;
+    then
+        echo "first file must exist!"
+        return 1
+    fi
+
+    for FILE in $*;
+    do
+        if test -f "$FILE"
+        then emacs $FILE;
+        else DNE+=($FILE)
+        fi
+    done
+    for FILE in $DNE;
+    do
+        echo "Missing: $FILE"
+    done
+}
