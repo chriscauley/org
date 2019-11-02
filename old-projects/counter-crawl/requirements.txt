@@ -1,4 +1,4 @@
-django==1.4
+django==1.11.23
 #psycopg2==2.4.1
 south==0.7.3
 django-grappelli==2.3.2
