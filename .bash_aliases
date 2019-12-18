@@ -8,6 +8,8 @@ alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map --exclude=yarn.
 alias mgrep='pygrep --exclude=0*.py --exclude=tests/'
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
+export EDITOR='emacs'
+export VISUAL='emacs'
 
 function cfp {
     cd ~/laddr/;

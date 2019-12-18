@@ -2,7 +2,7 @@
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "https://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
@@ -45,8 +45,10 @@
 (require 'web-mode)
 ;(add-to-list 'auto-mode-alist'("\\.js\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.jscad\\'" . rjsx-mode))
-(add-to-list 'auto-mode-alist '("\\.json\\'" . rjsx-mode))
-(add-to-list 'auto-mode-alist '("\\.jsx\\'" . rjsx-mode))
+(add-to-list 'auto-mode-alist '("\\.json\\'" . js-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . js-mode))
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . js-mode))
+(add-to-list 'auto-mode-alist '("\\.tsx\\'" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.tag\\'" . html-mode))
 (add-to-list 'auto-mode-alist '("\\.html\\'" . html-mode))
 (setq js2-strict-missing-semi-warning nil)
