@@ -15,6 +15,7 @@
 ;; remove auto-newline because many projects don't have it
 (setq require-final-newline nil)
 (setq mode-require-final-newline nil)
+(add-hook 'org-mode-hook 'toggle-truncate-lines)
 
 ;; nuke auto indent because I don't play like that
 (electric-indent-mode -1)
@@ -43,7 +44,7 @@
 (setq auto-save-visited-interval 300)
 
 (require 'web-mode)
-;(add-to-list 'auto-mode-alist'("\\.js\\'" . rjsx-mode))
+(add-to-list 'auto-mode-alist'("\\.js\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.jscad\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . js-mode))
