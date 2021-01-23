@@ -1,7 +1,9 @@
 *~
 .backups
 todo.org
-ur
 _scripts
-trash
-unrest
+trash/*
+ur/*
+_node_modules
+.venv
+.dir-locals.el

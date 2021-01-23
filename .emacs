@@ -1,10 +1,6 @@
 (require 'package)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.milkbox.net/packages/") t)
-(add-to-list 'package-archives
-             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 
 (package-initialize)
 (unless package-archive-contents
@@ -19,6 +15,9 @@
 
 ;; nuke auto indent because I don't play like that
 (electric-indent-mode -1)
+
+;; Lock files make chokidar freak out
+(setq create-lockfiles nil)
 
 ;; show all tabs
 (require 'highlight-chars)
@@ -163,3 +162,5 @@ Version 2016-10-25"
 
 (global-set-key (kbd "M-;") 'xah-comment-dwim)
 (setq column-number-mode t)
+
+(menu-bar-mode -1)

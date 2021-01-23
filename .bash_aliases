@@ -1,13 +1,15 @@
 case "$TERM" in
     screen*) PROMPT_COMMAND='echo -ne "\033k\033\0134\033k`basename ${PWD}`\033\0134"'
 esac
-alias grep='grep --exclude-dir=__pycache__ --exclude-dir=node_modules --exclude-dir=dist'
+alias grep='grep --exclude-dir=__pycache__ --exclude-dir=node_modules --exclude-dir=dist --exclude-dir=docs'
 alias pygrep='grep --include=*.py  --exclude=*.pyc'
 alias hgrep='grep --include=*.html --include=*.tag --include=*.tpl --exclude=*~'
 alias jgrep='grep --include=*.js --include=*.jsx --exclude=*.map --exclude=yarn.lock'
 alias mgrep='pygrep --exclude=0*.py --exclude=tests/'
 alias arst='setxkbmap us'
 alias asdf='setxkbmap us -v colemak'
+alias dc='docker-compose'
+alias rescreen='screen -X eval "chdir $PWD"'
 export EDITOR='emacs'
 export VISUAL='emacs'
 
@@ -144,3 +146,57 @@ function eemacs {
         echo "Missing: $FILE"
     done
 }
+
+function git-next {
+    # step forward in git to next commit (only works if history is linear)
+    git checkout $(git rev-list --topo-order HEAD..towards | tail -1)
+}
+
+function git-temp-staging {
+    BRANCH=`git rev-parse --abbrev-ref HEAD`
+    echo Attempting to deploy $BRANCH to temp-staging
+    git push origin $BRANCH:temp-staging -f
+}
+
+alias gcut="cut -d: -f1|sort -u"
+
+function awssh {
+    ssh -i ~/.ssh/AWS-prod.pem ec2-user@$1
+}
+
+function udssh {
+    ssh -i ~/.ssh/Underdogio.pem ec2-user@$1
+}
+
+function runcpp {
+    rm -f _$NAME.exe
+    NAME="${1%.cpp}"
+    g++ $1 -o _$NAME.exe
+    ./_$NAME.exe
+}
+
+function bdiff {
+    mv .gitattributes __gitattributes
+    touch .gitattributes
+    git diff
+    mv __gitattributes .gitattributes
+}
+
+function png2svg {
+    FNAME=$(basename -- "$1")
+    extension="${FNAME##*.}"
+    FNAME="${FNAME%.*}"
+
+    png2pnm $1
+    potrace $FNAME.pnm -s
+    rm $FNAME.pnm
+}
+
+function png2pnm {
+    FNAME=$(basename -- "$1")
+    extension="${FNAME##*.}"
+    FNAME="${FNAME%.*}"
+
+    convert $1 -background white -alpha remove -alpha off $FNAME.pnm
+}
+
