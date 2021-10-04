@@ -1,8 +1,7 @@
 (require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
-
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
+
 (unless package-archive-contents
   (package-refresh-contents))
 
@@ -29,7 +28,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (rjsx-mode slim-mode coffee-mode)))
+ '(package-selected-packages (quote (vue-mode rjsx-mode)))
  '(show-trailing-whitespace t))
 
 ; unsure if this is still relevant, I think electric-indent-mode covers it
@@ -89,41 +88,6 @@
 (add-hook 'js-mode-hook (lambda()(setq tab-width my-width)))
 (add-hook 'javascript-mode-hook (lambda()(setq tab-width my-width)))
 (add-hook 'html-mode-hook (lambda()(setq tab-width my-width)))
-
-; JSX for react
-;(add-to-list 'load-path "~/.emacs.d/site-lisp/")
-;(add-to-list 'auto-mode-alist '("\\.jsx\\'" . jsx-mode))
-;(autoload 'jsx-mode "jsx-mode" "JSX mode" t)
-
-;jade and coffee
-;(require 'jade-mode)
-;(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
-
-;php
-;(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
-;(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
-;(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
-
-;blackspot specific
-;(defun blackspot-after-save-hook ()
-;  "After saving a less file, run the language_update file"
-;  (if buffer-file-name
-;      (progn
-;        (setq is-less-file (numberp (string-match "blackspotnyc.com.+\.less$" buffer-file-name)))
-;        (if is-less-file
-;            (progn
-;              (setq cmd (concat (getenv "B") "/home/felixc/less_and_compress.sh "))
-;              (shell-command (concat cmd buffer-file-name))
-;              (message "Updated .css, -min.css with %s" buffer-file-name))))))
-;(add-hook 'after-save-hook 'blackspot-after-save-hook)
-
-;Octave
-(autoload 'octave-mode "octave-mod" nil t)
-(setq auto-mode-alist
-      (cons '("\\.m$" . octave-mode) auto-mode-alist))
-
-;no magic comment in ruby mode
-(setq ruby-insert-encoding-magic-comment nil)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
